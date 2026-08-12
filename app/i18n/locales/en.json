@@ -1,0 +1,1457 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "unexpectedError": "An unexpected error occurred.",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "hupo": "Hupo",
+    "info": "Info",
+    "continue": "Continue",
+    "beta": "BETA",
+    "text": "Text",
+    "voice": "Voice",
+    "processing": "Processing...",
+    "hupoIcon": "Hupo icon",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "notAvailable": "Not available in trial",
+    "contactUs": "Contact us",
+    "notNow": "Not now",
+    "you": "You",
+    "icon": "icon",
+    "or": "or",
+    "modify": "Modify",
+    "updateError": "Failed to update name. Please try again.",
+    "importantNotice": "Important Notice",
+    "aiDisclaimer": "AI disclaimer",
+    "send": "Send",
+    "sending": "Sending...",
+    "duration": {
+      "minutes": "{{count}} min"
+    },
+    "unknown": "unknown",
+    "duplicate": "Duplicate",
+    "viewBreakdown": "View breakdown",
+    "learnMore": "Learn more"
+  },
+  "errors": {
+    "audioPlaybackFailed": "Failed to play audio feedback.",
+    "audioPlaybackStart": "Error starting audio playback.",
+    "audioGenerationFailed": "Failed to generate audio feedback.",
+    "nameUpdateFailed": "Failed to update name. Please try again."
+  },
+  "chart": {
+    "toggleSeries": "Toggle visibility of {{name}} series"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Log out",
+    "signUp": "Sign up",
+    "forgotPassword": "Forgot password?",
+    "verifyEmailTitle": "Please verify your email first",
+    "verifyEmailDescription": "Please check your inbox for the verification link, then log out and log back in to complete verification.",
+    "hupoLogoAlt": "Hupo logo",
+    "enterCompanyName": "Enter company name to start",
+    "companyName": "Company name",
+    "companyNamePlaceholder": "e.g. Acme",
+    "getStarted": "Get Started",
+    "demoMode": "Demo Mode",
+    "errors": {
+      "title": "Authentication Error",
+      "unknown_auth0": "Authentication failed. Please try again.",
+      "tryAgain": "Try again",
+      "unknown": "Unknown error occurred",
+      "companyNotFound": "Company not found",
+      "backHome": "Back to Home"
+    },
+    "admin": {
+      "verifyingAccess": "Verifying access...",
+      "syncing": "Processing admin authentication...",
+      "notAuthorized": "Your account is not authorized to access the admin panel. Please contact your administrator to request access.",
+      "message": "There was an error during admin authentication."
+    },
+    "carousel": {
+      "item1": {
+        "title": "Practice tough sales moments before they cost you",
+        "desc": "Simulate pivotal sales moments—like defending pricing or navigating competitive objections—so you're ready when it matters most."
+      },
+      "item2": {
+        "title": "Actionable insights so you don't lose the next deal",
+        "desc": "Get clear insights on what worked, what didn't, and how to close stronger next time—sharpening your confidence and control in critical moments."
+      },
+      "item3": {
+        "title": "Scenarios tailored to your sales motion",
+        "desc": "Practice based on your company's sales motion, objections, and buyer personas—so it feels real and closes when it counts."
+      }
+    }
+  },
+  "home": {
+    "welcome": "Hey",
+    "whatChallenge": "what leadership challenge is on your mind today?",
+    "selectTopic": "To start a new session, select one of the topics below:",
+    "getStarted": "New session",
+    "activeSession": "Active session",
+    "pastSessions": "Past sessions",
+    "meetingInsights": "Meeting insights",
+    "helpOtherLeaders": "Here is how I help other leaders",
+    "practiceConversations": "Practice difficult conversations",
+    "practiceConversationsExample": "Try saying \"I need to practice delivering tough feedback\"",
+    "getDayToDay": "Get advice on day-to-day challenges",
+    "getDayToDayExample": "Try saying \"How do I support an underperformer?\"",
+    "askForTips": "Ask for tips and resources",
+    "askForTipsExample": "Try saying \"Can you share a quick 1:1 framework?\"",
+    "chooseScenario": "Or choose a scenario for interactive practice with realistic AI-powered personas:",
+    "startNow": "Start now >",
+    "home": "Home",
+    "pastPractices": "Past practices",
+    "callAnalysis": "Call analysis",
+    "dashboard": "Dashboard"
+  },
+  "sessions": {
+    "newSession": "New session",
+    "activeSession": "Active session",
+    "pastSessions": "Past sessions",
+    "endSession": "End session",
+    "sessionEnded": "Session ended",
+    "interactive": "Interactive",
+    "noActiveSession": "You have no active session",
+    "noPastSessions": "You have no past sessions",
+    "textRoleplay": "TEXT ROLEPLAY",
+    "voiceRoleplay": "VOICE ROLEPLAY",
+    "loadingPastSessions": "Loading past sessions...",
+    "chatHistory": "Chat history",
+    "roleplayInsights": "Roleplay insights",
+    "generalCoaching": "GENERAL COACHING",
+    "endSessionDescription": "Ending your active session will generate a roleplay session assessment.",
+    "endSessionTitle": "End current session?",
+    "endSessionButton": "End session",
+    "endedSuccessfully": "Session ended successfully",
+    "endSessionError": "Failed to end the session",
+    "sessionNotFound": "Session not found",
+    "startConversationError": "Failed to start main conversation",
+    "skipIntroError": "Failed to skip introduction",
+    "endPracticeError": "Failed to end practice session",
+    "generateScenarioError": "Failed to generate scenario",
+    "startRoleplayError": "Failed to start roleplay",
+    "startPracticeError": "Failed to start practice. Please check your microphone permissions.",
+    "failedToLoadRoleplay": "Failed to load roleplay session",
+    "connecting": "Connecting...",
+    "introduction": "Introduction",
+    "mainConversation": "Main Conversation",
+    "ending": "Ending...",
+    "scenario": "Scenario",
+    "startPractice": "Start practice",
+    "aiSpeaking": "AI Speaking",
+    "aiListening": "AI Listening",
+    "skipIntroduction": "Skip introduction",
+    "endSessionAction": "End session",
+    "sessionTimeWarning": "1 minute left. The session will end automatically at the {{minutes}}-minute mark.",
+    "roleplayInstructions": "Roleplay instructions",
+    "goToRoleplay": "Go to roleplay",
+    "conversationPartnerPersona": "CONVERSATION PARTNER PERSONA",
+    "framework": "Framework",
+    "frameworkToPractice": "FRAMEWORK TO PRACTICE",
+    "viewFrameworkDetails": "View framework details",
+    "viewScenarioDetails": "View scenario details, objective, and framework",
+    "endRoleplayInfo": "Once you're done, click 'End Roleplay' at the top of the screen to receive a detailed analysis of your strengths, areas for improvement, and actionable recommendations for growth.",
+    "endRoleplayError": "Failed to end roleplay",
+    "introductionPhase": "Introduction",
+    "roleplayBegins": "Roleplay begins",
+    "realtimeCoaching": "Real-time coaching",
+    "leavePageTitle": "Leave this page?",
+    "leavePageDescription": "Leaving this session will end the current session and generate a summary of strengths, areas for improvement, and recommendations.",
+    "leave": "Leave",
+    "persona": "Persona",
+    "personaDescription": "This determines your conversation partner's behavior throughout the roleplay.",
+    "personaRecommendation": "Why we recommended this:",
+    "defensiveRecommendation": "The colleague described displays aggressive behavior by berating team members and using a harsh tone, indicating a confrontational personality that creates tension and conflict.",
+    "generatingPersona": "Generating {{persona}} persona",
+    "roleplayPractice": "Roleplay practice",
+    "discovery": "Discovery",
+    "pruvantageAssureII": "PRUVantage Assure II",
+    "loadingSessionDetails": "Loading session details...",
+    "loadingObjectives": "Loading objectives...",
+    "personalityDescription": "They are {{personality}}.",
+    "understandFinancialSituation": "Understand {{clientName}}'s financial situation and needs",
+    "presentProductSolution": "Present the product as a solution",
+    "buildRapportConcerns": "Build rapport and address any concerns professionally",
+    "moveConversationNextSteps": "Move the conversation towards next steps",
+    "theClient": "the client",
+    "defaultObjection": "I'm not really interested right now.",
+    "with": "with",
+    "sessionTitle": "{{module}} with {{persona}}",
+    "error": "Error",
+    "retry": "Retry",
+    "sessionCompleted": "Session completed!",
+    "sessionCompletedDescription": "Great job! You’ve successfully completed your roleplay session.",
+    "duration": "Session duration",
+    "overallScore": "Overall Score",
+    "practiceAgain": "Practice Again",
+    "viewAssessment": "View Assessment",
+    "returnHome": "Return home",
+    "sessionStanding": "Session standing",
+    "sessionFinishedAt": "Session finished at {{time}}"
+  },
+  "pastPractices": {
+    "emptyTitle": "You have no past practices",
+    "emptyDescription": "Start your first session to practice real sales conversations, get targeted feedback, and unlock actionable tips to improve your pitch.",
+    "startNewPractice": "Start new practice",
+    "failedToLoad": "Failed to load past practices."
+  },
+  "errorBoundary": {
+    "oops": "Oops!",
+    "error": "Error",
+    "unexpectedError": "An unexpected error occurred."
+  },
+  "trial": {
+    "ended": "Your trial has ended",
+    "upgradeMessage": "To continue with full access, please contact us to upgrade your organization's account."
+  },
+  "feedback": {
+    "title": "Do you feel more prepared to engage with real prospects after this roleplay?",
+    "description": "We'd love to hear your thoughts! Let us know how we can improve.",
+    "placeholder": "Share why you feel more prepared and what helped your confidence.",
+    "skip": "Skip",
+    "send": "Send",
+    "thankYou": "Feedback sent. Thanks for sharing your input!",
+    "shareFeedback": "Share feedback",
+    "closeFeedback": "Close feedback",
+    "yes": "Yes",
+    "no": "No",
+    "reason": "Reason"
+  },
+  "mobile": {
+    "closeSidebar": "Close sidebar",
+    "yourProfile": "Your profile",
+    "openSidebar": "Open sidebar"
+  },
+  "sidebar": {
+    "reportIssue": "Report an issue",
+    "reportIssuePlaceholder": "Describe the issue or share your feedback here",
+    "reportIssueSuccess": "Thanks! We've received your report.",
+    "reportIssueError": "Failed to report issue. Please try again."
+  },
+  "manage": {
+    "admin": "Admin",
+    "adminDashboard": "Admin Dashboard",
+    "menuDashboard": "Dashboard",
+    "menuUsers": "Users",
+    "menuCallAnalysis": "Call Analysis",
+    "callAnalysis": {
+      "title": "Call Analysis",
+      "view": "View",
+      "searchPlaceholder": "Search by file name or uploader...",
+      "analyzedOn": "Analyzed on",
+      "productType": "Product & call type",
+      "file": "File",
+      "score": "Score",
+      "status": "Status",
+      "uploadedBy": "Uploaded by",
+      "action": "Action",
+      "noResults": "No call analyses found"
+    },
+    "menuSettings": "Settings",
+    "downloadReport": "Download report",
+    "team": "Team",
+    "noTeams": "No teams assigned",
+    "allScenarios": "All scenarios",
+    "settings": {
+      "inviteUser": "Invite user",
+      "importUsers": "Import users",
+      "createTeam": "Create team",
+      "allStatus": "All status",
+      "active": "Active",
+      "deactivated": "Deactivated",
+      "invited": "Invited",
+      "userInvited": "User invited.",
+      "errorInvitingUser": "Error inviting user",
+      "userEdited": "User edited.",
+      "errorEditingUser": "Error editing user",
+      "userDeactivated": "User deactivated.",
+      "errorDeactivatingUser": "Error deactivating user",
+      "teamSaved": "Team saved.",
+      "errorSavingTeam": "Error saving team",
+      "teamEdited": "Team edited.",
+      "errorEditingTeam": "Error editing team",
+      "teamNameAlreadyExists": "This team name is already in use. Please choose a different name.",
+      "bulkInvite": {
+        "title": "Import users",
+        "description": "Invite multiple users at once by uploading an Excel file using the provided template.",
+        "downloadTemplate": "Download template",
+        "dropFile": "Drop your file here or",
+        "browse": "Browse",
+        "uploadHint": "Upload .xls, .xlsx (max. 1000 users in one upload)",
+        "uploading": "Uploading...",
+        "remove": "Remove",
+        "importUsers": "Import users",
+        "recentImports": "Recent imports",
+        "noImports": "No imports yet. Your recent imports will show up here.",
+        "processingFile": "Processing your file",
+        "usersInvited": "{{count}} users invited",
+        "failed": "Failed",
+        "failedCount": "{{failed}} failed",
+        "downloadErrorReport": "Download error report",
+        "uploadedBy": "Uploaded by {{name}}, {{date}}",
+        "showing": "Showing {{from}}-{{to}} of {{total}}",
+        "ofPage": "of {{total}} page",
+        "invalidExtension": "Please upload an .xls, or .xlsx. file.",
+        "fileTooLarge": "File size must be less than 3MB",
+        "uploadSuccess": "We're importing your file. Results will appear here and we'll send a notifi or email once done!",
+        "uploadError": "Failed to upload file",
+        "validating": "Validating...",
+        "importing": "Importing...",
+        "precheckError": "Failed to validate file",
+        "wrongTemplate": "Please use the right template",
+        "maxUsersExceeded": "Max 1000 users only in one upload",
+        "importError": "Failed to import file",
+        "importSuccess": "We're importing your file. Results will appear here and we'll send a notification once done!",
+        "note": "Note",
+        "validationSummary": "{{valid}} valid, {{invalid}} invalid out of {{total}} rows",
+        "validationIssues": "Validation Issues",
+        "onlyValidImported": "Only valid rows will be imported if you proceed."
+      },
+      "roles": {
+        "superadmin": {
+          "description": "Has full access to all menus and actions, including managing users, teams, and permissions."
+        },
+        "admin": {
+          "description": "View-only access to the admin application."
+        },
+        "user": {
+          "description": "Can only access the primary app at train.hupo.co"
+        }
+      }
+    },
+    "errors": {
+      "usersLoadFailed": "Failed to load users data"
+    },
+    "common": {
+      "noPracticeData": "No practice data available",
+      "noPracticeDataHint": "Practice data will appear here once users complete practices",
+      "notAwardedTooltip": "Sessions where standing is not awarded because the user did not meet the mandatory criteria."
+    },
+    "pagination": {
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "of": "of {{totalPages}}",
+      "showing": "Showing {{from}}-{{to}} of {{total}}"
+    },
+    "usersPage": {
+      "noData": "No users data available",
+      "searchPlaceholder": "Search name or email",
+      "empty": {
+        "title": "No users found",
+        "description": "Users will appear here once they are added to your company"
+      },
+      "table": {
+        "user": "User",
+        "totalCompleted": "Total completed practice",
+        "avgLength": "Average practice length",
+        "avgScore": "Overall result",
+        "lastSession": "Last practice session"
+      }
+    },
+    "dashboard": {
+      "errors": {
+        "loadFailed": "Failed to load dashboard data"
+      },
+      "noData": "No data available",
+      "welcomeBack": "Welcome back, {{name}}!",
+      "lastUpdated": "Last updated",
+      "unknown": "unknown",
+      "refreshTooltip": "Refresh dashboard data",
+      "reports": {
+        "users": "User report",
+        "accountCreation": "Account creation report",
+        "activeUsers": "Active user report",
+        "repeatUsers": "Repeat user report",
+        "completedPractices": "Completed practice report"
+      },
+      "reportModal": {
+        "defaultTitle": "Report",
+        "reportPeriod": "Report period",
+        "allTime": "All time",
+        "last30Days": "Last 30 days",
+        "customDate": "Custom date",
+        "selectDateRange": "Select date range",
+        "download": "Download",
+        "downloading": "Downloading...",
+        "successToast": "The report has been downloaded successfully"
+      },
+      "accountSummary": {
+        "title": "Account summary",
+        "accountsCreated": "Accounts created",
+        "activeUsers30d": "Active users (Last 30 days)",
+        "activeUsersTooltip": "The number of users who have completed at least one roleplay practice in the last 30 days.",
+        "vsPrev30d": "vs. previous 30 days",
+        "repeatUsers": "Repeat users",
+        "repeatUsersTooltip": "The number of users who have completed two or more roleplay practices during the license period."
+      },
+      "practiceSummary": {
+        "title": "Practice summary",
+        "totalCompleted": "Total completed practices",
+        "totalCompletedTooltip": "The total number of roleplay practices completed during the license period. A practice is considered ‘finished’ once the user has received a roleplay assessment after ending a session with at least 6 messages.",
+        "avgDuration": "Average practice duration",
+        "overallAvgScore": "Overall average score"
+      },
+      "practiceTable": {
+        "type": "Type",
+        "total": "Total practices",
+        "avgScore": "Average score"
+      },
+      "skillProgression": {
+        "title": "Skill progression",
+        "hint": "To view skill progression, select a scenario using the filter.",
+        "error": "Failed to load progress data",
+        "noData": "No chart data available",
+        "scenarioPlaceholder": "Scenario"
+      },
+      "postPracticeSurvey": {
+        "title": "Post practice survey",
+        "question": "Do you feel more prepared to engage with real prospects after this roleplay?",
+        "yes": "Yes",
+        "no": "No",
+        "user": "User",
+        "answer": "Answer",
+        "reason": "Reason",
+        "dateSubmitted": "Date submitted",
+        "showing": "Showing {{from}}-{{to}} of {{total}}",
+        "ofPage": "of {{totalPages}} page",
+        "empty": "No responses yet",
+        "emptyHint": "Once people respond, you’ll see their answers here."
+      },
+      "callSummary": {
+        "title": "Call summary",
+        "totalUploaded": "Total calls uploaded",
+        "totalAnalysed": "Total calls analysed",
+        "averageScore": "Average score",
+        "type": "Type",
+        "totalCallsUploaded": "Total calls uploaded",
+        "totalCallsAnalysed": "Total calls analysed",
+        "avgScore": "Average score",
+        "noData": "No call analysis data yet",
+        "noResult": "No result",
+        "noResultTooltip": "Sessions where results are not awarded because mandatory criteria were not completed."
+      }
+    },
+    "userDetails": {
+      "errors": {
+        "loadFailed": "Failed to load user details"
+      },
+      "notFound": "User not found",
+      "returnToList": "Return to user list",
+      "tabs": {
+        "overview": "Overview",
+        "practiceList": "Practice List"
+      },
+      "practiceSummary": {
+        "title": "Practice summary",
+        "totalCompleted": "Total completed practices",
+        "avgDuration": "Average practice duration",
+        "overallAvgScore": "Overall average score"
+      },
+      "table": {
+        "type": "Type",
+        "total": "Total practices",
+        "avgScore": "Average score",
+        "bestResult": "Best result"
+      },
+      "practiceList": {
+        "empty": "No practices completed yet",
+        "table": {
+          "completedAt": "Completed at",
+          "type": "Type",
+          "client": "Client",
+          "duration": "Duration",
+          "resultScore": "Result / Score"
+        }
+      },
+      "scoreLabel": "Score:",
+      "viewAssessment": "View assessment",
+      "skillProgression": {
+        "hint": "To view skill progression, select a scenario using the filter."
+      }
+    },
+    "menuPersona": "Persona",
+    "menuScorecard": "Scorecard",
+    "menuRoleplay": "Roleplay",
+    "menuProduct": "Product",
+    "persona": {
+      "title": "Persona",
+      "duplicateNotice": "Duplicated persona is not affecting or linked to any roleplay yet.",
+      "name": "Name",
+      "gender": "Gender",
+      "male": "Male",
+      "female": "Female",
+      "age": "Age",
+      "roleOrProfiler": "Role / Profile one-liner",
+      "occupation": "Occupation",
+      "personality": "Personality",
+      "personalityDescription": "Describe how this persona behaves on calls. You can build it with traits or write your own description.",
+      "generateByTraits": "Generate by selecting traits",
+      "englishAccent": "English voice accent",
+      "englishAccentNote": "Note: Other languages will still be selectable in the main app.",
+      "supportingInfo": "Supporting information",
+      "fieldName": "Field name",
+      "selectPersonaImage": "Select persona image",
+      "generatePersonaImage": "Generate persona image",
+      "generatePersonaImageDescription": "We'll bring your persona to life based on the details you provide.",
+      "generateImage": "Generate image",
+      "selectTraitsDescription": "Select at least 3 traits to generate a personality.",
+      "personalityTone": "Personality tone",
+      "buyerBehavior": "Buyer behavior",
+      "communicationStyle": "Communication style",
+      "generatePersonality": "Generate personality",
+      "craftingPersonality": "Crafting personality from selected traits",
+      "confirmDelete": "Are you sure you want to delete {{name}}?",
+      "placeholders": {
+        "name": "E.g. David Lee",
+        "age": "E.g. 30",
+        "role": "E.g. Procurement Manager, Small business owner",
+        "personality": "Enter personality description...",
+        "accent": "Select how the persona's English voice will sound",
+        "fieldName": "Select field name"
+      },
+      "buttons": {
+        "newPersona": "+ New persona",
+        "update": "Update",
+        "updating": "Updating...",
+        "generating": "Generating...",
+        "addNewField": "Add new field",
+        "backToPersonas": "Back to Personas"
+      },
+      "search": {
+        "placeholder": "Search name"
+      },
+      "table": {
+        "persona": "Persona",
+        "summary": "Summary",
+        "usedIn": "Used in",
+        "roleplayCount": "{{count}} roleplay",
+        "roleplayCount_plural": "{{count}} roleplays"
+      },
+      "emptyState": {
+        "title": "No personas found",
+        "searchHint": "Try adjusting your search",
+        "createHint": "Create your first persona to get started"
+      },
+      "pagination": {
+        "rows": "Rows"
+      },
+      "errors": {
+        "nameRequired": "Please enter a name",
+        "invalidAge": "Please enter a valid age (18-100)",
+        "genderRequired": "Please select a gender",
+        "roleRequired": "Please enter a role",
+        "personalityRequired": "Please add a personality description",
+        "accentRequired": "Please select an accent",
+        "supportingFieldRequired": "Please add at least one supporting field",
+        "imageRequired": "Please select a persona image",
+        "loadFailed": "Failed to load personas",
+        "updateFailed": "Failed to update persona. Please try again.",
+        "deleteFailed": "Failed to delete persona",
+        "generatePersonalityFailed": "Failed to generate personality"
+      },
+      "success": {
+        "personaUpdated": "Persona successfully updated",
+        "personaDeleted": "Persona successfully deleted"
+      },
+      "accentOptions": {
+        "american": "American English",
+        "british": "British English",
+        "singaporean": "Singaporean English"
+      },
+      "supportingFields": {
+        "fieldName": "Field name",
+        "value": "Value",
+        "fieldOptions": {
+          "keyPriorities": "Key priorities",
+          "financialSituation": "Financial situation",
+          "locationCitizenship": "Location/Citizenship",
+          "education": "Education",
+          "workHistory": "Work history",
+          "companySizeSpend": "Company size & spend"
+        },
+        "fieldPlaceholders": {
+          "keyPriorities": "Main goals or needs that influence purchase decision",
+          "financialSituation": "Income/assets/budget level",
+          "locationCitizenship": "Country/region & citizenship",
+          "education": "Highest education or training",
+          "workHistory": "Key roles & industries",
+          "companySizeSpend": "Organization scale, budget, and spend level"
+        }
+      },
+      "traits": {
+        "traits": "Traits",
+        "friendly": "Friendly",
+        "polite": "Polite",
+        "rude": "Rude",
+        "talkative": "Talkative",
+        "guarded": "Guarded",
+        "priceSensitive": "Price-sensitive",
+        "qualityFocused": "Quality-focused",
+        "dataDriven": "Data-driven",
+        "feelingsDriven": "Feelings-driven",
+        "riskAverse": "Risk-averse",
+        "riskTolerant": "Risk-tolerant",
+        "decisive": "Decisive",
+        "indecisive": "Indecisive",
+        "impulsive": "Impulsive",
+        "patient": "Patient",
+        "impatient": "Impatient",
+        "straightToThePoint": "Straight to the point",
+        "casualConversational": "Casual/conversational",
+        "prefersRealExamples": "Prefers real examples/case studies",
+        "visionaryStrategicFraming": "Visionary/Likes strategic framing"
+      }
+    },
+    "scorecard": {
+      "duplicateNotice": "Duplicated scorecard is not affecting or linked to any roleplay yet."
+    },
+    "scenario": {
+      "duplicateNotice": "Duplicated scenario is not affecting or linked to any roleplay yet."
+    },
+    "product": {
+      "duplicateNotice": "Duplicated product is not affecting or linked to any roleplay yet."
+    }
+  },
+  "nameInput": {
+    "whatsYourName": "What should we call you?",
+    "name": "Preferred name",
+    "enterYourName": "E.g. Emily, Jay, Rina",
+    "description": "We’ll use this name to talk to you throughout the app, like “Hey Emily!”",
+    "continue": "Continue"
+  },
+  "trialStatus": {
+    "ended": "Your trial has ended",
+    "daysLeft": "{{days}} days left in the trial",
+    "upgradeEnded": "To access coaching sessions, please contact us to upgrade.",
+    "exploreFeatures": "Explore all features before your trial ends.",
+    "contactToUpgrade": "Contact us to upgrade"
+  },
+  "empty": {
+    "startSessionInfo": "Start a session now to practice conversations, get tailored guidance, and receive actionable tips.",
+    "startNewSession": "Start a new session"
+  },
+  "insights": {
+    "notAvailable": "Roleplay assessment is not available",
+    "tooShort": "This session was too brief to assess your sales performance. Complete a longer simulation to see a full breakdown of your performance.",
+    "returnHome": "Return home",
+    "returnToChat": "Return to chat"
+  },
+  "notFound": {
+    "title": "Hmm, this doesn't seem right",
+    "description": "This may not be what you're looking for. The page you requested seems to have wandered off.",
+    "goBackHome": "Go back home",
+    "viewActiveSessions": "View active sessions"
+  },
+  "logout": {
+    "message": "Logging out..."
+  },
+  "loading": {
+    "retrievingSession": "Retrieving your session data",
+    "configuringPreferences": "Configuring your preferences",
+    "restoringState": "Restoring session state",
+    "gettingReady": "Getting everything ready for you",
+    "checkingStatus": "Checking active session status",
+    "connectingSession": "Connecting to active session",
+    "loadingState": "Loading session state",
+    "almostReady": "Almost ready",
+    "activeSession": "Loading active session",
+    "retrievingDetails": "Retrieving your saved session details",
+    "loadingProgress": "Loading your previous progress",
+    "preparingEnvironment": "Preparing your practice environment",
+    "restoringContext": "Restoring your session context",
+    "preparingRoleplay": "Preparing your roleplay",
+    "analyzingPerformance": "Analyzing your performance",
+    "generatingFeedback": "Generating feedback",
+    "creatingSummary": "Creating a session summary",
+    "almostDone": "Almost done",
+    "preparingSession": "Preparing your session"
+  },
+  "practice": {
+    "loadingModules": "Loading modules...",
+    "failedToLoadModules": "Failed to load modules. Please try again.",
+    "heyLetsStart": "Hey {{name}}, let's sharpen your sales skills today",
+    "selectCallType": "Select a sales call type and the product you want to practice with",
+    "returnToModules": "Return to modules",
+    "selectClientToStart": "Select a client to start the call",
+    "profileTabLabel": "Profile",
+    "personalityTabLabel": "Personality",
+    "startCall": "Start call",
+    "continueToPractice": "Continue to practice",
+    "viewCallCriteria": "View call criteria & standings",
+    "selectAllOptions": "Please select all required options",
+    "scrollToViewMore": "Scroll to view more",
+    "backToList": "Back to list",
+    "noPersonalBestMessage": "No personal best yet. Learn about standings",
+    "personalBestMessage": "Your personal best:",
+    "checkWhatsNext": "Check what's next",
+    "learnAboutStandings": "Learn about standings",
+    "learnAboutStandingsAndCriteria": "Learn about standings & criteria",
+    "firstTime": {
+      "welcomeTo": "Welcome to",
+      "subtitle": "Let's get you started with this practice module",
+      "aboutModule": "About this module",
+      "whatToExpect": "What to expect",
+      "practiceExpectations": "Practice expectations",
+      "productsAvailable": "Products available for practice",
+      "letsStart": "Let's start practicing!",
+      "acknowledgeAndContinue": "Acknowledge & Continue",
+      "defaultDisclaimer": "This is powered by artificial intelligence and continuously learns and improves over time. While it strives to provide accurate and up-to-date information, its responses are intended for informational purposes only and should not be relied upon as definitive. You are strongly advised to verify any information by consulting official documents, such as the Product Information Pack."
+    },
+    "standings": {
+      "title": "Standings",
+      "sessionStanding": "Session standing",
+      "currentSession": "Current session",
+      "lastResult": "Last result",
+      "personalBest": "Personal best",
+      "salesNovice": "Sales Novice",
+      "skilledAdvisor": "Skilled Advisor",
+      "strategicConsultant": "Strategic Consultant",
+      "clientVerification": "Client Verification",
+      "fourCExecution": "4C Execution",
+      "objectionHandling": "Objection Handling",
+      "completed": "Completed",
+      "notCompleted": "Not completed",
+      "notStarted": "Not started",
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "expert": "Expert",
+      "achieved": "Achieved",
+      "standingsLadder": "Standings Ladder",
+      "ladderDescription": "Unlock higher standings by meeting the specific criteria for each level, with your standing evaluated separately for each scenario. Achieve these milestones to advance and demonstrate your growing expertise.",
+      "mandatoryNote": "Important: All mandatory criteria must be completed to receive a standing (if any).",
+      "standing": "Standing",
+      "criteria": "Criteria",
+      "completeClientVerification": "Complete client verification",
+      "mandatory": "Mandatory",
+      "openCall": "Open the call like \"Dear Mr/Ms/Mdm, I am <Name of CA/SCA>, CA/SCA from UOB. Is this a convenient time for you to talk?\"",
+      "askPermission": "Ask permission like \"Before I proceed further with the call, may I do a simple verification with you to ensure that we're speaking to the intended recipient of this call?\"",
+      "verifyCustomer": "Verify customer information by asking at least 2 eligible information",
+      "achieve4CBeginner": "Achieve at least 'Beginner' for 4C Execution",
+      "partiallyApply4C": "Partially apply 4C framework which consists of:",
+      "capture": "Capture:",
+      "captureDescription": "Get the prospect's attention by suggesting a hot or trending topic currently in the news.",
+      "context": "Context:",
+      "contextDescription": "Build rapport, frame the conversation, and acknowledge the client's situation with a relatable scenario or thought-provoking questions.",
+      "conflict": "Conflict",
+      "conflictDescription": "Identify and highlight potential financial risks to create urgency using pointed questions to prompt the client to consider consequences.",
+      "closure": "Closure",
+      "proposeFollowUp": "Propose a clear solution and secure a follow-up meeting to discuss the client's specific needs.",
+      "secureFollowUp": "Secure a follow-up meeting to discuss the client's specific needs.",
+      "achieveObjectionBeginner": "Achieve at least 'Beginner' for Objection Handling",
+      "attemptObjectionHandling": "Attempt objection handling.",
+      "seeDetailsNovice": "See details in 'Sales novice' criteria.",
+      "achieve4CIntermediate": "Achieve at least 'Intermediate' for 4C Execution",
+      "apply4CScripted": "Apply all the 4C framework steps in a scripted manner, e.g., reading the script word-for-word without adapting to the client's responses or showing real understanding (See 'Sales novice' criteria for 4C framework explanation).",
+      "achieveObjectionIntermediate": "Achieve at least 'Intermediate' for Objection Handling",
+      "handleOneObjection": "Handle 1 objection.",
+      "achieve4CExpert": "Achieve at least 'Expert' for 4C Execution",
+      "apply4CDynamically": "Apply the 4C framework dynamically, e.g., adjusted tone and phrasing based on the client's cues, asked clarifying questions, and naturally integrated the steps into the conversation (See 'Sales Novice' criteria for 4C framework explanation).",
+      "achieveObjectionExpert": "Achieve at least 'Expert' for Objection Handling",
+      "handleTwoObjections": "Handle 2 objection.",
+      "failed": "Failed",
+      "pass": "Pass",
+      "champion": "Champion"
+    },
+    "steps": {
+      "selectModule": "Select module",
+      "selectClient": "Select client"
+    },
+    "clientDetails": {
+      "age": "Age",
+      "profile": "Profile",
+      "personality": "Personality",
+      "location": "Location",
+      "education": "Education",
+      "occupation": "Occupation",
+      "financialSituation": "Financial situation",
+      "companySize": "Company Size & Spend",
+      "keyPriorities": "Key priorities",
+      "productKnowledge": "Product knowledge",
+      "conversationPartnerPersona": "Conversation partner persona",
+      "personalityTrait": "Personality trait",
+      "communicationsStyle": "Communication style",
+      "decisionMaking": "Decision making",
+      "annualIncome": "annual income",
+      "annualIncomeFormat": "{{currency}}{{amount}} annual income. {{situation}}",
+      "monthlyIncomeFormat": "{{currency}}{{amount}} monthly income. {{situation}}",
+      "startCall": "Start call",
+      "clientPhoto": "Client photo",
+      "workHistory": "Work history",
+      "liquidityNeeds": "Liquidity needs",
+      "companySizeAndSpend": "Company size and spend"
+    }
+  },
+  "roleplay": {
+    "personality": {
+      "nice": "Friendly and agreeable - Easy to work with but may avoid conflict",
+      "analytical": "Detail-oriented and logical - Values data and facts over emotions",
+      "sceptical": "Questioning and doubtful - Needs strong evidence to convince",
+      "rude": "Blunt and impatient - May be difficult to work with",
+      "friendly": "Approachable and warm - Open to discussion but needs trust"
+    },
+    "tabs": {
+      "profile": "Profile",
+      "personality": "Personality",
+      "portfolio": "Portfolio"
+    },
+    "fields": {
+      "name": "Name",
+      "gender": "Gender",
+      "age": "Age",
+      "location": "Location",
+      "education": "Education",
+      "occupation": "Occupation",
+      "annualIncome": "Annual Income",
+      "financialSituation": "Financial situation",
+      "keyPriorities": "Key priorities",
+      "productKnowledge": "Product knowledge",
+      "personalityType": "Personality Type",
+      "difficultyLevel": "Difficulty Level",
+      "communicationStyle": "Communication Style",
+      "decisionMaking": "Decision Making",
+      "persona": "Persona",
+      "demographic": "Demographic",
+      "aum": "AUM",
+      "numberOfKids": "Number of kids",
+      "behavior": "Behavior",
+      "workHistory": "Work history",
+      "liquidityNeeds": "Liquidity needs",
+      "riskAppetite": "Risk appetite",
+      "investmentFrequency": "Investment frequency",
+      "keyLifestyleExpenditure": "Key lifestyle expenditure",
+      "personalPriorities": "Personal priorities",
+      "discPersonality": "DISC personality",
+      "hsbcTier": "Tier",
+      "lifestyleExpenditures": "Lifestyle expenditures"
+    },
+    "difficulty": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    },
+    "practiceDetails": "Practice details",
+    "practiceObjectives": "Practice objectives",
+    "mainObjection": "Main objection",
+    "salesTechnique": "Sales technique",
+    "advisoryTechnique": "Advisory technique",
+    "viewDetails": "View details",
+    "clientDetails": "Client Information",
+    "productInformation": "Product Information",
+    "processReference": "Process Reference",
+    "competitiveIntelligence": {
+      "title": "Competitive Intelligence",
+      "type": "Type",
+      "keyFeatures": "Key Features",
+      "strengths": "Their Strengths",
+      "limitations": "Their Limitations",
+      "positioningStrategy": "Positioning Strategy",
+      "options": {
+        "none": "No competitive intelligence",
+        "duplicate": "Duplicate competitor summaries",
+        "duplicateDescription": "We'll duplicate the previous competitor summaries.",
+        "generate": "Generate competitor summaries",
+        "generateDescription": "By ticking this, we'll search the internet for competitor products and summarize them for you. This is useful if you want to assess competitor differentiation during roleplays."
+      }
+    },
+    "selectedForSession": "Selected for this {{type}}",
+    "ageAndOccupation": "Age {{age}}, {{occupation}}",
+    "aiCoach": "AI Coach",
+    "readyToConnect": "Ready to connect",
+    "connecting": "Connecting",
+    "connected": "Connected",
+    "establishingConnection": "Establishing connection...",
+    "speakNaturally": "Speak naturally - I'm listening",
+    "endingSession": "Ending session...",
+    "client": "Client",
+    "goToRoleplay": "Go to roleplay",
+    "supportMaterials": "Support materials",
+    "practiceOverview": "Practice overview",
+    "practiceOverviewDescription": "View scenario, objectives, and support materials",
+    "callCriteria": "Call criteria",
+    "softSkills": "Soft skills",
+    "knowledgeSkills": "Knowledge Skills",
+    "clientPortfolio": "Client Portfolio",
+    "portfolioReviewTrigger": "Event Trigger for Portfolio Review",
+    "scorecard": "Scorecard",
+    "scorecardDescription": "Your session is evaluated across these key skill areas:",
+    "scorecardDescriptionAlternative": "This scorecard outlines how your session will be evaluated across key skill areas. Use it to see what's being assessed and where to focus next.",
+    "scorecardFooter": "See what's measured and how to build on your strengths.",
+    "viewDetail": "View detail",
+    "scorecardModalDescription": "This scorecard outlines how your session will be evaluated across key skill areas. Use it to see what's being assessed and where to focus next.",
+    "prudentialObjectionHandlingScorecardDescription": "This scorecard evaluates your ability to handle customer objections using the 3F Model (Feel, Felt, Found) for sales technique and the LAPR Framework (Listen, Acknowledge, Probe, Reframe) for objection handling.",
+    "jumpToSection": "Jump to section"
+  },
+  "assessment": {
+    "assessment": "Assessment",
+    "roleplaySessionAssessment": "Roleplay session assessment",
+    "jumpToSection": "Jump to section",
+    "returnToAssessment": "Return to assessment",
+    "overview": "Overview",
+    "nextSteps": "Next Steps",
+    "salesTechnique": "Sales Technique",
+    "salesNegotiationSkills": "Sales & Negotiation Skills",
+    "productKnowledge": "Product Knowledge",
+    "advisoryTechnique": "Advisory Technique",
+    "processAdherence": "Process Adherence",
+    "communicationAndPresence": "Communication and Presence",
+    "whatToImprove": "What to improve",
+    "relationshipManagement": "Relationship Management",
+    "hsbcRepresentation": "HSBC Representation",
+    "clientVerification": "Client Verification",
+    "valueProposition": "Value Proposition",
+    "introduction": "Introduction",
+    "objectionHandling": "Objection Handling",
+    "needsHealthExploration": "Needs & Health Exploration",
+    "needsAnalysis": "Needs Analysis",
+    "productPitch": "Product Pitch",
+    "aiaKoE2E": {
+      "introduction": "Opening",
+      "needsAnalysis": "Needs Analysis",
+      "productPitch": "Product Pitch",
+      "objectionHandling": "Objection Handling",
+      "closing": "Closing",
+      "other": "Other"
+    },
+    "prudentialObjectionHandling": {
+      "salesTechniqueDescription": "Measures the ability to apply the 3F Model (Feel, Felt, Found) to create empathy, build credibility, and present compelling solutions.",
+      "laprDescription": "Measures the ability to apply the LAPR framework (Listen, Acknowledge, Probe, Reframe) to handle customer objections effectively."
+    },
+    "technicalKnowledge": "Technical Knowledge",
+    "operationalKnowledge": "Operational Knowledge",
+    "softSkills": "Soft Skills",
+    "knowledgeSkills": "Knowledge Skills",
+    "overallScore": "Overall score",
+    "why": "Why",
+    "suggestion": "Suggestion",
+    "example": "Example",
+    "strengths": "Strengths",
+    "practiceInfo": "Practice info",
+    "overallResult": "Overall result",
+    "showBreakdown": "Show breakdown",
+    "hideBreakdown": "Hide breakdown",
+    "type": "Type",
+    "product": "Product",
+    "client": "Client",
+    "completedAt": "Completed on",
+    "duration": "Duration",
+    "scenario": "Scenario",
+    "productPitch": "Product pitch",
+    "practiceAgain": "Practice again",
+    "stopListening": "Stop",
+    "listenToFeedback": "Listen to feedback",
+    "generatingAudioFeedback": "Generating audio...",
+    "downloading": "Downloading...",
+    "downloadAsPdf": "Download as PDF",
+    "ratings": {
+      "poor": "Poor",
+      "fair": "Fair",
+      "good": "Good",
+      "excellent": "Excellent"
+    },
+    "standings": {
+      "currentSession": "Session standing",
+      "lastResult": "Last result",
+      "personalBest": "Personal best",
+      "salesNovice": "Sales Novice",
+      "skilledAdvisor": "Skilled Advisor",
+      "strategicConsultant": "Strategic Consultant",
+      "clientVerification": "Client Verification",
+      "objectionHandling": "Objection Handling",
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "expert": "Expert",
+      "notAvailable": "Not Available",
+      "seeHowStandingsWork": "See how standings work",
+      "learnMore": "Learn more",
+      "mandatory": "Mandatory",
+      "incomplete": "Incomplete",
+      "completed": "Completed",
+      "needsImprovement": "Needs Improvement",
+      "dynamicFramework": "{{framework}} ({{parts}})",
+      "standingUnavailable": "Standing unavailable: Mandatory criteria not met.",
+      "notCompleted": "Not Completed",
+      "threeFExecution": "3F Execution",
+      "fourCExecution": "4C Execution",
+      "newBadge": "New",
+      "noDataAvailable": "Standing data not available",
+      "emergingSeller": "Emerging Seller"
+    },
+    "viewTranscript": "View transcript",
+    "toImprove": "To improve",
+    "showCriteriaBreakdown": "Show Criteria Breakdown",
+    "hideCriteriaBreakdown": "Hide Criteria Breakdown",
+    "criteriaBreakdown": "Criteria Breakdown",
+    "feedback": "Feedback",
+    "showBreakdown": "Show breakdown",
+    "hideBreakdown": "Hide breakdown",
+    "completed": "Completed",
+    "sessionDataNotAvailable": "Session data not available",
+    "unableToRestartPractice": "Unable to restart practice - missing session data",
+    "failedToDownloadPDF": "Failed to download PDF report.",
+    "generating": "Generating...",
+    "downloadReport": "Download Report",
+    "msigSalesTechniqueDescription": "Measures the ability to follow set framework to drive a successful conversation.",
+    "mandatoryFailed": "Standing unavailable: Mandatory criteria not met.",
+    "toProgressfocusOn": "To progress your standing, focus on:",
+    "summary": "Summary",
+    "mandatoryFailedSummary": "Your standing isn’t available because you missed a mandatory criteria, which requires full adherence. Review your performance in other areas to see what went well, and make sure to complete all steps next time to receive your standing.",
+    "mandatoryFailedFocusOn": "Completing all mandatory criteria.",
+    "prudentialMandatoryNotMet": {
+      "summary": "Your standing isn’t available because you missed a mandatory criteria, which requires full adherence. Review your performance in other areas to see what went well, and make sure to complete all steps next time to receive your standing.",
+      "nextStepsTitle": "To progress your standing, focus on:",
+      "suggestedNextStep": "Completing all mandatory criteria."
+    },
+    "progressionSummary": {
+      "firstTime": "Congratulations on completing your first session for this scenario. You're now a {{tierName}}! {{summary}}",
+      "firstTimeHighest": "Congratulations on completing your first session for this scenario and achieving its highest standing: {{tierName}}! {{summary}}",
+      "upgrade": "Congratulations on achieving your new best standing for this scenario: {{tierName}}! {{summary}}",
+      "upgradeHighest": "Congratulations on achieving the highest standing for this scenario: {{tierName}}! {{summary}}",
+      "maintainedSame": "You maintained your standing as {{tierName}} for this scenario. {{summary}}",
+      "maintainedHighest": "You maintained your standing as {{tierName}} for this scenario. {{summary}}",
+      "maintainedImproved": "Great job, your Rubric score improved! Your standing remains {{tierName}}, but you're making progress toward the next one. {{summary}}",
+      "maintainedImprovedHighest": "Nice work! You kept your standing as {{tierName}}, and your score went up. {{summary}}",
+      "downgrade": "Your standing for this session is {{tierName}}. {{summary}}",
+      "newBest": "New best",
+      "nextSteps": "To progress your standing, focus on:",
+      "nextStepsHighest": "To maintain your standing, focus on:",
+      "suffixKeepPracticing": "Keep practicing! You're on your way to achieving a higher standing.",
+      "suffixHighestLevel": "Keep practicing and refining your skills to consistently perform at this top level!",
+      "suffixDowngrade": "Keep practicing! You'll bounce back quickly, and with focus, you can return to your personal best."
+    },
+    "performance": "Performance",
+    "allSalesTechniques": "All Sales Techniques",
+    "audioFeedback": {
+      "overview": "Here's your overview: {{summary}}",
+      "nextSteps": "For next steps, you should {{steps}}",
+      "salesTechniqueIntro": "Sales Technique feedback: You scored {{score}} out of {{max}}.",
+      "salesTechniqueSection": "For {{title}}, you scored {{score}} out of {{max}}. {{why}} {{suggestion}}",
+      "productKnowledgeIntro": "Product Knowledge feedback: You scored {{score}} out of {{max}}.",
+      "productKnowledgeSection": "For {{title}}, you scored {{score}} out of {{max}}.",
+      "advisoryTechniqueIntro": "Advisory Technique feedback: You scored {{score}} out of {{max}}.",
+      "advisoryTechniqueSection": "For {{title}}, you scored {{score}} out of {{max}}. {{why}} {{suggestion}}",
+      "processAdherenceIntro": "Process Adherence feedback: You scored {{score}} out of {{max}}.",
+      "processAdherenceSectionBase": "For {{title}}, you scored {{score}} out of {{max}}.",
+      "softSkillsIntro": "Soft Skills feedback: You scored {{score}} out of {{max}}.",
+      "softSkillsSection": "For {{title}}, you scored {{score}} out of {{max}}.",
+      "knowledgeSkillsIntro": "Knowledge Skills feedback: You scored {{score}} out of {{max}}.",
+      "knowledgeSkillsSection": "For {{title}}, you scored {{score}} out of {{max}}.",
+      "clientVerificationIntro": "Client Verification feedback: You scored {{score}} out of {{max}}.",
+      "frameworkExecutionIntro": "Framework Execution feedback: You scored {{score}} out of {{max}}.",
+      "objectionHandlingIntro": "Objection Handling feedback: You scored {{score}} out of {{max}}.",
+      "introductionIntro": "Introduction feedback: You scored {{score}} out of {{max}}.",
+      "needsExplorationIntro": "Needs Exploration feedback: You scored {{score}} out of {{max}}.",
+      "section": "For {{title}}, you scored {{score}} out of {{max}}.",
+      "technicalKnowledgeIntro": "Technical Knowledge feedback:",
+      "productKnowledgeScore": "Product Knowledge: You scored {{score}} out of {{max}}.",
+      "strengths": "Your strengths include: {{strengths}}.",
+      "toImprove": "Areas to improve: {{improvements}}.",
+      "goalReadyOverallFeedback": "Here's your overall feedback: {{feedback}}",
+      "goalReadyNextSteps": "Suggested next steps: {{steps}}",
+      "goalReadySectionGroupIntro": "{{title}}: You scored {{score}} out of {{max}}.",
+      "goalReadySubsection": "For {{title}}, you scored {{score}} out of {{max}}. {{why}} {{suggestion}}",
+      "goalReadyProductPitchStrengths": "Your strengths include: {{strengths}}.",
+      "goalReadyProductPitchWarning": "Area of concern: {{text}}",
+      "goalReadyProductPitchIncorrect": "Incorrect statement: {{text}}. The correct information is: {{correction}}"
+    },
+    "errors": {
+      "sessionNotFound": "Session Not Found",
+      "sessionForbidden": "Access Denied",
+      "genericError": "Error Loading Session",
+      "sessionNotFoundMessage": "The roleplay session you are looking for does not exist or has been removed.",
+      "sessionForbiddenMessage": "You do not have permission to view this roleplay session.",
+      "genericErrorMessage": "An error occurred while loading the session. Please try again later.",
+      "backToHome": "Back to Home"
+    },
+    "badges": {
+      "newbieSalesAlt": "Newbie sales badge",
+      "intermediateSalesAlt": "Intermediate sales badge",
+      "expertSalesAlt": "Expert sales badge",
+      "notAvailableAlt": "Not available badge"
+    },
+    "ktAxaFna": {
+      "scorecardTitle": "FNA Assessment Scorecard",
+      "sectionDescriptions": {
+        "softSkills": "Measures soft skills demonstrated during KT-AXA financial needs analysis conversations.",
+        "knowledgeSkills": "Measures knowledge skills demonstrated during KT-AXA financial needs analysis conversations.",
+        "productKnowledge": "Measures product knowledge and pitch effectiveness during KT-AXA financial needs analysis conversations."
+      },
+      "criteria": {
+        "communicationSkills": "Communication Skills",
+        "relationshipBuilding": "Relationship Building",
+        "adaptability": "Adaptability",
+        "customerOrientation": "Customer Orientation",
+        "factFinding": "Fact Finding",
+        "problemSolving": "Problem-Solving",
+        "salesNegotiationSkills": "Sales & Negotiation Skills",
+        "complianceRegulations": "Compliance & Regulations",
+        "productPitch": "Product Pitch"
+      },
+      "descriptions": {
+        "communicationSkills": "Ability to clearly explain financial concepts and listen actively to customer needs",
+        "relationshipBuilding": "Building trust and rapport with customers through empathy and genuine care",
+        "adaptability": "Adjusting approach based on customer responses and changing situations",
+        "customerOrientation": "Prioritizing customer needs and providing personalized financial solutions",
+        "factFinding": "Gathering comprehensive information about customer's financial situation and goals",
+        "problemSolving": "Identifying customer pain points and proposing appropriate solutions",
+        "salesNegotiationSkills": "Effectively presenting products and handling objections professionally",
+        "complianceRegulations": "Adhering to regulatory requirements and ethical standards in all interactions",
+        "productPitch": "Presenting product features and benefits in a compelling and relevant manner"
+      }
+    },
+    "ktAxaRecruitment": {
+      "scorecardTitle": "Recruitment Assessment Scorecard",
+      "sectionDescriptions": {
+        "softSkills": "Measures soft skills demonstrated during KT-AXA agent recruitment conversations.",
+        "knowledgeSkills": "Measures knowledge skills demonstrated during KT-AXA agent recruitment conversations."
+      },
+      "criteria": {
+        "communicationSkills": "Communication Skills",
+        "relationshipBuilding": "Relationship Building",
+        "adaptability": "Adaptability",
+        "customerOrientation": "Customer Orientation",
+        "factFinding": "Fact Finding",
+        "problemSolving": "Problem-Solving",
+        "salesNegotiationSkills": "Sales & Negotiation Skills",
+        "complianceRegulations": "Compliance & Regulations"
+      },
+      "descriptions": {
+        "communicationSkills": "Clear delivery and respectful communication to the new recruit",
+        "relationshipBuilding": "Creating a welcoming environment and establishing trust with potential recruits",
+        "adaptability": "Adjusting recruitment pitch based on candidate background and interests",
+        "customerOrientation": "Understanding candidate motivations and aligning opportunities accordingly",
+        "factFinding": "Discovering candidate's experience, goals, and suitability for the role",
+        "problemSolving": "Addressing candidate concerns and overcoming recruitment objections",
+        "salesNegotiationSkills": "Presenting career opportunity benefits and negotiating effectively",
+        "complianceRegulations": "Following proper recruitment procedures and regulatory guidelines"
+      }
+    },
+    "ktAxaWealthplus": {
+      "scorecardTitle": "WealthPlus Close Call Assessment Scorecard",
+      "sectionDescriptions": {
+        "softSkills": "Measures soft skills demonstrated during KT-AXA WealthPlus Ready close call conversations.",
+        "knowledgeSkills": "Measures knowledge skills demonstrated during KT-AXA WealthPlus Ready close call conversations.",
+        "productKnowledge": "Measures product knowledge and pitch effectiveness during KT-AXA WealthPlus Ready close call conversations."
+      },
+      "criteria": {
+        "communicationSkills": "Communication Skills",
+        "relationshipBuilding": "Relationship Building",
+        "adaptability": "Adaptability",
+        "customerOrientation": "Customer Orientation",
+        "factFinding": "Fact Finding",
+        "problemSolving": "Problem-Solving",
+        "salesNegotiationSkills": "Sales & Negotiation Skills",
+        "complianceRegulations": "Compliance & Regulations",
+        "productKnowledge": "Product Knowledge"
+      },
+      "descriptions": {
+        "communicationSkills": "Ability to clearly explain WealthPlus product features and listen to client concerns",
+        "relationshipBuilding": "Building trust with upper mass/wealth segment clients through professional rapport",
+        "adaptability": "Adjusting closing approach based on client responses and objections",
+        "customerOrientation": "Understanding sophisticated client needs and providing tailored wealth solutions",
+        "factFinding": "Understanding client's investment portfolio, financial goals, and tax considerations",
+        "problemSolving": "Addressing client concerns about price, returns, and value proposition",
+        "salesNegotiationSkills": "Effectively closing the sale and handling sophisticated objections",
+        "complianceRegulations": "Using proper compliance language and disclosing all product terms accurately",
+        "productKnowledge": "Demonstrating comprehensive knowledge of WealthPlus Ready 90/8 features, benefits, and returns"
+      }
+    },
+    "msigTravelEasy": {
+      "scorecardTitle": "TravelEasy Assessment Scorecard",
+      "sectionDescriptions": {
+        "softSkills": "Measures soft skills demonstrated during MSIG TravelEasy sales conversations.",
+        "knowledgeSkills": "Measures knowledge and sales skills demonstrated during MSIG TravelEasy sales conversations.",
+        "productKnowledge": "Measures product knowledge and pitch effectiveness for MSIG TravelEasy."
+      },
+      "criteria": {
+        "communicationSkills": "Communication Skills",
+        "relationshipBuilding": "Relationship Building",
+        "adaptability": "Adaptability",
+        "customerOrientation": "Customer Orientation",
+        "factFinding": "Fact Finding",
+        "problemSolving": "Problem-Solving",
+        "salesNegotiationSkills": "Sales & Negotiation Skills",
+        "productPitch": "Product Pitch"
+      },
+      "descriptions": {
+        "communicationSkills": "Clear and respectful communication using language that is easy to understand and not overly technical",
+        "relationshipBuilding": "Building and maintaining rapport with customers while demonstrating patience when dealing with demanding high-networth clients",
+        "adaptability": "Flexibility in adapting to and understanding customer concerns",
+        "customerOrientation": "Focus on delivering customer satisfaction and excellent service",
+        "factFinding": "Gathering all required customer information including: Name, Age, Occupation, Annual Income, and Financial Objectives",
+        "problemSolving": "Ability to identify customer issues and provide effective solutions",
+        "salesNegotiationSkills": "Ability to close deals and negotiate effectively with highly knowledgeable clients",
+        "productPitch": "Demonstrating understanding of product features and benefits while providing solutions aligned with the customer's profile"
+      }
+    },
+    "manulifeGoalReady": {
+      "scorecardTitle": "Scorecard",
+      "criteria": {
+        "salesNegotiationSkills": "Sales & Negotiation Skills",
+        "communicationSkills": "Communication Skills",
+        "relationshipBuilding": "Relationship Building",
+        "adaptability": "Adaptability",
+        "customerOrientation": "Customer Orientation",
+        "productPitch": "Product Pitch"
+      },
+      "descriptions": {
+        "salesNegotiationSkills": [
+          "Ability to close deals and negotiate effectively despite the client's objections"
+        ],
+        "communicationSkills": [
+          "Clear delivery and respectful communication, good word choices that are not too technical to understand"
+        ],
+        "relationshipBuilding": [
+          "Building and maintaining rapport with customers while demonstrating patience when dealing with very demanding high-networth clients"
+        ],
+        "adaptability": [
+          "Flexibility in adapting approach based on understanding the customer's concerns."
+        ],
+        "customerOrientation": [
+          "Focus on customer satisfaction and service."
+        ],
+        "productPitch": [
+          "Demonstrate clear understanding of product features, benefits, and value proposition.",
+          "Explain how features solve the customer's problems.",
+          "Communicate product advantages clearly and concisely.",
+          "Tailor product information to the customer's needs and context.",
+          "Present accurate product information."
+        ]
+      }
+    },
+    "hsbcScorecard": {
+      "relationshipManagement": {
+        "clientCentricFraming": {
+          "title": "Client-Centric Framing",
+          "description": "Demonstrates a strong understanding of the client's specific situation and frames the conversation in a way that aligns with their needs, concerns, and goals. The conversation should feel tailored and relevant to them."
+        },
+        "clarityAndStructure": {
+          "title": "Clarity and Structure",
+          "description": "Provides clear, well-structured explanations that are easy to follow. Uses appropriate pacing and ensures the client understands each step before moving forward. Avoids jargon unless client-appropriate."
+        },
+        "suitabilityAndCompliance": {
+          "title": "Suitability and Compliance",
+          "description": "Demonstrates proper attention to suitability, ensuring that recommendations align with the client's financial situation, goals, and risk appetite. Maintains adherence to regulatory requirements and ethical standards."
+        },
+        "gravitasAndDelivery": {
+          "title": "Gravitas and Delivery",
+          "description": "Conveys confidence, professionalism, and expertise in delivery. Maintains a composed and authoritative presence that instills trust and credibility with the client."
+        },
+        "engagementAndRapport": {
+          "title": "Engagement and Rapport",
+          "description": "Actively engages with the client, demonstrates genuine interest in their needs, and builds rapport throughout the conversation. Uses appropriate empathy and responsiveness to create a positive client experience."
+        }
+      },
+      "processAdherence": {
+        "greeting": {
+          "title": "Greeting",
+          "description": "Opens the call professionally and warmly",
+          "items": [
+            "Greets the client by name and confirms their identity appropriately",
+            "Introduces self and role clearly",
+            "Sets a positive and professional tone for the call"
+          ]
+        },
+        "introduction": {
+          "title": "Introduction",
+          "description": "Establishes the purpose and agenda of the call",
+          "items": [
+            "Clearly states the reason for the call",
+            "Provides a brief overview of what will be covered",
+            "Checks for client's availability and consent to proceed"
+          ]
+        },
+        "clientUpdate": {
+          "title": "Client Update / Discussion",
+          "description": "Engages the client in the core conversation",
+          "items": [
+            "Shares relevant updates or information clearly",
+            "Asks appropriate discovery or clarifying questions",
+            "Listens actively and responds to client needs and concerns",
+            "Provides tailored insights or recommendations"
+          ]
+        },
+        "notes": {
+          "title": "Notes",
+          "items": [
+            "If applicable, mentions or confirms any follow-up actions or notes"
+          ]
+        },
+        "callToAction": {
+          "title": "Call to Action",
+          "description": "Proposes clear next steps",
+          "items": [
+            "Suggests a specific action or next step (e.g., scheduling a meeting, reviewing documents)",
+            "Confirms client's agreement or addresses any hesitations"
+          ]
+        },
+        "bonus": {
+          "title": "Bonus",
+          "description": "Goes above and beyond to provide additional value, such as sharing relevant insights, resources, or proactive recommendations that enhance the client experience."
+        }
+      },
+      "hsbcRepresentation": {
+        "accuracy": {
+          "title": "Accuracy",
+          "description": "Represents HSBC products, services, and policies accurately",
+          "items": [
+            "Provides correct and up-to-date information about HSBC offerings",
+            "Avoids misleading statements or overpromising",
+            "Aligns recommendations with HSBC's guidelines and best practices"
+          ]
+        }
+      },
+      "communicationAndPresence": {
+        "toneOfVoice": {
+          "title": "Tone of Voice",
+          "items": [
+            "Warm, professional, and confident",
+            "Adjusts tone appropriately based on client's cues",
+            "Maintains energy and enthusiasm throughout the call"
+          ]
+        },
+        "dictionAndClarity": {
+          "title": "Diction and Clarity",
+          "items": [
+            "Speaks clearly and at an appropriate pace",
+            "Avoids excessive jargon or complex terminology",
+            "Ensures client comprehension before moving forward"
+          ]
+        },
+        "engagementAndListening": {
+          "title": "Engagement and Listening",
+          "items": [
+            "Actively listens and responds to client's needs",
+            "Demonstrates empathy and understanding",
+            "Encourages client participation and questions"
+          ]
+        }
+      }
+    }
+  },
+  "callAnalysis": {
+    "header": {
+      "title": "Call Analysis"
+    },
+    "assessment": {
+      "loading": "Loading analysis...",
+      "loadError": "Failed to load analysis",
+      "notReady": "Analysis not found or not yet completed",
+      "agent": "Agent",
+      "customer": "Customer",
+      "emptyTranscript": "No transcript available for this analysis.",
+      "file": "File",
+      "analyzedOn": "Analyzed on",
+      "unknownFile": "Unknown file",
+      "tabs": {
+        "overview": "Overview",
+        "assessment": "Assessment"
+      },
+      "overviewPlaceholder": "Overview content will be added here",
+      "overviewNotAvailable": "Overview analysis is not available yet",
+      "result": "Result",
+      "sections": {
+        "mandatory": "Mandatory aspects",
+        "softSkills": "Soft Skill",
+        "knowledgeApplication": "Application of Knowledge"
+      },
+      "summary": "Summary",
+      "suggestedNextSteps": "Suggested next steps",
+      "scorecardBreakdown": "Scorecard breakdown",
+      "scores": {
+        "exceptional": "Exceptional",
+        "excellent": "Excellent",
+        "good": "Good",
+        "developing": "Developing",
+        "unsatisfactory": "Unsatisfactory"
+      },
+      "downloadAssessment": "Download assessment",
+      "downloadingPdf": "Downloading pdf...",
+      "failedToDownload": "Failed to download assessment",
+      "callAssessmentTitle": "Call assessment"
+    },
+    "overview": {
+      "keyTakeaways": "Key takeaways",
+      "callHealthRisk": "Call health & risk assessment",
+      "positiveSignals": "Positive customer signals",
+      "risksObserved": "Risks observed",
+      "recommendations": "Recommendations",
+      "actionableNextSteps": "Actionable next steps",
+      "keyActions": "Key actions",
+      "nextCall": "Next call"
+    },
+    "transcript": {
+      "title": "Call Transcript",
+      "placeholder": "Transcript content will be added here"
+    },
+    "upload": {
+      "pageTitle": "Call analysis",
+      "callType": "Call type",
+      "telesales": "Telesales",
+      "product": "Product",
+      "uploadTitle": "Upload call recording",
+      "dropPrompt": "Drop your call recording here or",
+      "browse": "Browse",
+      "uploadHint": "Upload .mp3 (max 30 MB)",
+      "selectedFile": "File selected: {{name}}",
+      "selectedFileSize": "Size: {{size}} MB",
+      "removeFile": "Remove",
+      "analyzeButton": "Analyze call",
+      "uploading": "Uploading...",
+      "callsAnalyzedTitle": "Calls analyzed",
+      "loading": "Loading analyses...",
+      "emptyState": "No analyses yet. Upload an audio file to get started.",
+      "table": {
+        "analyzedOn": "Analyzed on",
+        "callInfo": "Call info",
+        "file": "File",
+        "duration": "Duration",
+        "score": "Score",
+        "status": "Status",
+        "action": "Action"
+      },
+      "statuses": {
+        "uploading": "Uploading...",
+        "transcribing": "Transcribing...",
+        "processing": "Processing...",
+        "completed": "Done",
+        "failed": "Failed"
+      },
+      "toasts": {
+        "loadFailed": "Failed to load previous analyses",
+        "analysisQueued": "We’re running your analysis. It’ll show as ‘Done’ in the table once ready.",
+        "analysisComplete": "Analysis completed successfully!",
+        "analysisFailed": "Analysis failed: {{error}}",
+        "unknownError": "Unknown error",
+        "fileTooLarge": "File size must be less than 30MB",
+        "invalidFileType": "Please upload an MP3 file",
+        "uploadFailed": "Failed to upload file"
+      },
+      "unknownFile": "Unknown",
+      "searchPlaceholder": "Search file name",
+      "noSearchResults": "No calls match your search"
+    },
+    "msig": {
+      "tier": "Tier",
+      "mandatoryFailureWarning": "Mandatory criteria failed - tier not available",
+      "notApplicable": "Not Applicable",
+      "sections": {
+        "introduction": "Introduction",
+        "presentation": "Presentation",
+        "communication": "Communication skills",
+        "salesConfirmation": "Sales Confirmation",
+        "mandatoryDisclosure": "Mandatory Statements",
+        "closure": "Closure"
+      }
+    }
+  },
+  "overallScore": "Overall score",
+  "viewDetails": "View details"
+}

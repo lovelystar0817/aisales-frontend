@@ -1,0 +1,1122 @@
+{
+  "common": {
+    "loading": "Naglo-load...",
+    "error": "Mali",
+    "unexpectedError": "May hindi inaasahang error na naganap.",
+    "save": "I-save",
+    "cancel": "Kanselahin",
+    "close": "Isara",
+    "hupo": "Hupo",
+    "info": "Impormasyon",
+    "continue": "Magpatuloy",
+    "beta": "BETA",
+    "text": "Teksto",
+    "voice": "Boses",
+    "processing": "Pinoproseso...",
+    "hupoIcon": "Hupo icon",
+    "confirm": "Kumpirmahin",
+    "delete": "Tanggalin",
+    "edit": "I-edit",
+    "view": "Tingnan",
+    "search": "Hanapin",
+    "notAvailable": "Hindi available sa trial",
+    "contactUs": "Makipag-ugnayan sa amin",
+    "notNow": "Hindi ngayon",
+    "you": "Ikaw",
+    "icon": "icon",
+    "or": "o",
+    "modify": "Baguhin",
+    "updateError": "Hindi nai-update ang pangalan. Pakisubukan ulit.",
+    "send": "Ipadala",
+    "sending": "Ipinapadala...",
+    "duration": {
+      "minutes": "{{count}} minuto"
+    },
+    "duplicate": "Kopyahin"
+  },
+  "errors": {
+    "audioPlaybackFailed": "Hindi ma-play ang audio feedback.",
+    "audioPlaybackStart": "Error sa pagsisimula ng audio playback.",
+    "audioGenerationFailed": "Hindi ma-generate ang audio feedback.",
+    "nameUpdateFailed": "Hindi nai-update ang pangalan. Pakisubukan ulit."
+  },
+  "chart": {
+    "toggleSeries": "I-toggle ang visibility ng {{name}} series"
+  },
+  "auth": {
+    "login": "Mag-login",
+    "logout": "Mag-logout",
+    "signUp": "Mag-sign up",
+    "forgotPassword": "Nakalimutan ang password?",
+    "hupoLogoAlt": "Hupo logo",
+    "enterCompanyName": "Ilagay ang pangalan ng kumpanya para magsimula",
+    "companyName": "Pangalan ng kumpanya",
+    "companyNamePlaceholder": "hal. Acme",
+    "getStarted": "Magsimula",
+    "errors": {
+      "unknown": "Hindi kilalang error ang naganap",
+      "companyNotFound": "Hindi nahanap ang kumpanya"
+    },
+    "admin": {
+      "verifyingAccess": "Tine-check ang access...",
+      "syncing": "Pinoproseso ang admin authentication...",
+      "notAuthorized": "Walang pahintulot ang account ninyo para sa admin panel. Makipag-ugnayan sa administrator para humiling ng access.",
+      "message": "Nagkaroon ng error sa admin authentication."
+    },
+    "error": {
+      "title": "Authentication Error",
+      "tryAgain": "Subukan ulit",
+      "admin": { "message": "Nagkaroon ng error sa admin authentication." }
+    },
+    "carousel": {
+      "item1": {
+        "title": "Mag-ensayo ng mahihirap na sales moments bago mo mawala ang kliente",
+        "desc": "I-simulate ang mga mahalagang sales moments—tulad ng pagdefend ng pricing o pag-navigate ng competitive objections—para handa ka kapag kailangan mo na."
+      },
+      "item2": {
+        "title": "Makakuha ng actionable insights para hindi mo na mawala ang susunod na deal",
+        "desc": "Makakuha ng malinaw na insights tungkol sa kung ano ang gumana, ano ang hindi, at paano mag-close ng mas malakas sa susunod na beses—para mas confident at may kontrol ka sa mga kritikal na sandali."
+      },
+      "item3": {
+        "title": "Mga scenario na gawa para sa inyong sales motion",
+        "desc": "Mag-practice base sa sales motion, objections, at buyer personas ng inyong kumpanya—para totoo ang pakiramdam at maging successful ang closing."
+      }
+    }
+  },
+  "home": {
+    "welcome": "Kumusta",
+    "whatChallenge": "anong leadership challenge ang nasa isip mo ngayon?",
+    "selectTopic": "Para magsimula ng bagong session, pumili ng isa sa mga topic sa ibaba:",
+    "getStarted": "Bagong session",
+    "activeSession": "Aktibong session",
+    "pastSessions": "Mga nakaraang session",
+    "meetingInsights": "Mga insight sa meeting",
+    "helpOtherLeaders": "Ganito ako tumutulong sa ibang mga leader",
+    "practiceConversations": "Mag-practice ng mahihirap na conversation",
+    "practiceConversationsExample": "Subukan sabihin \"Kailangan ko mag-practice ng pagbibigay ng tough feedback\"",
+    "getDayToDay": "Makakuha ng advice sa pang-araw-araw na challenges",
+    "getDayToDayExample": "Subukan sabihin \"Paano ko susuportahan ang isang underperformer?\"",
+    "askForTips": "Humingi ng tips at resources",
+    "askForTipsExample": "Subukan sabihin \"Pwede mo bang ishare ang quick 1:1 framework?\"",
+    "chooseScenario": "O pumili ng scenario para sa interactive practice na may realistic AI-powered personas:",
+    "startNow": "Magsimula na >",
+    "home": "Pangunahing Pahina",
+    "pastPractices": "Mga nakaraang practice",
+    "callAnalysis": "Call Analysis",
+    "dashboard": "Pangunahing Panel"
+  },
+  "sessions": {
+    "newSession": "Bagong session",
+    "activeSession": "Aktibong session",
+    "pastSessions": "Mga nakaraang session",
+    "endSession": "Tapusin ang session",
+    "sessionEnded": "Natapos na ang session",
+    "interactive": "Pakikipag-ugnayan",
+    "noActiveSession": "Walang aktibong session",
+    "noPastSessions": "Walang nakaraang session",
+    "textRoleplay": "TEXT ROLEPLAY",
+    "voiceRoleplay": "VOICE ROLEPLAY",
+    "loadingPastSessions": "Nilo-load ang mga nakaraang session...",
+    "chatHistory": "Kasaysayan ng chat",
+    "roleplayInsights": "Mga insight sa roleplay",
+    "generalCoaching": "GENERAL COACHING",
+    "endSessionDescription": "Ang pagtatapos ng inyong active session ay mag-generate ng roleplay session assessment.",
+    "endSessionTitle": "Tapusin ang kasalukuyang session?",
+    "endSessionButton": "Tapusin ang session",
+    "endedSuccessfully": "Matagumpay na natapos ang session",
+    "endSessionError": "Hindi natapos ang session",
+    "sessionNotFound": "Hindi nahanap ang session",
+    "startConversationError": "Hindi nagsimula ang pangunahing conversation",
+    "skipIntroError": "Hindi na-skip ang introduction",
+    "endPracticeError": "Hindi natapos ang practice session",
+    "generateScenarioError": "Hindi na-generate ang scenario",
+    "startRoleplayError": "Hindi nagsimula ang roleplay",
+    "endRoleplayError": "Hindi natapos ang roleplay",
+    "startPracticeError": "Hindi nagsimula ang practice. Pakitingnan ang inyong microphone permissions.",
+    "failedToLoadRoleplay": "Hindi nai-load ang roleplay session",
+    "connecting": "Kumukonekta...",
+    "introduction": "Panimula",
+    "mainConversation": "Pangunahing Usapan",
+    "ending": "Nagtatapos...",
+    "scenario": "Sitwasyon",
+    "startPractice": "Magsimula ng practice",
+    "aiSpeaking": "Nagsasalita ang AI",
+    "aiListening": "Nakikinig ang AI",
+    "skipIntroduction": "I-skip ang introduction",
+    "endSessionAction": "Tapusin ang session",
+    "sessionTimeWarning": "1 minuto na lang. Awtomatikong matatapos ang session sa {{minutes}}-minute mark.",
+    "roleplayInstructions": "Roleplay instructions",
+    "goToRoleplay": "Pumunta sa roleplay",
+    "conversationPartnerPersona": "CONVERSATION PARTNER PERSONA",
+    "framework": "Balangkas",
+    "frameworkToPractice": "FRAMEWORK TO PRACTICE",
+    "viewFrameworkDetails": "Tingnan ang framework details",
+    "viewScenarioDetails": "Tingnan ang scenario details, objective, at framework",
+    "endRoleplayInfo": "Kapag tapos ka na, i-click ang 'End Roleplay' sa itaas ng screen para makakuha ng detalyadong analysis ng inyong mga strengths, areas for improvement, at actionable recommendations for growth.",
+    "introductionPhase": "Panimula",
+    "roleplayBegins": "Nagsisimula ang roleplay",
+    "realtimeCoaching": "Coaching sa tunay na oras",
+    "leavePageTitle": "Umalis sa page na ito?",
+    "leavePageDescription": "Ang pag-alis sa session na ito ay magtatapos sa kasalukuyang session at mag-generate ng summary ng strengths, areas for improvement, at recommendations.",
+    "leave": "Umalis",
+    "persona": "Persona",
+    "personaDescription": "Ito ang magdedetermine ng behavior ng inyong conversation partner sa buong roleplay.",
+    "personaRecommendation": "Bakit namin inirecommend ito:",
+    "defensiveRecommendation": "Ang kasamahan na inilarawan ay nagpapakita ng aggressive behavior sa pamamagitan ng pagmumura sa mga team members at paggamit ng harsh tone, na nagpapakita ng confrontational personality na lumilikha ng tension at conflict.",
+    "generatingPersona": "Ginagawa ang {{persona}} persona",
+    "roleplayPractice": "Roleplay practice",
+    "discovery": "Pagtuklas",
+    "pruvantageAssureII": "PRUVantage Assure II",
+    "loadingSessionDetails": "Nilo-load ang session details...",
+    "loadingObjectives": "Nilo-load ang mga objectives...",
+    "personalityDescription": "Sila ay {{personality}}.",
+    "understandFinancialSituation": "Unawain ang financial situation at needs ni {{clientName}}",
+    "presentProductSolution": "Ipresent ang product bilang solution",
+    "buildRapportConcerns": "Makipag-build ng rapport at address ang mga concerns ng propesyonal",
+    "moveConversationNextSteps": "Ilipat ang conversation sa next steps",
+    "theClient": "ang kliente",
+    "defaultObjection": "Hindi ako interesado ngayon.",
+    "error": "Mali",
+    "retry": "Subukan ulit",
+    "sessionCompleted": "Natapos na ang session!",
+    "sessionCompletedDescription": "Magaling! Natapos na at na-analyze ang inyong roleplay session.",
+    "duration": "Tagal",
+    "overallScore": "Kabuuang Score",
+    "practiceAgain": "Mag-practice Ulit",
+    "viewAssessment": "Tingnan ang Assessment",
+    "returnHome": "Bumalik sa home",
+    "sessionStanding": "Kondisyon ng session",
+    "sessionFinishedAt": "Natapos ang session noong {{time}}"
+  },
+  "pastPractices": {
+    "emptyTitle": "Walang nakaraang practice",
+    "emptyDescription": "Magsimula ng inyong unang session para mag-practice ng tunay na sales conversations, makakuha ng targeted feedback, at makakuha ng actionable tips para mapabuti ang inyong pitch.",
+    "startNewPractice": "Magsimula ng bagong practice",
+    "failedToLoad": "Hindi nai-load ang mga nakaraang practice."
+  },
+  "errorBoundary": {
+    "oops": "Oops!",
+    "error": "Mali",
+    "unexpectedError": "May hindi inaasahang mali na naganap."
+  },
+  "trial": {
+    "ended": "Natapos na ang inyong trial",
+    "upgradeMessage": "Para magpatuloy sa full access, makipag-ugnayan sa amin para ma-upgrade ang account ng inyong organisasyon."
+  },
+  "feedback": {
+    "title": "Nakaramdam ba kayo na mas handa na kayong makipag-ugnayan sa mga tunay na prospects pagkatapos ng roleplay na ito?",
+    "description": "Gusto naming marinig ang inyong thoughts! Sabihin sa amin kung paano namin mapapabuti.",
+    "placeholder": "Ishare kung bakit kayo nakaramdam na mas handa na at kung ano ang nakatulong sa inyong confidence.",
+    "reason": "Dahilan",
+    "yes": "Oo",
+    "no": "Hindi",
+    "skip": "I-skip",
+    "send": "Ipadala",
+    "thankYou": "Naipadala na ang feedback. Salamat sa pagshare ng inyong input!",
+    "shareFeedback": "Magbahagi ng feedback",
+    "closeFeedback": "Isara ang feedback"
+  },
+  "mobile": {
+    "closeSidebar": "Isara ang sidebar",
+    "yourProfile": "Inyong profile",
+    "openSidebar": "Buksan ang sidebar"
+  },
+  "sidebar": {
+    "reportIssue": "Mag-report ng issue",
+    "reportIssuePlaceholder": "Ilarawan ang issue o magbahagi ng inyong feedback dito",
+    "reportIssueSuccess": "Salamat! Kami ay nakuha ang inyong report.",
+    "reportIssueError": "Hindi ma-report ang issue. Pakisubukan ulit."
+  },
+  "nameInput": {
+    "whatsYourName": "Ano ang itawag namin sa inyo?",
+    "name": "Preferred name",
+    "enterYourName": "Hal. Emily, Jay, Rina",
+    "description": "Gagamitin namin ang pangalang ito para makipag-usap sa inyo sa buong app, tulad ng \"Kumusta Emily!\"",
+    "continue": "Magpatuloy"
+  },
+  "trialStatus": {
+    "ended": "Natapos na ang inyong trial",
+    "daysLeft": "{{days}} araw na lang sa trial",
+    "upgradeEnded": "Para ma-access ang coaching sessions, makipag-ugnayan sa amin para ma-upgrade.",
+    "exploreFeatures": "I-explore ang lahat ng features bago matapos ang inyong trial.",
+    "contactToUpgrade": "Makipag-ugnayan para ma-upgrade"
+  },
+  "empty": {
+    "startSessionInfo": "Magsimula ng session ngayon para mag-practice ng conversations, makakuha ng tailored guidance, at makatanggap ng actionable tips.",
+    "startNewSession": "Magsimula ng bagong session"
+  },
+  "insights": {
+    "notAvailable": "Hindi available ang roleplay assessment",
+    "tooShort": "Masyadong maikli ang session na ito para ma-assess ang inyong sales performance. Kumpletuhin ang mas mahabang simulation para makita ang full breakdown ng inyong performance.",
+    "returnHome": "Bumalik sa home",
+    "returnToChat": "Bumalik sa chat"
+  },
+  "notFound": {
+    "title": "Hmm, parang hindi tama ito",
+    "description": "Baka hindi ito ang hinahanap ninyo. Ang page na hiningi ninyo ay parang nawala.",
+    "goBackHome": "Bumalik sa home",
+    "viewActiveSessions": "Tingnan ang active sessions"
+  },
+  "logout": {
+    "message": "Nag-lo-logout..."
+  },
+  "loading": {
+    "retrievingSession": "Kinukuha ang inyong session data",
+    "configuringPreferences": "Kino-configure ang inyong preferences",
+    "restoringState": "Bina-balik ang session state",
+    "gettingReady": "Inihahand ang lahat para sa inyo",
+    "checkingStatus": "Tinitingnan ang active session status",
+    "connectingSession": "Kumukonekta sa active session",
+    "loadingState": "Nilo-load ang session state",
+    "almostReady": "Halos ready na",
+    "activeSession": "Nilo-load ang active session",
+    "retrievingDetails": "Kinukuha ang inyong saved session details",
+    "loadingProgress": "Nilo-load ang inyong previous progress",
+    "preparingEnvironment": "Inihahand ang inyong practice environment",
+    "restoringContext": "Bina-balik ang inyong session context",
+    "preparingRoleplay": "Inihahand ang inyong roleplay",
+    "analyzingPerformance": "Sina-analyze ang inyong performance",
+    "generatingFeedback": "Ginagawa ang feedback",
+    "creatingSummary": "Lumilikha ng session summary",
+    "almostDone": "Halos tapos na",
+    "preparingSession": "Inihahand ang inyong session"
+  },
+  "practice": {
+    "loadingModules": "Nilo-load ang modules...",
+    "failedToLoadModules": "Hindi nai-load ang modules. Pakisubukan ulit.",
+    "heyLetsStart": "Kumusta {{name}}, patibayin natin ang inyong sales skills ngayon",
+    "selectCallType": "Pumili ng sales call type at product na gusto ninyong gamitin sa practice",
+    "returnToModules": "Bumalik sa modules",
+    "selectClientToStart": "Pumili ng kliente para magsimula ng call",
+    "profileTabLabel": "Profile",
+    "personalityTabLabel": "Personalidad",
+    "startCall": "Magsimula ng call",
+    "continueToPractice": "Magpatuloy sa pagsasanay",
+    "viewCallCriteria": "Tingnan ang pamantayan ng tawag at ranggo",
+    "selectAllOptions": "Pakipili lahat ng required options",
+    "scrollToViewMore": "Mag-scroll para makita ang iba pa",
+    "backToList": "Bumalik sa list",
+    "noPersonalBestMessage": "Walang personal best pa. Alamin ang tungkol sa mga ranggo",
+    "personalBestMessage": "Ang inyong pinakamahusay:",
+    "checkWhatsNext": "Tingnan kung ano ang susunod",
+    "learnAboutStandings": "Learn about standings",
+    "learnAboutStandingsAndCriteria": "Learn about standings & criteria",
+    "firstTime": {
+      "welcomeTo": "Maligayang pagdating sa",
+      "subtitle": "Simulan natin itong practice module",
+      "aboutModule": "Tungkol sa module na ito",
+      "whatToExpect": "Ano ang dapat asahan",
+      "practiceExpectations": "Mga inaasahan sa pagsasanay",
+      "productsAvailable": "Mga produkto na available para sa practice",
+      "letsStart": "Mag-simula ng practice!",
+      "acknowledgeAndContinue": "Tanggapin at Magpatuloy",
+      "defaultDisclaimer": "Ito ay pinapagana ng artificial intelligence at patuloy na natututo at bumabagong panahon. Habang nagsusumikap itong magbigay ng tumpak at pinakabagong impormasyon, ang mga tugon nito ay nakalaan lamang para sa layuning pang-impormasyon at hindi dapat umasa bilang tiyak. Ikaw ay malakas na ipinapayo na i-verify ang anumang impormasyon sa pamamagitan ng pag-consult sa mga opisyal na dokumento, tulad ng Product Information Pack."
+    },
+    "steps": {
+      "selectModule": "Pumili ng module",
+      "selectClient": "Pumili ng kliente"
+    },
+    "standings": {
+      "title": "Mga Ranggo",
+      "sessionStanding": "Ranggo sa session",
+      "currentSession": "Kasalukuyang session",
+      "lastResult": "Huling resulta",
+      "personalBest": "Pinakamahusay na personal",
+      "salesNovice": "Baguhang Ahente",
+      "skilledAdvisor": "Sanay na Tagapayo",
+      "strategicConsultant": "Estratehikong Konsultant",
+      "clientVerification": "Beripikasyon ng Kliente",
+      "fourCExecution": "4C Execution",
+      "objectionHandling": "Pag-handle ng Objection",
+      "completed": "Nakumpleto",
+      "notCompleted": "Hindi pa nakumpleto",
+      "notStarted": "Hindi pa nagsimula",
+      "beginner": "Nagsisimula",
+      "intermediate": "Intermediate",
+      "expert": "Eksperto",
+      "achieved": "Nakamit",
+      "standingsLadder": "Hagdan ng Ranggo",
+      "ladderDescription": "I-unlock ang mas mataas na ranggo sa pamamagitan ng pagtugon sa mga tiyak na pamantayan para sa bawat antas, kung saan ang iyong ranggo ay hiwalay na sinusuri para sa bawat scenario. Makamit ang mga milestone na ito upang umunlad at ipakita ang iyong lumalaking kadalubhasaan.",
+      "mandatoryNote": "Mahalaga: Lahat ng mandatory na pamantayan ay dapat makumpleto para makatanggap ng ranggo.",
+      "standing": "Ranggo",
+      "criteria": "Pamantayan",
+      "completeClientVerification": "Kumpletuhin ang beripikasyon ng kliente",
+      "mandatory": "Kinakailangan",
+      "openCall": "Buksan ang tawag tulad ng \"Dear Mr/Ms/Mdm, Ako si <Name of CA/SCA>, CA/SCA mula sa UOB. Magandang oras po ba ito para makausap kayo?\"",
+      "askPermission": "Humingi ng pahintulot tulad ng \"Bago ako magpatuloy sa tawag, maaari po ba akong gumawa ng simpleng beripikasyon sa inyo para matiyak na nakakausap namin ang tamang tao?\"",
+      "verifyCustomer": "I-verify ang impormasyon ng customer sa pamamagitan ng pagtatanong ng hindi bababa sa 2 kwalipikadong impormasyon",
+      "achieve4CBeginner": "Makamit ang hindi bababa sa 'Nagsisimula' para sa 4C Execution",
+      "partiallyApply4C": "Bahagyang i-apply ang 4C framework na binubuo ng:",
+      "capture": "Capture:",
+      "captureDescription": "Kunin ang atensyon ng prospect sa pamamagitan ng pagmungkahi ng mainit o trending na topic sa kasalukuyang balita.",
+      "context": "Context:",
+      "contextDescription": "Bumuo ng rapport, i-frame ang usapan, at kilalanin ang sitwasyon ng kliente gamit ang kaugnay na scenario o mga mapag-isip na tanong.",
+      "conflict": "Conflict:",
+      "conflictDescription": "Tukuyin at i-highlight ang mga potensyal na panganib sa pananalapi para lumikha ng pangangailangan gamit ang mga tiyak na tanong para hikayatin ang kliente na isaalang-alang ang mga kahihinatnan.",
+      "closure": "Closure:",
+      "proposeFollowUp": "Magmungkahi ng malinaw na solusyon at makakuha ng follow-up na meeting para pag-usapan ang mga tiyak na pangangailangan ng kliente.",
+      "secureFollowUp": "Makakuha ng follow-up na meeting para pag-usapan ang mga tiyak na pangangailangan ng kliente.",
+      "achieveObjectionBeginner": "Makamit ang hindi bababa sa 'Nagsisimula' para sa Pag-handle ng Objection",
+      "attemptObjectionHandling": "Subukan ang pag-handle ng objection.",
+      "seeDetailsNovice": "Tingnan ang mga detalye sa pamantayan ng 'Sales novice'.",
+      "achieve4CIntermediate": "Makamit ang hindi bababa sa 'Intermediate' para sa 4C Execution",
+      "apply4CScripted": "I-apply ang lahat ng hakbang ng 4C framework sa scripted na paraan, hal., binabasa ang script word-for-word nang hindi inaayon sa mga tugon ng kliente o nagpapakita ng tunay na pag-unawa (Tingnan ang pamantayan ng 'Sales novice' para sa paliwanag ng 4C framework).",
+      "achieveObjectionIntermediate": "Makamit ang hindi bababa sa 'Intermediate' para sa Pag-handle ng Objection",
+      "handleOneObjection": "Mag-handle ng 1 objection.",
+      "achieve4CExpert": "Makamit ang hindi bababa sa 'Eksperto' para sa 4C Execution",
+      "apply4CDynamically": "I-apply ang 4C framework nang dynamic, hal., iniayon ang tono at pagkakasabi batay sa mga pahiwatig ng kliente, nagtanong ng mga klaripikasyon, at natural na isinama ang mga hakbang sa usapan (Tingnan ang pamantayan ng 'Sales Novice' para sa paliwanag ng 4C framework).",
+      "achieveObjectionExpert": "Makamit ang hindi bababa sa 'Eksperto' para sa Pag-handle ng Objection",
+      "handleTwoObjections": "Mag-handle ng 2 objection.",
+      "failed": "Nabigo",
+      "pass": "Pumasa",
+      "champion": "Kampeon"
+    },
+    "clientDetails": {
+      "age": "Edad",
+      "profile": "Profile",
+      "personality": "Personality",
+      "location": "Lokasyon",
+      "education": "Edukasyon",
+      "occupation": "Trabaho",
+      "financialSituation": "Sitwasyong pinansyal",
+      "companySize": "Company Size & Spend",
+      "keyPriorities": "Mga pangunahing prayoridad",
+      "productKnowledge": "Kaalaman sa produkto",
+      "conversationPartnerPersona": "Conversation partner persona",
+      "personalityTrait": "Personality trait",
+      "communicationsStyle": "Communication style",
+      "decisionMaking": "Decision making",
+      "annualIncome": "taunang kita",
+      "annualIncomeFormat": "{{currency}}{{amount}} taunang kita. {{situation}}",
+      "monthlyIncomeFormat": "{{currency}}{{amount}} buwanang kita. {{situation}}",
+      "startCall": "Magsimula ng call",
+      "clientPhoto": "Larawan ng kliente"
+    }
+  },
+  "roleplay": {
+    "personality": {
+      "nice": "Mabait at sumasang-ayon - Madaling makasama pero baka iwas sa conflict",
+      "analytical": "Detail-oriented at logical - Mas pinahahalagahan ang data at facts kaysa emotions",
+      "sceptical": "Nagtatanong at nag-dududa - Kailangan ng malakas na evidence para makumbinse",
+      "rude": "Walang pakielam at walang pasensya - Baka mahirap makasama",
+      "friendly": "Malapit at mainit - Bukas sa discussion pero kailangan ng trust"
+    },
+    "tabs": {
+      "profile": "Profile",
+      "personality": "Personalidad"
+    },
+    "fields": {
+      "name": "Pangalan",
+      "age": "Edad",
+      "location": "Lokasyon",
+      "education": "Edukasyon",
+      "occupation": "Trabaho",
+      "annualIncome": "Taunang Kita",
+      "financialSituation": "Sitwasyong pinansyal",
+      "keyPriorities": "Mga pangunahing prayoridad",
+      "productKnowledge": "Kaalaman sa produkto",
+      "personalityType": "Personality Type",
+      "difficultyLevel": "Difficulty Level",
+      "communicationStyle": "Communication Style",
+      "decisionMaking": "Decision Making",
+      "persona": "Persona",
+      "demographic": "Demograpiko",
+      "aum": "AUM",
+      "numberOfKids": "Bilang ng mga anak",
+      "behavior": "Ugali",
+      "workHistory": "Kasaysayan sa trabaho",
+      "liquidityNeeds": "Pangangailangan sa liquidity",
+      "riskAppetite": "Risk appetite",
+      "investmentFrequency": "Dalas ng investment",
+      "keyLifestyleExpenditure": "Pangunahing gastos sa lifestyle",
+      "personalPriorities": "Personal na mga priyoridad",
+      "discPersonality": "DISC personality",
+      "hsbcTier": "Tier"
+    },
+    "difficulty": {
+      "easy": "Madali",
+      "medium": "Katamtaman",
+      "hard": "Mahirap"
+    },
+    "practiceDetails": "Practice details",
+    "practiceObjectives": "Practice objectives",
+    "mainObjection": "Pangunahing objection",
+    "salesTechnique": "Sales technique",
+    "advisoryTechnique": "Advisory technique",
+    "viewDetails": "Tingnan ang details",
+    "clientDetails": "Impormasyon ng Kliente",
+    "productInformation": "Impormasyon ng Produkto",
+    "processReference": "Reference ng Proseso",
+    "competitiveIntelligence": "Intelligence sa Kompetensya",
+    "selectedForSession": "Napili para sa {{type}} na ito",
+    "ageAndOccupation": "Edad {{age}}, {{occupation}}",
+    "aiCoach": "AI Coach",
+    "readyToConnect": "Ready na makipag-connect",
+    "connecting": "Kumukonekta",
+    "connected": "Nakakonekta",
+    "establishingConnection": "Ginagawa ang connection...",
+    "speakNaturally": "Magsalita ng natural - nakikinig ako",
+    "endingSession": "Tinapos ang session...",
+    "client": "Kliente",
+    "goToRoleplay": "Pumunta sa roleplay",
+    "supportMaterials": "Mga tulong na materyales",
+    "practiceOverview": "Buod ng practice",
+    "practiceOverviewDescription": "Tingnan ang scenario, objectives, at support materials",
+    "callCriteria": "Pamantayan ng Tawag",
+    "softSkills": "Soft skills",
+    "knowledgeSkills": "Knowledge Skills",
+    "clientPortfolio": "Portfolio ng Kliente",
+    "portfolioReviewTrigger": "Event trigger para sa review ng portfolio",
+    "scorecard": "Scorecard",
+    "scorecardDescription": "Ang inyong session ay na-evaluate sa mga key skill areas na ito:",
+    "scorecardDescriptionAlternative": "Ang scorecard na ito ay nag-outline kung paano ma-evaluate ang inyong session sa mga key skill areas. Gamitin para makita kung ano ang na-assess at saan mag-focus next.",
+    "scorecardFooter": "Tingnan kung ano ang na-measure at paano mag-build sa inyong mga strengths.",
+    "viewDetail": "Tingnan ang details",
+    "scorecardModalDescription": "Ang scorecard na ito ay nag-outline kung paano ma-evaluate ang inyong session sa mga key skill areas. Gamitin para makita kung ano ang na-assess at saan mag-focus next.",
+    "prudentialObjectionHandlingScorecardDescription": "Ang scorecard na ito ay nagsu-sukat ng inyong kakayahan sa paghawak ng mga pagtutol ng customer gamit ang 3F Model (Feel, Felt, Found) para sa sales technique at ang LAPR Framework (Listen, Acknowledge, Probe, Reframe) para sa objection handling.",
+    "jumpToSection": "Pumunta sa section"
+  },
+  "assessment": {
+    "roleplaySessionAssessment": "Roleplay session assessment",
+    "jumpToSection": "Pumunta sa section",
+    "returnToAssessment": "Bumalik sa assessment",
+    "overview": "Pangkalahatang-ideya",
+    "nextSteps": "Mga susunod na hakbang",
+    "salesTechnique": "Teknik sa Pagbebenta",
+    "salesNegotiationSkills": "Kasanayan sa Pagbebenta at Negosasyon",
+    "productKnowledge": "Kaalaman sa Produkto",
+    "advisoryTechnique": "Teknik sa Pagpapayo",
+    "processAdherence": "Pagsunod sa Proseso",
+    "communicationAndPresence": "Komunikasyon at Presensya",
+    "whatToImprove": "Ano ang dapat pagbutihin",
+    "relationshipManagement": "Pamamahala ng Relasyon",
+    "hsbcRepresentation": "Representasyon ng HSBC",
+    "objectionHandling": "Paghawak ng Pagtutol",
+    "aiaKoE2E": {
+      "introduction": "Pagbubukas",
+      "needsAnalysis": "Pagsusuri ng Pangangailangan",
+      "productPitch": "Pagpapakita ng Produkto",
+      "objectionHandling": "Paghawak ng Pagtutol",
+      "closing": "Pagsasara",
+      "other": "Iba pa"
+    },
+    "prudentialObjectionHandling": {
+      "salesTechniqueDescription": "Sinusukat ang kakayahang maglapat ng 3F Model (Feel, Felt, Found) upang lumikha ng empatiya, bumuo ng kredibilidad, at magpakita ng nakakaakit na solusyon.",
+      "laprDescription": "Sinusukat ang kakayahang maglapat ng LAPR framework (Listen, Acknowledge, Probe, Reframe) upang epektibong mahawakan ang mga pagtutol ng customer."
+    },
+    "technicalKnowledge": "Teknikal na Kaalaman",
+    "operationalKnowledge": "Kaalaman sa Operasyon",
+    "softSkills": "Soft skills",
+    "knowledgeSkills": "Knowledge Skills",
+    "example": "Halimbawa",
+    "strengths": "Kakayahan",
+    "overallScore": "Kabuuang iskor",
+    "performance": "Pagganap",
+    "allSalesTechniques": "Lahat ng Sales Techniques",
+    "why": "Bakit",
+    "suggestion": "Mungkahi",
+    "practiceInfo": "Impormasyon sa pagsasanay",
+    "overallResult": "Pangkalahatang resulta",
+    "showBreakdown": "Ipakita ang detalye",
+    "hideBreakdown": "Itago ang detalye",
+    "type": "Uri",
+    "product": "Produkto",
+    "client": "Kliente",
+    "completedAt": "Natapos sa",
+    "duration": "Tagal",
+    "practiceAgain": "Mag-practice ulit",
+    "stopListening": "Tumigil sa pakikinig",
+    "listenToFeedback": "Pakinggan ang feedback",
+    "generatingAudioFeedback": "Ginagawa ang audio...",
+    "downloading": "Nida-download...",
+    "downloadAsPdf": "I-download as PDF",
+    "ratings": {
+      "poor": "Kulang",
+      "fair": "Pwede na",
+      "good": "Maganda",
+      "excellent": "Napakaganda"
+    },
+    "standings": {
+      "currentSession": "Kasalukuyang session",
+      "lastResult": "Huling resulta",
+      "personalBest": "Pinakamahusay na personal",
+      "salesNovice": "Baguhang Ahente",
+      "skilledAdvisor": "Sanay na Tagapayo",
+      "strategicConsultant": "Estratehikong Konsultant",
+      "clientVerification": "Verifikasyon ng Kliente",
+      "objectionHandling": "Pag-handle ng Objection",
+      "beginner": "Nagsisimula",
+      "intermediate": "Intermediate",
+      "expert": "Eksperto",
+      "notAvailable": "Hindi available",
+      "seeHowStandingsWork": "Tingnan kung paano gumagana ang standings",
+      "learnMore": "Alamin pa",
+      "mandatory": "Kailangan",
+      "incomplete": "Hindi pa tapos",
+      "completed": "Natapos",
+      "needsImprovement": "Kailangan ng pagpapabuti",
+      "dynamicFramework": "{{framework}} ({{parts}})",
+      "standingUnavailable": "Hindi available ang standing: Hindi na-meet ang mandatory criteria.",
+      "notCompleted": "Hindi Natapos",
+      "threeFExecution": "3F Execution",
+      "fourCExecution": "4C Execution",
+      "newBadge": "Bago",
+      "noDataAvailable": "Hindi available ang standing data",
+      "emergingSeller": "Umuusbong na Ahente"
+    },
+    "viewTranscript": "Tingnan ang transcript",
+    "toImprove": "Dapat pang pagbutihin",
+    "completed": "Natapos",
+    "sessionDataNotAvailable": "Hindi available ang session data",
+    "unableToRestartPractice": "Hindi ma-restart ang practice - nawawala ang session data",
+    "failedToDownloadPDF": "Hindi na-download ang PDF report.",
+    "generating": "Ginagawa...",
+    "downloadReport": "I-download ang Report",
+    "msigSalesTechniqueDescription": "Measures the ability to follow set framework to drive a successful conversation.",
+    "mandatoryFailed": "Standing unavailable: Mandatory criteria not met.",
+    "toProgressfocusOn": "To progress your standing, focus on:",
+    "summary": "Summary",
+    "mandatoryFailedSummary": "Your standing isn’t available because you missed a mandatory criteria, which requires full adherence. Review your performance in other areas to see what went well, and make sure to complete all steps next time to receive your standing.",
+    "mandatoryFailedFocusOn": "Completing all mandatory criteria.",
+    "prudentialMandatoryNotMet": {
+      "summary": "Hindi available ang inyong standing dahil namiss ninyo ang mandatory criteria na nangangailangan ng kumpletong pagsunod. Suriin ang inyong performance sa ibang areas para makita kung ano ang naging maayos, at siguraduhin na makumpleto ang lahat ng steps sa susunod para makuha ang inyong standing.",
+      "nextStepsTitle": "Para ma-advance ang inyong standing, mag-focus sa:",
+      "suggestedNextStep": "Pagkumpleto ng lahat ng mandatory criteria."
+    },
+    "progressionSummary": {
+      "firstTime": "Congratulations sa pagkumpleto ng inyong first session para sa scenario na ito. Kayo na ngayon ay {{tierName}}! {{summary}}",
+      "firstTimeHighest": "Congratulations sa pagkumpleto ng inyong first session para sa scenario na ito at pag-achieve ng pinakamataas na standing: {{tierName}}! {{summary}}",
+      "upgrade": "Congratulations sa pag-achieve ng inyong new best standing para sa scenario na ito: {{tierName}}! {{summary}}",
+      "upgradeHighest": "Congratulations sa pag-achieve ng pinakamataas na standing para sa scenario na ito: {{tierName}}! {{summary}}",
+      "maintainedSame": "Na-maintain ninyo ang inyong standing bilang {{tierName}} para sa scenario na ito. {{summary}}",
+      "maintainedHighest": "Na-maintain ninyo ang inyong standing bilang {{tierName}} para sa scenario na ito. {{summary}}",
+      "maintainedImproved": "Great job, nanatiling {{tierName}} ang inyong standing at tumaas ang inyong score. {{summary}}",
+      "maintainedImprovedHighest": "Magaling! Na-maintain ninyo ang inyong standing bilang {{tierName}} at tumaas ang inyong score. {{summary}}",
+      "downgrade": "Ang inyong standing para sa session na ito ay {{tierName}}. {{summary}}",
+      "newBest": "New Best",
+      "nextSteps": "Para ma-advance ang inyong standing, mag-focus sa:",
+      "nextStepsHighest": "Para ma-maintain ang inyong standing, mag-focus sa:",
+      "suffixKeepPracticing": "Mag-practice ulit! Ikaw ay nasa paraan ng pag-achieve ng mas mataas na standing.",
+      "suffixHighestLevel": "Mag-practice ulit at pag-improve ang iyong mga kakayahan upang mag-perform konsistently sa level na ito!",
+      "suffixDowngrade": "Mag-practice ulit! Ikaw ay makakalipas ng mabilis at kung may focus, ikaw ay makakalipas ng iyong personal best."
+    },
+    "audioFeedback": {
+      "overview": "Narito ang iyong kabuuang-tanaw: {{summary}}",
+      "nextSteps": "Para sa susunod na mga hakbang, dapat mong {{steps}}",
+      "salesTechniqueIntro": "Feedback sa Teknik ng Pagbebenta: Nakakuha ka ng {{score}} mula sa {{max}}.",
+      "salesTechniqueSection": "Para sa {{title}}, nakakuha ka ng {{score}} mula sa {{max}}. {{why}} {{suggestion}}",
+      "productKnowledgeIntro": "Feedback sa Kaalaman sa Produkto: Nakakuha ka ng {{score}} mula sa {{max}}.",
+      "productKnowledgeSection": "Para sa {{title}}, nakakuha ka ng {{score}} mula sa {{max}}.",
+      "advisoryTechniqueIntro": "Feedback sa Teknik ng Pagpapayo: Nakakuha ka ng {{score}} mula sa {{max}}.",
+      "advisoryTechniqueSection": "Para sa {{title}}, nakakuha ka ng {{score}} mula sa {{max}}. {{why}} {{suggestion}}",
+      "processAdherenceIntro": "Feedback sa Pagsunod sa Proseso: Nakakuha ka ng {{score}} mula sa {{max}}.",
+      "processAdherenceSectionBase": "Para sa {{title}}, nakakuha ka ng {{score}} mula sa {{max}}.",
+      "softSkillsIntro": "Feedback sa Soft Skills: Nakakuha ka ng {{score}} mula sa {{max}}.",
+      "softSkillsSection": "Para sa {{title}}, nakakuha ka ng {{score}} mula sa {{max}}.",
+      "clientVerificationIntro": "Feedback sa Pagberipika ng Kliyente: Nakakuha ka ng {{score}} mula sa {{max}}.",
+      "frameworkExecutionIntro": "Feedback sa Pagpapatupad ng Framework: Nakakuha ka ng {{score}} mula sa {{max}}.",
+      "objectionHandlingIntro": "Feedback sa Pag-handle ng Pagtutol: Nakakuha ka ng {{score}} mula sa {{max}}.",
+      "technicalKnowledgeIntro": "Feedback sa Teknikal na Kaalaman:",
+      "productKnowledgeScore": "Kaalaman sa Produkto: Nakakuha ka ng {{score}} mula sa {{max}}.",
+      "strengths": "Kasama sa iyong mga lakas ay: {{strengths}}.",
+      "toImprove": "Mga lugar na dapat pagbutihin: {{improvements}}."
+    },
+    "errors": {
+      "sessionNotFound": "Hindi Nahanap ang Session",
+      "sessionForbidden": "Ipinagbabawal ang Access",
+      "genericError": "Error sa Paglo-load ng Session",
+      "sessionNotFoundMessage": "Ang roleplay session na hinahanap mo ay hindi umiiral o naalis na.",
+      "sessionForbiddenMessage": "Wala kang pahintulot na tingnan ang roleplay session na ito.",
+      "genericErrorMessage": "May nangyaring error habang nilo-load ang session. Subukan uli mamaya.",
+      "backToHome": "Bumalik sa Home"
+    },
+    "badges": {
+      "newbieSalesAlt": "Newbie sales badge",
+      "intermediateSalesAlt": "Intermediate sales badge",
+      "expertSalesAlt": "Expert sales badge",
+      "notAvailableAlt": "Hindi available badge"
+    },
+    "consoleMessages": {
+      "newSessionCreated": "Ginawa ang bagong session:",
+      "failedToCreateSession": "Hindi nakagawa ng bagong session:",
+      "pdfDownloadCompleted": "Natapos ang PDF download nang matagumpay",
+      "failedToDownloadPDF": "Hindi na-download ang PDF:"
+    },
+    "whatToImprove": "Ano ang dapat pagpapabuti",
+    "manulifeGoalReady": {
+      "scorecardTitle": "Scorecard",
+      "criteria": {
+        "salesNegotiationSkills": "Kasanayan sa Benta at Negosasyon",
+        "communicationSkills": "Mga Kasanayan sa Komunikasyon",
+        "relationshipBuilding": "Pagbuo ng Relasyon",
+        "adaptability": "Kakayahang Umangkop",
+        "customerOrientation": "Oryentasyon sa Kliyente",
+        "productPitch": "Paglalahad ng Produkto"
+      },
+      "descriptions": {
+        "salesNegotiationSkills": [
+          "Kakayahang magsara ng mga deal at makipag-negosasyon nang epektibo sa kabila ng mga pagtutol ng kliyente"
+        ],
+        "communicationSkills": [
+          "Malinaw na paghahatid at magalang na komunikasyon, magagandang pagpili ng salita na hindi masyadong teknikal upang maunawaan"
+        ],
+        "relationshipBuilding": [
+          "Pagbuo at pagpapanatili ng rapport sa kliyente. At pasensya sa pakikitungo sa napakahirap na mga kliyente (high-net worth)"
+        ],
+        "adaptability": [
+          "Kakayahang umangkop sa pagbabago/pag-unawa sa mga alalahanin ng kliyente."
+        ],
+        "customerOrientation": [
+          "Pokus sa kasiyahan at serbisyo ng kliyente."
+        ],
+        "productPitch": [
+          "Magpakita ng malinaw na pag-unawa sa mga feature, benepisyo, at value proposition ng produkto.",
+          "Ipaliwanag kung paano nalulutas ng mga feature ang mga problema ng kliyente.",
+          "Ipahayag ang mga bentahe ng produkto nang malinaw at maikli.",
+          "Iayon ang impormasyon ng produkto sa pangangailangan at konteksto ng kliyente.",
+          "Magbigay ng tumpak na impormasyon ng produkto."
+        ]
+      }
+    }
+  },
+  "overallScore": "Kabuuang marka",
+  "viewDetails": "Tingnan ang details",
+  "manage": {
+    "admin": "Admin",
+    "adminDashboard": "Admin Dashboard",
+    "menuDashboard": "Dashboard",
+    "menuUsers": "Mga User",
+    "downloadReport": "I-download ang ulat",
+    "allScenarios": "Lahat ng senaryo",
+    "errors": { "usersLoadFailed": "Hindi nai-load ang users data" },
+    "team": "Kapilanan",
+    "noTeams": "Walang kapilanan na na-assign",
+    "settings": {
+      "inviteUser": "Imbita ng user",
+      "importUsers": "Mag-import ng mga user",
+      "createTeam": "Lumikha ng kapilanan",
+      "allStatus": "Lahat lahat ng mga estado",
+      "active": "Aktibo",
+      "deactivated": "Hindi aktibo",
+      "invited": "Na-imbita",
+      "userInvited": "Na-imbita ng user.",
+      "errorInvitingUser": "Kamali sa pag-imbita ng user",
+      "userEdited": "Na-edit ng user.",
+      "errorEditingUser": "Kamali sa pag-edit ng user",
+      "userDeactivated": "Na-deactivate ng user.",
+      "errorDeactivatingUser": "Kamali sa pag-deactivate ng user",
+      "teamSaved": "Nai-save ng kapilanan.",
+      "errorSavingTeam": "Kamali sa pag-save ng kapilanan",
+      "teamEdited": "Na-edit ng kapilanan.",
+      "errorEditingTeam": "Kamali sa pag-edit ng kapilanan",
+      "teamNameAlreadyExists": "Ginagamit na ang pangalan ng kapilanan na ito. Pumili ng ibang pangalan.",
+      "bulkInvite": {
+        "title": "Mag-import ng mga user",
+        "description": "Mag-imbita ng maraming user nang sabay-sabay sa pamamagitan ng pag-upload ng Excel file gamit ang ibinigay na template.",
+        "downloadTemplate": "I-download ang template",
+        "dropFile": "Ilagay ang iyong file dito o",
+        "browse": "Maghanap",
+        "uploadHint": "Mag-upload ng .xls, .xlsx (max. 1000 users sa isang upload)",
+        "uploading": "Nag-uupload...",
+        "remove": "Alisin",
+        "importUsers": "Mag-import ng mga user",
+        "recentImports": "Kamakailang imports",
+        "noImports": "Walang imports pa. Ang iyong mga kamakailan imports ay lalabas dito.",
+        "processingFile": "Pinoproseso ang iyong file",
+        "usersInvited": "{{count}} users na naimbitahan",
+        "failed": "Nabigo",
+        "downloadErrorReport": "I-download ang error report",
+        "uploadedBy": "Na-upload ni {{name}}, {{date}}",
+        "showing": "Nagpapakita ng {{from}}-{{to}} sa {{total}}",
+        "ofPage": "ng {{total}} page",
+        "invalidExtension": "Paki-upload ng .xls o .xlsx file.",
+        "fileTooLarge": "Ang laki ng file ay dapat na mas mababa sa 3MB",
+        "uploadSuccess": "Ini-import namin ang iyong file. Ang mga resulta ay lalabas dito at magpapadala kami ng notifikasyon o email kapag tapos na!",
+        "uploadError": "Nabigo ang pag-upload ng file",
+        "validating": "Nagva-validate...",
+        "importing": "Nag-iimport...",
+        "precheckError": "Nabigo ang pagva-validate ng file",
+        "wrongTemplate": "Pakigamit ang tamang template",
+        "maxUsersExceeded": "Hanggang 1000 users lang sa isang pag-upload",
+        "importError": "Nabigo ang pag-import ng file",
+        "importSuccess": "Ini-import namin ang iyong file. Ang mga resulta ay lalabas dito at magpapadala kami ng notifikasyon kapag tapos na!",
+        "note": "Tala",
+        "validationSummary": "{{valid}} valid, {{invalid}} invalid sa {{total}} rows",
+        "validationIssues": "Mga Isyu sa Validation",
+        "onlyValidImported": "Ang mga valid na rows lang ang mai-import kung magpapatuloy ka.",
+        "failedCount": "{{failed}} nabigo"
+      },
+      "roles": {
+        "superadmin": {
+          "description": "May buong access sa lahat ng menu at mga aksyon, kabilang ang pamamahala ng mga user, kapilanan, at mga pahintulot."
+        },
+        "admin": {
+          "description": "View-only access sa admin application."
+        },
+        "user": {
+          "description": "Maaari lamang mag-access ng primary app sa train.hupo.co"
+        }
+      }
+    },
+    "common": {
+      "noPracticeData": "Walang practice data",
+      "noPracticeDataHint": "Lalabas dito ang practice data kapag nakatapos na ang mga user",
+      "notAwardedTooltip": "Mga session na walang standing dahil hindi na-meet ang mandatory criteria."
+    },
+    "pagination": {
+      "rowsPerPage": "Rows per page",
+      "page": "Pahina",
+      "of": "ng {{totalPages}}",
+      "showing": "Ipinapakita ang {{from}}-{{to}} ng {{total}}"
+    },
+    "usersPage": {
+      "noData": "Walang users data",
+      "searchPlaceholder": "Maghanap ng pangalan o email",
+      "empty": {
+        "title": "Walang nakita na user",
+        "description": "Lalabas dito ang mga user kapag naidagdag na sila sa inyong kumpanya"
+      },
+      "table": {
+        "user": "User",
+        "totalCompleted": "Kabuuang natapos na practice",
+        "avgLength": "Average na haba ng practice",
+        "avgScore": "Kabuuang resulta",
+        "lastSession": "Huling practice session"
+      }
+    },
+    "dashboard": {
+      "errors": { "loadFailed": "Hindi nai-load ang dashboard data" },
+      "noData": "Walang data",
+      "welcomeBack": "Welcome back, {{name}}!",
+      "lastUpdated": "Huling na-update",
+      "unknown": "hindi alam",
+      "refreshTooltip": "I-refresh ang dashboard data",
+      "reports": {
+        "users": "User report",
+        "accountCreation": "Account creation report",
+        "activeUsers": "Active user report",
+        "repeatUsers": "Repeat user report",
+        "completedPractices": "Completed practice report"
+      },
+      "accountSummary": {
+        "title": "Account summary",
+        "accountsCreated": "Mga nagawang account",
+        "activeUsers30d": "Active users (Huling 30 araw)",
+        "activeUsersTooltip": "Bilang ng users na nakatapos ng kahit isang roleplay practice sa nakalipas na 30 araw.",
+        "vsPrev30d": "kumpara sa nakalipas na 30 araw",
+        "repeatUsers": "Repeat users",
+        "repeatUsersTooltip": "Bilang ng users na nakatapos ng dalawa o higit pang roleplay practice sa panahon ng lisensya."
+      },
+      "practiceSummary": {
+        "title": "Practice summary",
+        "totalCompleted": "Kabuuang natapos",
+        "totalCompletedTooltip": "Kabuuang bilang ng roleplay practices na natapos sa panahon ng lisensya. Itinuturing na 'natapos' kapag nakatanggap ang user ng roleplay assessment matapos tapusin ang session na may hindi bababa sa 6 na mensahe.",
+        "avgDuration": "Average na tagal ng practice",
+        "overallAvgScore": "Kabuuang average na score"
+      },
+      "practiceTable": {
+        "type": "Uri",
+        "total": "Kabuuan",
+        "avgScore": "Average na score"
+      },
+      "skillProgression": {
+        "title": "Pag-unlad ng kasanayan",
+        "hint": "Para makita ang pag-unlad, pumili ng senaryo gamit ang filter.",
+        "error": "Hindi nai-load ang progress data",
+        "noData": "Walang chart data",
+        "scenarioPlaceholder": "Senaryo"
+      },
+      "postPracticeSurvey": {
+        "title": "Post practice survey",
+        "question": "Do you feel more prepared to engage with real prospects after this roleplay?",
+        "yes": "Yes",
+        "no": "No",
+        "user": "User",
+        "answer": "Answer",
+        "reason": "Reason",
+        "dateSubmitted": "Date submitted",
+        "showing": "Showing {{from}}-{{to}} of {{total}}",
+        "ofPage": "of {{totalPages}} page",
+        "empty": "No responses yet",
+        "emptyHint": "Once people respond, you’ll see their answers here."
+      }
+    },
+    "reportModal": {
+      "defaultTitle": "Ulat",
+      "reportPeriod": "Saklaw ng ulat",
+      "allTime": "Buong panahon",
+      "last30Days": "Huling 30 araw",
+      "customDate": "Custom na petsa",
+      "selectDateRange": "Pumili ng date range",
+      "download": "I-download",
+      "downloading": "Nagda-download...",
+      "successToast": "Matagumpay na na-download ang ulat"
+    },
+    "userDetails": {
+      "errors": { "loadFailed": "Hindi nai-load ang user details" },
+      "notFound": "Walang nakita na user",
+      "returnToList": "Bumalik sa listahan ng mga user",
+      "tabs": {
+        "overview": "Pangkalahatang-ideya",
+        "practiceList": "Listahan ng practice"
+      },
+      "practiceSummary": {
+        "title": "Practice summary",
+        "totalCompleted": "Kabuuang natapos",
+        "avgDuration": "Average na tagal ng practice",
+        "overallAvgScore": "Kabuuang average na score"
+      },
+      "table": {
+        "type": "Uri",
+        "total": "Kabuuan",
+        "avgScore": "Average na score",
+        "bestResult": "Pinakamagandang resulta"
+      },
+      "practiceList": {
+        "empty": "Wala pang natapos na practice",
+        "table": {
+          "completedAt": "Natapos noong",
+          "type": "Uri",
+          "client": "Kliente",
+          "duration": "Tagal",
+          "resultScore": "Resulta / Score"
+        }
+      },
+      "scoreLabel": "Score:",
+      "viewAssessment": "Tingnan ang assessment",
+      "skillProgression": {
+        "hint": "Para makita ang pag-unlad, pumili ng senaryo gamit ang filter."
+      }
+    },
+    "menuPersona": "Persona",
+    "menuScorecard": "Scorecard",
+    "menuRoleplay": "Roleplay",
+    "menuProduct": "Produkto",
+    "persona": {
+      "title": "Persona",
+      "duplicateNotice": "Ang nakopyang persona ay hindi pa nakakaapekto o nakakonekta sa anumang roleplay.",
+      "name": "Pangalan",
+      "gender": "Kasarian",
+      "male": "Lalaki",
+      "female": "Babae",
+      "age": "Edad",
+      "roleOrProfiler": "Papel / Profile one-liner",
+      "occupation": "Occupation",
+      "personality": "Personalidad",
+      "personalityDescription": "Ilarawan kung paano kumilos ang persona na ito sa mga tawag. Maaari mong itayo ito gamit ang mga katangian o magsulat ng sarili mong paglalarawan.",
+      "generateByTraits": "Lumikha sa pamamagitan ng pagpili ng mga katangian",
+      "englishAccent": "Accent ng English voice",
+      "englishAccentNote": "Tandaan: Ang iba pang mga wika ay mapipili pa rin sa pangunahing app.",
+      "supportingInfo": "Suportang impormasyon",
+      "fieldName": "Pangalan ng field",
+      "selectPersonaImage": "Pumili ng larawan ng persona",
+      "generatePersonaImage": "Lumikha ng larawan ng persona",
+      "generatePersonaImageDescription": "Bubuhaying namin ang iyong persona batay sa mga detalyeng iyong ibinigay.",
+      "generateImage": "Lumikha ng larawan",
+      "selectTraitsDescription": "Pumili ng kahit 3 katangian upang lumikha ng personalidad.",
+      "personalityTone": "Tono ng personalidad",
+      "buyerBehavior": "Pag-uugali ng mamimili",
+      "communicationStyle": "Estilo ng komunikasyon",
+      "generatePersonality": "Lumikha ng personalidad",
+      "craftingPersonality": "Lumilikha ng personalidad mula sa mga napiling katangian",
+      "confirmDelete": "Sigurado ka bang gusto mong tanggalin ang {{name}}?",
+      "placeholders": {
+        "name": "Hal. David Lee",
+        "age": "Hal. 30",
+        "role": "Hal. Procurement Manager, May-ari ng maliit na negosyo",
+        "personality": "Ilagay ang paglalarawan ng personalidad...",
+        "accent": "Pumili kung paano maririnig ang English voice ng persona",
+        "fieldName": "Pumili ng pangalan ng field"
+      },
+      "buttons": {
+        "newPersona": "+ Bagong persona",
+        "update": "I-update",
+        "updating": "Nag-a-update...",
+        "generating": "Lumilikha...",
+        "addNewField": "Magdagdag ng bagong field",
+        "backToPersonas": "Bumalik sa Personas"
+      },
+      "search": {
+        "placeholder": "Maghanap ng pangalan"
+      },
+      "table": {
+        "persona": "Persona",
+        "summary": "Buod",
+        "usedIn": "Ginagamit sa",
+        "roleplayCount": "{{count}} roleplay",
+        "roleplayCount_plural": "{{count}} roleplays"
+      },
+      "emptyState": {
+        "title": "Walang nahanap na persona",
+        "searchHint": "Subukang ayusin ang iyong paghahanap",
+        "createHint": "Lumikha ng iyong unang persona upang magsimula"
+      },
+      "pagination": {
+        "rows": "Mga Hilera"
+      },
+      "errors": {
+        "nameRequired": "Paki-lagay ang pangalan",
+        "invalidAge": "Paki-lagay ang wastong edad (18-100)",
+        "genderRequired": "Paki-piliin ang kasarian",
+        "roleRequired": "Paki-lagay ang papel",
+        "personalityRequired": "Paki-dagdag ng paglalarawan ng personalidad",
+        "accentRequired": "Paki-piliin ang accent",
+        "supportingFieldRequired": "Paki-dagdag ng kahit isang suportang field",
+        "imageRequired": "Paki-piliin ang larawan ng persona",
+        "loadFailed": "Nabigong mag-load ng mga persona",
+        "updateFailed": "Nabigong i-update ang persona. Pakisubukan muli.",
+        "deleteFailed": "Nabigong tanggalin ang persona",
+        "generatePersonalityFailed": "Nabigong lumikha ng personalidad"
+      },
+      "success": {
+        "personaUpdated": "Matagumpay na na-update ang persona!",
+        "personaDeleted": "Matagumpay na natanggal ang persona!"
+      },
+      "accentOptions": {
+        "american": "American English",
+        "british": "British English",
+        "singaporean": "Singaporean English"
+      },
+      "supportingFields": {
+        "fieldName": "Pangalan ng field",
+        "value": "Halaga",
+        "fieldOptions": {
+          "keyPriorities": "Mga pangunahing prioridad",
+          "financialSituation": "Sitwasyong pinansyal",
+          "locationCitizenship": "Lokasyon/Pagkamamamayan",
+          "education": "Edukasyon",
+          "workHistory": "Kasaysayan ng trabaho",
+          "companySizeSpend": "Laki ng kumpanya at gastos"
+        },
+        "fieldPlaceholders": {
+          "keyPriorities": "Mga pangunahing layunin o pangangailangan na nakakaimpluwensya sa desisyon sa pagbili",
+          "financialSituation": "Antas ng kita/ari-arian/badyet",
+          "locationCitizenship": "Bansa/rehiyon at pagkamamamayan",
+          "education": "Pinakamataas na edukasyon o pagsasanay",
+          "workHistory": "Mga pangunahing papel at industriya",
+          "companySizeSpend": "Sukat ng organisasyon, badyet, at antas ng gastos"
+        }
+      },
+      "traits": {
+        "traits": "Mga Katangian",
+        "friendly": "Palakaibigan",
+        "polite": "Magalang",
+        "rude": "Bastos",
+        "talkative": "Madaldal",
+        "guarded": "Maingat",
+        "priceSensitive": "Sensitibo sa presyo",
+        "qualityFocused": "Nakatuon sa kalidad",
+        "dataDriven": "Batay sa datos",
+        "feelingsDriven": "Batay sa damdamin",
+        "riskAverse": "Umiiwas sa panganib",
+        "riskTolerant": "Tumatanggap ng panganib",
+        "decisive": "Mabilis magpasya",
+        "indecisive": "Hindi mabilis magpasya",
+        "impulsive": "Impulsibo",
+        "patient": "Matiyaga",
+        "impatient": "Hindi matiyaga",
+        "straightToThePoint": "Direkta sa punto",
+        "casualConversational": "Kaswal/pag-uusap",
+        "prefersRealExamples": "Gusto ang tunay na mga halimbawa/case studies",
+        "visionaryStrategicFraming": "May bisyon/Gustong strategic framing"
+      }
+    },
+    "scorecard": {
+      "duplicateNotice": "Ang nakopyang scorecard ay hindi pa nakakaapekto o nakakonekta sa anumang roleplay."
+    },
+    "scenario": {
+      "duplicateNotice": "Ang nakopyang scenario ay hindi pa nakakaapekto o nakakonekta sa anumang roleplay."
+    },
+    "product": {
+      "duplicateNotice": "Ang nakopyang produkto ay hindi pa nakakaapekto o nakakonekta sa anumang roleplay."
+    }
+  },
+  "callAnalysis": {
+    "header": {
+      "title": "Pagsusuri ng Tawag"
+    },
+    "assessment": {
+      "loading": "Ikinakarga ang pagsusuri...",
+      "loadError": "Hindi makuha ang pagsusuri",
+      "notReady": "Hindi mahanap o hindi pa tapos ang pagsusuri",
+      "agent": "Ahente",
+      "customer": "Kliyente",
+      "emptyTranscript": "Walang transcript para sa pagsusuring ito.",
+      "file": "File",
+      "analyzedOn": "Sinuri noong",
+      "unknownFile": "Hindi kilalang file",
+      "tabs": {
+        "overview": "Pangkalahatang-ideya",
+        "assessment": "Assessment"
+      },
+      "overviewPlaceholder": "Ilalagay dito ang nilalaman ng overview",
+      "result": "Resulta",
+      "sections": {
+        "mandatory": "Mga kinakailangang aspeto",
+        "softSkills": "Soft skill",
+        "knowledgeApplication": "Paglalapat ng Kaalaman"
+      },
+      "summary": "Buod",
+      "suggestedNextSteps": "Inirekomendang mga susunod na hakbang",
+      "scorecardBreakdown": "Detalye ng scorecard",
+      "scores": {
+        "exceptional": "Napakahusay",
+        "excellent": "Mahusay",
+        "good": "Magaling",
+        "developing": "Patuloy na umuunlad",
+        "unsatisfactory": "Hindi kasiya-siya"
+      },
+      "downloadAssessment": "I-download ang pagtatasa",
+      "downloadingPdf": "Nini-download ang pdf...",
+      "failedToDownload": "Hindi na-download ang pagtatasa",
+      "callAssessmentTitle": "Pagtatasa ng tawag"
+    },
+    "transcript": {
+      "title": "Transkrip ng Tawag",
+      "placeholder": "Ilalagay dito ang nilalaman ng transkrip"
+    },
+    "upload": {
+      "pageTitle": "Pagsusuri ng tawag",
+      "uploadTitle": "Mag-upload ng recording ng tawag",
+      "dropPrompt": "I-drop ang recording ng tawag dito o",
+      "browse": "Mag-browse",
+      "uploadHint": "Mag-upload ng .mp3 (max 30 MB)",
+      "selectedFile": "Napiling file: {{name}}",
+      "selectedFileSize": "Laki: {{size}} MB",
+      "removeFile": "Alisin",
+      "analyzeButton": "Suriin ang tawag",
+      "uploading": "Nag-a-upload...",
+      "callsAnalyzedTitle": "Mga tawag na nasuri",
+      "loading": "Naglo-load ng mga pagsusuri...",
+      "emptyState": "Wala pang pagsusuri. Mag-upload ng audio file para magsimula.",
+      "table": {
+        "analyzedOn": "Sinuri noong",
+        "file": "File",
+        "duration": "Tagal",
+        "score": "Score",
+        "status": "Status",
+        "action": "Aksyon"
+      },
+      "statuses": {
+        "uploading": "Nag-a-upload...",
+        "transcribing": "Nagta-transcribe...",
+        "processing": "Pinoproseso...",
+        "completed": "Tapos na",
+        "failed": "Nabigo"
+      },
+      "toasts": {
+        "loadFailed": "Hindi nai-load ang mga nakaraang pagsusuri",
+        "analysisQueued": "Sinisimulan na namin ang pagsusuri. Lalabas itong 'Tapos na' sa talahanayan kapag handa na.",
+        "analysisComplete": "Matagumpay na natapos ang pagsusuri!",
+        "analysisFailed": "Nabigo ang pagsusuri: {{error}}",
+        "unknownError": "Hindi kilalang error",
+        "fileTooLarge": "Dapat mas mababa sa 30MB ang laki ng file",
+        "invalidFileType": "Mag-upload ng MP3 file",
+        "uploadFailed": "Hindi ma-upload ang file"
+      },
+      "unknownFile": "Hindi kilala",
+      "searchPlaceholder": "Hanapin ang pangalan ng file",
+      "noSearchResults": "Walang file na tumugma sa iyong paghahanap"
+    }
+  }
+}

@@ -1,0 +1,1319 @@
+{
+  "common": {
+    "loading": "로딩 중...",
+    "error": "오류",
+    "unexpectedError": "예기치 않은 오류가 발생했습니다.",
+    "save": "저장",
+    "cancel": "취소",
+    "close": "닫기",
+    "hupo": "Hupo",
+    "info": "정보",
+    "continue": "계속",
+    "beta": "베타",
+    "text": "텍스트",
+    "voice": "음성",
+    "processing": "처리 중...",
+    "hupoIcon": "Hupo 아이콘",
+    "confirm": "확인",
+    "delete": "삭제",
+    "edit": "수정",
+    "view": "보기",
+    "search": "검색",
+    "notAvailable": "체험판에서는 사용할 수 없습니다",
+    "contactUs": "문의하기",
+    "notNow": "나중에",
+    "you": "나",
+    "icon": "아이콘",
+    "or": "또는",
+    "modify": "수정",
+    "updateError": "이름 업데이트에 실패했습니다. 다시 시도해 주세요.",
+    "importantNotice": "중요 안내",
+    "aiDisclaimer": "AI 면책 조항",
+    "send": "전송",
+    "sending": "전송 중...",
+    "duration": {
+      "minutes": "{{count}}분"
+    },
+    "unknown": "알 수 없음",
+    "duplicate": "복제"
+  },
+  "errors": {
+    "audioPlaybackFailed": "오디오 피드백 재생에 실패했습니다.",
+    "audioPlaybackStart": "오디오 재생 시작 중 오류가 발생했습니다.",
+    "audioGenerationFailed": "오디오 피드백 생성에 실패했습니다.",
+    "nameUpdateFailed": "이름 업데이트에 실패했습니다. 다시 시도해 주세요."
+  },
+  "chart": {
+    "toggleSeries": "{{name}} 시리즈 표시/숨기기"
+  },
+  "auth": {
+    "login": "로그인",
+    "logout": "로그아웃",
+    "signUp": "회원가입",
+    "forgotPassword": "비밀번호를 잊으셨나요?",
+    "verifyEmailTitle": "먼저 이메일을 인증해 주세요",
+    "verifyEmailDescription": "받은 편지함에서 인증 링크를 확인한 후 로그아웃하고 다시 로그인하여 인증을 완료해 주세요.",
+    "hupoLogoAlt": "Hupo 로고",
+    "enterCompanyName": "시작하려면 회사명을 입력하세요",
+    "companyName": "회사명",
+    "companyNamePlaceholder": "예: Acme",
+    "getStarted": "시작하기",
+    "demoMode": "데모 모드",
+    "errors": {
+      "title": "인증 오류",
+      "unknown_auth0": "인증에 실패했습니다. 다시 시도해 주세요.",
+      "tryAgain": "다시 시도",
+      "unknown": "알 수 없는 오류가 발생했습니다",
+      "companyNotFound": "회사를 찾을 수 없습니다",
+      "backHome": "홈으로 돌아가기"
+    },
+    "admin": {
+      "verifyingAccess": "접근 권한 확인 중...",
+      "syncing": "관리자 인증 처리 중...",
+      "notAuthorized": "귀하의 계정은 관리자 패널에 접근할 권한이 없습니다. 접근 권한을 요청하려면 관리자에게 문의하세요.",
+      "message": "관리자 인증 중 오류가 발생했습니다."
+    },
+    "carousel": {
+      "item1": {
+        "title": "중요한 세일즈 순간을 미리 연습하세요",
+        "desc": "가격 방어나 경쟁사 반론 대응 같은 중요한 세일즈 순간을 시뮬레이션하여 실전에 대비하세요."
+      },
+      "item2": {
+        "title": "다음 거래를 놓치지 않도록 실행 가능한 인사이트 제공",
+        "desc": "무엇이 효과적이었고, 무엇이 그렇지 않았는지, 그리고 다음에 더 강하게 클로징하는 방법에 대한 명확한 인사이트를 얻어 자신감과 통제력을 키우세요."
+      },
+      "item3": {
+        "title": "귀사의 세일즈 프로세스에 맞춤화된 시나리오",
+        "desc": "귀사의 세일즈 프로세스, 반론, 구매자 페르소나를 기반으로 연습하여 실제 상황처럼 느껴지고 중요한 순간에 거래를 성사시키세요."
+      }
+    }
+  },
+  "home": {
+    "welcome": "안녕하세요",
+    "whatChallenge": "오늘 어떤 리더십 과제가 있으신가요?",
+    "selectTopic": "새 세션을 시작하려면 아래 주제 중 하나를 선택하세요:",
+    "getStarted": "새 세션",
+    "activeSession": "진행 중인 세션",
+    "pastSessions": "지난 세션",
+    "meetingInsights": "미팅 인사이트",
+    "helpOtherLeaders": "다른 리더들에게 이렇게 도움을 드리고 있습니다",
+    "practiceConversations": "어려운 대화 연습하기",
+    "practiceConversationsExample": "\"어려운 피드백을 전달하는 연습이 필요합니다\"라고 말해보세요",
+    "getDayToDay": "일상적인 과제에 대한 조언 받기",
+    "getDayToDayExample": "\"성과가 저조한 직원을 어떻게 지원할 수 있나요?\"라고 물어보세요",
+    "askForTips": "팁과 자료 요청하기",
+    "askForTipsExample": "\"간단한 1:1 미팅 프레임워크를 공유해 주실 수 있나요?\"라고 물어보세요",
+    "chooseScenario": "또는 현실적인 AI 페르소나와 함께 인터랙티브 연습을 위한 시나리오를 선택하세요:",
+    "startNow": "지금 시작 >",
+    "home": "홈",
+    "pastPractices": "연습 기록",
+    "callAnalysis": "통화 분석",
+    "dashboard": "대시보드"
+  },
+  "sessions": {
+    "newSession": "새 세션",
+    "activeSession": "진행 중인 세션",
+    "pastSessions": "지난 세션",
+    "endSession": "세션 종료",
+    "sessionEnded": "세션이 종료되었습니다",
+    "interactive": "인터랙티브",
+    "noActiveSession": "진행 중인 세션이 없습니다",
+    "noPastSessions": "지난 세션이 없습니다",
+    "textRoleplay": "텍스트 롤플레이",
+    "voiceRoleplay": "음성 롤플레이",
+    "loadingPastSessions": "지난 세션 로딩 중...",
+    "chatHistory": "채팅 기록",
+    "roleplayInsights": "롤플레이 인사이트",
+    "generalCoaching": "일반 코칭",
+    "endSessionDescription": "진행 중인 세션을 종료하면 롤플레이 세션 평가가 생성됩니다.",
+    "endSessionTitle": "현재 세션을 종료하시겠습니까?",
+    "endSessionButton": "세션 종료",
+    "endedSuccessfully": "세션이 성공적으로 종료되었습니다",
+    "endSessionError": "세션 종료에 실패했습니다",
+    "sessionNotFound": "세션을 찾을 수 없습니다",
+    "startConversationError": "메인 대화 시작에 실패했습니다",
+    "skipIntroError": "소개 건너뛰기에 실패했습니다",
+    "endPracticeError": "연습 세션 종료에 실패했습니다",
+    "generateScenarioError": "시나리오 생성에 실패했습니다",
+    "startRoleplayError": "롤플레이 시작에 실패했습니다",
+    "startPracticeError": "연습 시작에 실패했습니다. 마이크 권한을 확인해 주세요.",
+    "failedToLoadRoleplay": "롤플레이 세션 로딩에 실패했습니다",
+    "connecting": "연결 중...",
+    "introduction": "소개",
+    "mainConversation": "메인 대화",
+    "ending": "종료 중...",
+    "scenario": "시나리오",
+    "startPractice": "연습 시작",
+    "aiSpeaking": "AI 말하는 중",
+    "aiListening": "AI 듣는 중",
+    "skipIntroduction": "소개 건너뛰기",
+    "endSessionAction": "세션 종료",
+    "sessionTimeWarning": "1분 남았습니다. {{minutes}}분이 되면 세션이 자동으로 종료됩니다.",
+    "roleplayInstructions": "롤플레이 지침",
+    "goToRoleplay": "롤플레이로 이동",
+    "conversationPartnerPersona": "대화 파트너 페르소나",
+    "framework": "프레임워크",
+    "frameworkToPractice": "연습할 프레임워크",
+    "viewFrameworkDetails": "프레임워크 세부 정보 보기",
+    "viewScenarioDetails": "시나리오 세부 정보, 목표 및 프레임워크 보기",
+    "endRoleplayInfo": "완료되면 화면 상단의 '롤플레이 종료'를 클릭하여 강점, 개선 영역 및 성장을 위한 실행 가능한 권장 사항에 대한 상세 분석을 받으세요.",
+    "endRoleplayError": "롤플레이 종료에 실패했습니다",
+    "introductionPhase": "소개",
+    "roleplayBegins": "롤플레이 시작",
+    "realtimeCoaching": "실시간 코칭",
+    "leavePageTitle": "이 페이지를 떠나시겠습니까?",
+    "leavePageDescription": "이 세션을 떠나면 현재 세션이 종료되고 강점, 개선 영역 및 권장 사항에 대한 요약이 생성됩니다.",
+    "leave": "떠나기",
+    "persona": "페르소나",
+    "personaDescription": "이것은 롤플레이 전반에 걸쳐 대화 파트너의 행동을 결정합니다.",
+    "personaRecommendation": "추천 이유:",
+    "defensiveRecommendation": "설명된 동료는 팀원을 질책하고 거친 어조를 사용하는 공격적인 행동을 보이며, 긴장과 갈등을 야기하는 대립적인 성격을 나타냅니다.",
+    "generatingPersona": "{{persona}} 페르소나 생성 중",
+    "roleplayPractice": "롤플레이 연습",
+    "discovery": "발견",
+    "pruvantageAssureII": "PRUVantage Assure II",
+    "loadingSessionDetails": "세션 세부 정보 로딩 중...",
+    "loadingObjectives": "목표 로딩 중...",
+    "personalityDescription": "그/그녀는 {{personality}}입니다.",
+    "understandFinancialSituation": "{{clientName}}의 재정 상황과 니즈 파악하기",
+    "presentProductSolution": "솔루션으로 제품 제시하기",
+    "buildRapportConcerns": "라포 형성 및 우려 사항 전문적으로 해결하기",
+    "moveConversationNextSteps": "다음 단계로 대화 진행하기",
+    "theClient": "고객",
+    "defaultObjection": "지금은 별로 관심이 없습니다.",
+    "with": "와(과) 함께",
+    "sessionTitle": "{{module}} - {{persona}} 고객",
+    "error": "오류",
+    "retry": "재시도",
+    "sessionCompleted": "세션 완료!",
+    "sessionCompletedDescription": "수고하셨습니다! 롤플레이 세션을 성공적으로 완료했습니다.",
+    "duration": "세션 시간",
+    "overallScore": "종합 점수",
+    "practiceAgain": "다시 연습하기",
+    "viewAssessment": "평가 보기",
+    "returnHome": "홈으로 돌아가기",
+    "sessionStanding": "세션 등급",
+    "sessionFinishedAt": "{{time}}에 세션 종료"
+  },
+  "pastPractices": {
+    "emptyTitle": "연습 기록이 없습니다",
+    "emptyDescription": "첫 번째 세션을 시작하여 실제 영업 대화를 연습하고, 맞춤형 피드백을 받고, 피치를 개선하기 위한 실행 가능한 팁을 확인하세요.",
+    "startNewPractice": "새 연습 시작",
+    "failedToLoad": "연습 기록을 불러오지 못했습니다."
+  },
+  "errorBoundary": {
+    "oops": "이런!",
+    "error": "오류",
+    "unexpectedError": "예기치 않은 오류가 발생했습니다."
+  },
+  "trial": {
+    "ended": "체험 기간이 종료되었습니다",
+    "upgradeMessage": "전체 기능을 계속 사용하려면 조직의 계정을 업그레이드하도록 문의해 주세요."
+  },
+  "feedback": {
+    "title": "이 롤플레이 후 실제 잠재 고객과 대화할 준비가 더 되셨나요?",
+    "description": "여러분의 의견을 듣고 싶습니다! 어떻게 개선할 수 있는지 알려주세요.",
+    "placeholder": "더 준비가 되었다고 느끼는 이유와 자신감에 도움이 된 것을 공유해 주세요.",
+    "skip": "건너뛰기",
+    "send": "전송",
+    "thankYou": "피드백이 전송되었습니다. 의견을 공유해 주셔서 감사합니다!",
+    "shareFeedback": "피드백 공유",
+    "closeFeedback": "피드백 닫기",
+    "yes": "예",
+    "no": "아니오",
+    "reason": "이유"
+  },
+  "mobile": {
+    "closeSidebar": "사이드바 닫기",
+    "yourProfile": "내 프로필",
+    "openSidebar": "사이드바 열기"
+  },
+  "sidebar": {
+    "reportIssue": "문제 신고",
+    "reportIssuePlaceholder": "문제 또는 피드백을 여기에 설명해 주세요",
+    "reportIssueSuccess": "감사합니다! 신고가 접수되었습니다.",
+    "reportIssueError": "문제 신고에 실패했습니다. 다시 시도해 주세요."
+  },
+  "manage": {
+    "admin": "관리자",
+    "adminDashboard": "관리자 대시보드",
+    "menuDashboard": "대시보드",
+    "menuUsers": "사용자",
+    "menuSettings": "설정",
+    "downloadReport": "보고서 다운로드",
+    "team": "팀",
+    "noTeams": "배정된 팀이 없습니다",
+    "allScenarios": "모든 시나리오",
+    "settings": {
+      "inviteUser": "사용자 초대",
+      "importUsers": "사용자 가져오기",
+      "createTeam": "팀 생성",
+      "allStatus": "모든 상태",
+      "active": "활성",
+      "deactivated": "비활성화",
+      "invited": "초대됨",
+      "userInvited": "사용자가 초대되었습니다.",
+      "errorInvitingUser": "사용자 초대 중 오류 발생",
+      "userEdited": "사용자가 수정되었습니다.",
+      "errorEditingUser": "사용자 수정 중 오류 발생",
+      "userDeactivated": "사용자가 비활성화되었습니다.",
+      "errorDeactivatingUser": "사용자 비활성화 중 오류 발생",
+      "teamSaved": "팀이 저장되었습니다.",
+      "errorSavingTeam": "팀 저장 중 오류 발생",
+      "teamEdited": "팀이 수정되었습니다.",
+      "errorEditingTeam": "팀 수정 중 오류 발생",
+      "bulkInvite": {
+        "title": "사용자 가져오기",
+        "description": "제공된 템플릿을 사용하여 Excel 파일을 업로드하면 여러 사용자를 한 번에 초대할 수 있습니다.",
+        "downloadTemplate": "템플릿 다운로드",
+        "dropFile": "파일을 여기에 드롭하거나",
+        "browse": "찾아보기",
+        "uploadHint": ".xls, .xlsx 업로드 (한 번에 최대 1000명)",
+        "uploading": "업로드 중...",
+        "remove": "제거",
+        "importUsers": "사용자 가져오기",
+        "recentImports": "최근 가져오기",
+        "noImports": "아직 가져오기가 없습니다. 최근 가져오기가 여기에 표시됩니다.",
+        "processingFile": "파일 처리 중",
+        "usersInvited": "{{count}}명의 사용자가 초대되었습니다",
+        "failed": "실패",
+        "downloadErrorReport": "오류 보고서 다운로드",
+        "uploadedBy": "{{name}}님이 {{date}}에 업로드함",
+        "showing": "{{from}}-{{to}} / {{total}} 표시",
+        "ofPage": "총 {{total}} 페이지",
+        "invalidExtension": ".xls 또는 .xlsx 파일을 업로드하세요.",
+        "fileTooLarge": "파일 크기는 3MB 미만이어야 합니다",
+        "uploadSuccess": "파일을 가져오는 중입니다. 결과가 여기에 표시되며 완료되면 알림이나 이메일을 보내드립니다!",
+        "uploadError": "파일 업로드 실패",
+        "validating": "검증 중...",
+        "importing": "가져오는 중...",
+        "precheckError": "파일 검증 실패",
+        "wrongTemplate": "올바른 템플릿을 사용하세요",
+        "maxUsersExceeded": "한 번에 최대 1000명의 사용자만 업로드 가능합니다",
+        "importError": "파일 가져오기 실패",
+        "importSuccess": "파일을 가져오는 중입니다. 결과가 여기에 표시되며 완료되면 알림을 보내드립니다!",
+        "note": "참고",
+        "validationSummary": "총 {{total}}개 중 {{valid}}개 유효, {{invalid}}개 무효",
+        "validationIssues": "검증 문제",
+        "onlyValidImported": "계속하면 유효한 행만 가져옵니다.",
+        "failedCount": "{{failed}}개 실패"
+      },
+      "roles": {
+        "superadmin": {
+          "description": "사용자, 팀 및 권한 관리를 포함한 모든 메뉴 및 작업에 대한 전체 액세스 권한이 있습니다."
+        },
+        "admin": {
+          "description": "관리자 애플리케이션에 대한 보기 전용 액세스 권한이 있습니다."
+        },
+        "user": {
+          "description": "train.hupo.co의 기본 앱에만 액세스할 수 있습니다."
+        }
+      }
+    },
+    "errors": {
+      "usersLoadFailed": "사용자 데이터를 불러오지 못했습니다"
+    },
+    "common": {
+      "noPracticeData": "연습 데이터가 없습니다",
+      "noPracticeDataHint": "사용자가 연습을 완료하면 연습 데이터가 여기에 표시됩니다",
+      "notAwardedTooltip": "사용자가 필수 기준을 충족하지 않아 등급이 부여되지 않은 세션입니다."
+    },
+    "pagination": {
+      "rowsPerPage": "페이지당 행 수",
+      "page": "페이지",
+      "of": "/ {{totalPages}}",
+      "showing": "{{total}}개 중 {{from}}-{{to}} 표시"
+    },
+    "usersPage": {
+      "noData": "사용자 데이터가 없습니다",
+      "searchPlaceholder": "이름 또는 이메일 검색",
+      "empty": {
+        "title": "사용자를 찾을 수 없습니다",
+        "description": "회사에 사용자가 추가되면 여기에 표시됩니다"
+      },
+      "table": {
+        "user": "사용자",
+        "totalCompleted": "총 완료된 연습",
+        "avgLength": "평균 연습 시간",
+        "avgScore": "전체 결과",
+        "lastSession": "마지막 연습 세션"
+      }
+    },
+    "dashboard": {
+      "errors": {
+        "loadFailed": "대시보드 데이터를 불러오지 못했습니다"
+      },
+      "noData": "데이터가 없습니다",
+      "welcomeBack": "다시 오셨군요, {{name}}님!",
+      "lastUpdated": "마지막 업데이트",
+      "unknown": "알 수 없음",
+      "refreshTooltip": "대시보드 데이터 새로고침",
+      "reports": {
+        "accountCreation": "계정 생성 보고서",
+        "activeUsers": "활성 사용자 보고서",
+        "repeatUsers": "재사용자 보고서",
+        "completedPractices": "완료된 연습 보고서"
+      },
+      "reportModal": {
+        "defaultTitle": "보고서",
+        "reportPeriod": "보고서 기간",
+        "allTime": "전체 기간",
+        "last30Days": "최근 30일",
+        "customDate": "사용자 지정 날짜",
+        "selectDateRange": "날짜 범위 선택",
+        "download": "다운로드",
+        "downloading": "다운로드 중...",
+        "successToast": "보고서가 성공적으로 다운로드되었습니다"
+      },
+      "accountSummary": {
+        "title": "계정 요약",
+        "accountsCreated": "생성된 계정",
+        "activeUsers30d": "활성 사용자 (최근 30일)",
+        "activeUsersTooltip": "최근 30일 동안 하나 이상의 롤플레이 연습을 완료한 사용자 수입니다.",
+        "vsPrev30d": "이전 30일 대비",
+        "repeatUsers": "재사용자",
+        "repeatUsersTooltip": "라이선스 기간 동안 두 번 이상의 롤플레이 연습을 완료한 사용자 수입니다."
+      },
+      "practiceSummary": {
+        "title": "연습 요약",
+        "totalCompleted": "총 완료된 연습",
+        "totalCompletedTooltip": "라이선스 기간 동안 완료된 총 롤플레이 연습 수입니다. 연습은 사용자가 최소 6개의 메시지로 세션을 종료한 후 롤플레이 평가를 받으면 '완료'로 간주됩니다.",
+        "avgDuration": "평균 연습 시간",
+        "overallAvgScore": "전체 평균 점수"
+      },
+      "practiceTable": {
+        "type": "유형",
+        "total": "총 연습",
+        "avgScore": "평균 점수"
+      },
+      "skillProgression": {
+        "title": "스킬 향상",
+        "hint": "스킬 향상을 보려면 필터를 사용하여 시나리오를 선택하세요.",
+        "error": "진행 데이터를 불러오지 못했습니다",
+        "noData": "차트 데이터가 없습니다",
+        "scenarioPlaceholder": "시나리오"
+      },
+      "postPracticeSurvey": {
+        "title": "연습 후 설문조사",
+        "question": "이 롤플레이 후 실제 잠재 고객과 대화할 준비가 더 되셨나요?",
+        "yes": "예",
+        "no": "아니오",
+        "user": "사용자",
+        "answer": "답변",
+        "reason": "이유",
+        "dateSubmitted": "제출 날짜",
+        "showing": "{{total}}개 중 {{from}}-{{to}} 표시",
+        "ofPage": "/ {{totalPages}} 페이지",
+        "empty": "아직 응답이 없습니다",
+        "emptyHint": "사람들이 응답하면 여기에서 답변을 확인할 수 있습니다."
+      }
+    },
+    "userDetails": {
+      "errors": {
+        "loadFailed": "사용자 세부 정보를 불러오지 못했습니다"
+      },
+      "notFound": "사용자를 찾을 수 없습니다",
+      "returnToList": "사용자 목록으로 돌아가기",
+      "tabs": {
+        "overview": "개요",
+        "practiceList": "연습 목록"
+      },
+      "practiceSummary": {
+        "title": "연습 요약",
+        "totalCompleted": "총 완료된 연습",
+        "avgDuration": "평균 연습 시간",
+        "overallAvgScore": "전체 평균 점수"
+      },
+      "table": {
+        "type": "유형",
+        "total": "총 연습",
+        "avgScore": "평균 점수",
+        "bestResult": "최고 결과"
+      },
+      "practiceList": {
+        "empty": "아직 완료된 연습이 없습니다",
+        "table": {
+          "completedAt": "완료 시간",
+          "type": "유형",
+          "client": "고객",
+          "duration": "시간",
+          "resultScore": "결과 / 점수"
+        }
+      },
+      "scoreLabel": "점수:",
+      "viewAssessment": "평가 보기",
+      "skillProgression": {
+        "hint": "스킬 향상을 보려면 필터를 사용하여 시나리오를 선택하세요."
+      }
+    },
+    "menuPersona": "페르소나",
+    "menuScorecard": "스코어카드",
+    "menuRoleplay": "롤플레이",
+    "menuProduct": "제품",
+    "persona": {
+      "title": "페르소나",
+      "duplicateNotice": "복제된 페르소나는 아직 어떤 롤플레이에도 영향을 미치거나 연결되지 않았습니다.",
+      "name": "이름",
+      "gender": "성별",
+      "male": "남성",
+      "female": "여성",
+      "age": "나이",
+      "roleOrProfiler": "역할 / 프로필 한 줄 소개",
+      "occupation": "직업",
+      "personality": "성격",
+      "personalityDescription": "이 페르소나가 통화에서 어떻게 행동하는지 설명하세요. 특성을 선택하거나 직접 설명을 작성할 수 있습니다.",
+      "generateByTraits": "특성 선택으로 생성",
+      "englishAccent": "영어 음성 악센트",
+      "englishAccentNote": "참고: 다른 언어는 메인 앱에서 여전히 선택 가능합니다.",
+      "supportingInfo": "보조 정보",
+      "fieldName": "필드명",
+      "selectPersonaImage": "페르소나 이미지 선택",
+      "generatePersonaImage": "페르소나 이미지 생성",
+      "generatePersonaImageDescription": "제공하신 세부 정보를 기반으로 페르소나를 생성합니다.",
+      "generateImage": "이미지 생성",
+      "selectTraitsDescription": "성격을 생성하려면 최소 3개의 특성을 선택하세요.",
+      "personalityTone": "성격 톤",
+      "buyerBehavior": "구매자 행동",
+      "communicationStyle": "커뮤니케이션 스타일",
+      "generatePersonality": "성격 생성",
+      "craftingPersonality": "선택한 특성으로 성격 생성 중",
+      "confirmDelete": "{{name}}을(를) 삭제하시겠습니까?",
+      "placeholders": {
+        "name": "예: 김철수",
+        "age": "예: 30",
+        "role": "예: 구매 관리자, 소규모 사업주",
+        "personality": "성격 설명 입력...",
+        "accent": "페르소나의 영어 음성이 어떻게 들릴지 선택",
+        "fieldName": "필드명 선택"
+      },
+      "buttons": {
+        "newPersona": "+ 새 페르소나",
+        "update": "업데이트",
+        "updating": "업데이트 중...",
+        "generating": "생성 중...",
+        "addNewField": "새 필드 추가",
+        "backToPersonas": "페르소나로 돌아가기"
+      },
+      "search": {
+        "placeholder": "이름 검색"
+      },
+      "table": {
+        "persona": "페르소나",
+        "summary": "요약",
+        "usedIn": "사용 위치",
+        "roleplayCount": "{{count}}개 롤플레이",
+        "roleplayCount_plural": "{{count}}개 롤플레이"
+      },
+      "emptyState": {
+        "title": "페르소나를 찾을 수 없습니다",
+        "searchHint": "검색어를 조정해 보세요",
+        "createHint": "시작하려면 첫 번째 페르소나를 만드세요"
+      },
+      "pagination": {
+        "rows": "행"
+      },
+      "errors": {
+        "nameRequired": "이름을 입력해 주세요",
+        "invalidAge": "유효한 나이를 입력해 주세요 (18-100)",
+        "genderRequired": "성별을 선택해 주세요",
+        "roleRequired": "역할을 입력해 주세요",
+        "personalityRequired": "성격 설명을 추가해 주세요",
+        "accentRequired": "악센트를 선택해 주세요",
+        "supportingFieldRequired": "최소 하나의 보조 필드를 추가해 주세요",
+        "imageRequired": "페르소나 이미지를 선택해 주세요",
+        "loadFailed": "페르소나를 불러오지 못했습니다",
+        "updateFailed": "페르소나 업데이트에 실패했습니다. 다시 시도해 주세요.",
+        "deleteFailed": "페르소나 삭제에 실패했습니다",
+        "generatePersonalityFailed": "성격 생성에 실패했습니다"
+      },
+      "success": {
+        "personaUpdated": "페르소나가 성공적으로 업데이트되었습니다",
+        "personaDeleted": "페르소나가 성공적으로 삭제되었습니다"
+      },
+      "accentOptions": {
+        "american": "미국 영어",
+        "british": "영국 영어",
+        "singaporean": "싱가포르 영어"
+      },
+      "supportingFields": {
+        "fieldName": "필드명",
+        "value": "값",
+        "fieldOptions": {
+          "keyPriorities": "주요 우선순위",
+          "financialSituation": "재정 상황",
+          "locationCitizenship": "위치/시민권",
+          "education": "학력",
+          "workHistory": "경력",
+          "companySizeSpend": "회사 규모 및 지출"
+        },
+        "fieldPlaceholders": {
+          "keyPriorities": "구매 결정에 영향을 미치는 주요 목표 또는 니즈",
+          "financialSituation": "소득/자산/예산 수준",
+          "locationCitizenship": "국가/지역 및 시민권",
+          "education": "최고 학력 또는 훈련",
+          "workHistory": "주요 역할 및 산업",
+          "companySizeSpend": "조직 규모, 예산 및 지출 수준"
+        }
+      },
+      "traits": {
+        "traits": "특성",
+        "friendly": "친근한",
+        "polite": "예의 바른",
+        "rude": "무례한",
+        "talkative": "수다스러운",
+        "guarded": "경계하는",
+        "priceSensitive": "가격에 민감한",
+        "qualityFocused": "품질 중시",
+        "dataDriven": "데이터 중심",
+        "feelingsDriven": "감정 중심",
+        "riskAverse": "위험 회피",
+        "riskTolerant": "위험 감수",
+        "decisive": "결단력 있는",
+        "indecisive": "우유부단한",
+        "impulsive": "충동적인",
+        "patient": "인내심 있는",
+        "impatient": "성급한",
+        "straightToThePoint": "단도직입적인",
+        "casualConversational": "캐주얼/대화체",
+        "prefersRealExamples": "실제 예시/사례 연구 선호",
+        "visionaryStrategicFraming": "비전/전략적 프레이밍 선호"
+      }
+    },
+    "scorecard": {
+      "duplicateNotice": "복제된 스코어카드는 아직 어떤 롤플레이에도 영향을 미치거나 연결되지 않았습니다."
+    },
+    "scenario": {
+      "duplicateNotice": "복제된 시나리오는 아직 어떤 롤플레이에도 영향을 미치거나 연결되지 않았습니다."
+    },
+    "product": {
+      "duplicateNotice": "복제된 제품은 아직 어떤 롤플레이에도 영향을 미치거나 연결되지 않았습니다."
+    }
+  },
+  "nameInput": {
+    "whatsYourName": "어떻게 불러드릴까요?",
+    "name": "선호하는 이름",
+    "enterYourName": "예: 지수, 민호, 수진",
+    "description": "앱 전체에서 \"안녕하세요 지수님!\"처럼 이 이름을 사용합니다",
+    "continue": "계속"
+  },
+  "trialStatus": {
+    "ended": "체험 기간이 종료되었습니다",
+    "daysLeft": "체험 기간 {{days}}일 남음",
+    "upgradeEnded": "코칭 세션에 액세스하려면 업그레이드를 위해 문의해 주세요.",
+    "exploreFeatures": "체험 기간이 끝나기 전에 모든 기능을 살펴보세요.",
+    "contactToUpgrade": "업그레이드 문의"
+  },
+  "empty": {
+    "startSessionInfo": "지금 세션을 시작하여 대화를 연습하고, 맞춤형 가이드를 받고, 실행 가능한 팁을 받으세요.",
+    "startNewSession": "새 세션 시작"
+  },
+  "insights": {
+    "notAvailable": "롤플레이 평가를 사용할 수 없습니다",
+    "tooShort": "이 세션은 영업 성과를 평가하기에 너무 짧았습니다. 성과에 대한 전체 분석을 보려면 더 긴 시뮬레이션을 완료하세요.",
+    "returnHome": "홈으로 돌아가기",
+    "returnToChat": "채팅으로 돌아가기"
+  },
+  "notFound": {
+    "title": "음, 뭔가 잘못된 것 같습니다",
+    "description": "찾고 계신 것이 아닐 수 있습니다. 요청하신 페이지가 사라진 것 같습니다.",
+    "goBackHome": "홈으로 돌아가기",
+    "viewActiveSessions": "진행 중인 세션 보기"
+  },
+  "logout": {
+    "message": "로그아웃 중..."
+  },
+  "loading": {
+    "retrievingSession": "세션 데이터 가져오는 중",
+    "configuringPreferences": "환경 설정 구성 중",
+    "restoringState": "세션 상태 복원 중",
+    "gettingReady": "모든 준비 중",
+    "checkingStatus": "활성 세션 상태 확인 중",
+    "connectingSession": "활성 세션에 연결 중",
+    "loadingState": "세션 상태 로딩 중",
+    "almostReady": "거의 준비되었습니다",
+    "activeSession": "활성 세션 로딩 중",
+    "retrievingDetails": "저장된 세션 세부 정보 가져오는 중",
+    "loadingProgress": "이전 진행 상황 로딩 중",
+    "preparingEnvironment": "연습 환경 준비 중",
+    "restoringContext": "세션 컨텍스트 복원 중",
+    "preparingRoleplay": "롤플레이 준비 중",
+    "analyzingPerformance": "성과 분석 중",
+    "generatingFeedback": "피드백 생성 중",
+    "creatingSummary": "세션 요약 생성 중",
+    "almostDone": "거의 완료되었습니다",
+    "preparingSession": "세션 준비 중"
+  },
+  "practice": {
+    "loadingModules": "모듈 로딩 중...",
+    "failedToLoadModules": "모듈 로딩에 실패했습니다. 다시 시도해 주세요.",
+    "heyLetsStart": "안녕하세요 {{name}}님, 오늘 영업 스킬을 향상시켜 봅시다",
+    "selectCallType": "영업 통화 유형과 연습할 제품을 선택하세요",
+    "returnToModules": "모듈로 돌아가기",
+    "selectClientToStart": "통화를 시작할 고객을 선택하세요",
+    "profileTabLabel": "프로필",
+    "personalityTabLabel": "성격",
+    "startCall": "통화 시작",
+    "continueToPractice": "연습 계속하기",
+    "viewCallCriteria": "통화 기준 및 등급 보기",
+    "selectAllOptions": "모든 필수 옵션을 선택해 주세요",
+    "scrollToViewMore": "스크롤하여 더 보기",
+    "backToList": "목록으로 돌아가기",
+    "noPersonalBestMessage": "아직 개인 최고 기록이 없습니다. 등급에 대해 알아보기",
+    "personalBestMessage": "개인 최고 기록:",
+    "checkWhatsNext": "다음 단계 확인",
+    "learnAboutStandings": "등급에 대해 알아보기",
+    "learnAboutStandingsAndCriteria": "등급 및 기준에 대해 알아보기",
+    "firstTime": {
+      "welcomeTo": "환영합니다",
+      "subtitle": "이 연습 모듈을 시작해 봅시다",
+      "aboutModule": "이 모듈에 대해",
+      "whatToExpect": "기대할 수 있는 것",
+      "practiceExpectations": "연습 기대치",
+      "productsAvailable": "연습 가능한 제품",
+      "letsStart": "연습을 시작합시다!",
+      "acknowledgeAndContinue": "확인 후 계속",
+      "defaultDisclaimer": "이것은 인공지능으로 구동되며 지속적으로 학습하고 개선됩니다. 정확하고 최신 정보를 제공하기 위해 노력하지만, 응답은 정보 제공 목적으로만 사용되며 최종 결정으로 의존해서는 안 됩니다. 제품 정보 팩과 같은 공식 문서를 참조하여 정보를 확인하시기 바랍니다."
+    },
+    "standings": {
+      "title": "등급",
+      "sessionStanding": "세션 등급",
+      "currentSession": "현재 세션",
+      "lastResult": "지난 결과",
+      "personalBest": "개인 최고 기록",
+      "salesNovice": "영업 초보자",
+      "skilledAdvisor": "숙련된 어드바이저",
+      "strategicConsultant": "전략적 컨설턴트",
+      "clientVerification": "고객 확인",
+      "fourCExecution": "4C 실행",
+      "objectionHandling": "반론 처리",
+      "completed": "완료",
+      "notCompleted": "미완료",
+      "notStarted": "시작되지 않음",
+      "beginner": "초급",
+      "intermediate": "중급",
+      "expert": "전문가",
+      "achieved": "달성",
+      "standingsLadder": "등급 사다리",
+      "ladderDescription": "각 레벨의 특정 기준을 충족하여 더 높은 등급을 달성하세요. 등급은 각 시나리오별로 별도로 평가됩니다. 이러한 마일스톤을 달성하여 성장하는 전문성을 보여주세요.",
+      "mandatoryNote": "중요: 등급을 받으려면 모든 필수 기준을 완료해야 합니다(해당되는 경우).",
+      "standing": "등급",
+      "criteria": "기준",
+      "completeClientVerification": "고객 확인 완료",
+      "mandatory": "필수",
+      "openCall": "\"김/이/박 님, 안녕하세요. 저는 UOB의 <CA/SCA 이름>입니다. 지금 통화하시기 편하신가요?\"와 같이 통화를 시작하세요",
+      "askPermission": "\"통화를 계속하기 전에 의도된 수신자와 통화하고 있는지 확인하기 위해 간단한 확인을 해도 될까요?\"와 같이 허가를 구하세요",
+      "verifyCustomer": "최소 2가지 자격 정보를 요청하여 고객 정보를 확인하세요",
+      "achieve4CBeginner": "4C 실행에서 최소 '초급' 달성",
+      "partiallyApply4C": "다음으로 구성된 4C 프레임워크를 부분적으로 적용하세요:",
+      "capture": "포착:",
+      "captureDescription": "현재 뉴스에서 핫한 주제나 트렌딩 주제를 제안하여 잠재 고객의 관심을 끌어냅니다.",
+      "context": "맥락:",
+      "contextDescription": "라포를 형성하고, 대화를 프레이밍하고, 관련 시나리오나 생각을 자극하는 질문으로 고객의 상황을 인정합니다.",
+      "conflict": "갈등",
+      "conflictDescription": "잠재적인 재정적 위험을 식별하고 강조하여 긴박감을 조성하고, 날카로운 질문을 사용하여 고객이 결과를 고려하도록 유도합니다.",
+      "closure": "마무리",
+      "proposeFollowUp": "명확한 솔루션을 제안하고 고객의 특정 니즈를 논의하기 위한 후속 미팅을 확보합니다.",
+      "secureFollowUp": "고객의 특정 니즈를 논의하기 위한 후속 미팅을 확보합니다.",
+      "achieveObjectionBeginner": "반론 처리에서 최소 '초급' 달성",
+      "attemptObjectionHandling": "반론 처리를 시도합니다.",
+      "seeDetailsNovice": "'영업 초보자' 기준에서 세부 정보를 확인하세요.",
+      "achieve4CIntermediate": "4C 실행에서 최소 '중급' 달성",
+      "apply4CScripted": "모든 4C 프레임워크 단계를 스크립트대로 적용합니다. 예: 고객의 응답에 적응하거나 실제 이해를 보여주지 않고 스크립트를 그대로 읽습니다(4C 프레임워크 설명은 '영업 초보자' 기준 참조).",
+      "achieveObjectionIntermediate": "반론 처리에서 최소 '중급' 달성",
+      "handleOneObjection": "1개의 반론을 처리합니다.",
+      "achieve4CExpert": "4C 실행에서 최소 '전문가' 달성",
+      "apply4CDynamically": "4C 프레임워크를 역동적으로 적용합니다. 예: 고객의 신호에 따라 톤과 표현을 조정하고, 명확히 하는 질문을 하고, 단계를 대화에 자연스럽게 통합합니다(4C 프레임워크 설명은 '영업 초보자' 기준 참조).",
+      "achieveObjectionExpert": "반론 처리에서 최소 '전문가' 달성",
+      "handleTwoObjections": "2개의 반론을 처리합니다.",
+      "failed": "실패",
+      "pass": "통과",
+      "champion": "챔피언"
+    },
+    "steps": {
+      "selectModule": "모듈 선택",
+      "selectClient": "고객 선택"
+    },
+    "clientDetails": {
+      "age": "나이",
+      "profile": "프로필",
+      "personality": "성격",
+      "location": "소재지",
+      "education": "학력",
+      "occupation": "직업",
+      "financialSituation": "재정 상황",
+      "companySize": "회사 규모 및 지출",
+      "keyPriorities": "주요 우선순위",
+      "productKnowledge": "보험에 대한 인식",
+      "conversationPartnerPersona": "대화 파트너 페르소나",
+      "personalityTrait": "성격 특성",
+      "communicationsStyle": "커뮤니케이션 스타일",
+      "decisionMaking": "의사 결정",
+      "annualIncome": "연간 소득",
+      "annualIncomeFormat": "{{amount}}만원 연간 소득. {{situation}}",
+      "monthlyIncomeFormat": "{{amount}}만원 월간 소득. {{situation}}",
+      "startCall": "통화 시작",
+      "clientPhoto": "고객 사진",
+      "workHistory": "경력",
+      "companySizeAndSpend": "회사 규모 및 지출"
+    }
+  },
+  "roleplay": {
+    "personality": {
+      "nice": "친근하고 협조적 - 함께 일하기 쉽지만 갈등을 피할 수 있음",
+      "analytical": "세부 지향적이고 논리적 - 감정보다 데이터와 사실을 중시",
+      "sceptical": "의심이 많고 회의적 - 설득하려면 강력한 증거가 필요",
+      "rude": "직설적이고 성급함 - 함께 일하기 어려울 수 있음",
+      "friendly": "접근하기 쉽고 따뜻함 - 토론에 열려 있지만 신뢰가 필요"
+    },
+    "tabs": {
+      "profile": "프로필",
+      "personality": "성격",
+      "portfolio": "포트폴리오"
+    },
+    "fields": {
+      "name": "이름",
+      "age": "나이",
+      "gender": "성별",
+      "location": "소재지",
+      "education": "학력",
+      "occupation": "직업",
+      "annualIncome": "연간 소득",
+      "financialSituation": "재정 상황",
+      "keyPriorities": "주요 우선순위",
+      "productKnowledge": "보험에 대한 인식",
+      "personalityType": "성격 유형",
+      "difficultyLevel": "난이도",
+      "communicationStyle": "커뮤니케이션 스타일",
+      "decisionMaking": "의사 결정",
+      "persona": "페르소나",
+      "demographic": "인구 통계",
+      "aum": "운용 자산",
+      "numberOfKids": "자녀 수",
+      "behavior": "행동",
+      "workHistory": "경력",
+      "liquidityNeeds": "유동성 니즈",
+      "riskAppetite": "위험 성향",
+      "investmentFrequency": "투자 빈도",
+      "keyLifestyleExpenditure": "주요 생활비 지출",
+      "personalPriorities": "개인 우선순위",
+      "discPersonality": "DISC 성격",
+      "hsbcTier": "등급"
+    },
+    "difficulty": {
+      "easy": "쉬움",
+      "medium": "보통",
+      "hard": "어려움"
+    },
+    "practiceDetails": "연습 세부 정보",
+    "practiceObjectives": "연습 목표",
+    "mainObjection": "주요 반론",
+    "salesTechnique": "영업 기법",
+    "advisoryTechnique": "자문 기법",
+    "viewDetails": "세부 정보 보기",
+    "clientDetails": "고객 정보",
+    "productInformation": "제품 정보",
+    "processReference": "프로세스 참조",
+    "competitiveIntelligence": {
+      "title": "경쟁 정보",
+      "type": "유형",
+      "keyFeatures": "주요 기능",
+      "strengths": "그들의 강점",
+      "limitations": "그들의 한계",
+      "positioningStrategy": "포지셔닝 전략",
+      "options": {
+        "none": "경쟁 정보 없음",
+        "duplicate": "경쟁사 요약 복제",
+        "duplicateDescription": "이전 경쟁사 요약을 복제합니다.",
+        "generate": "경쟁사 요약 생성",
+        "generateDescription": "이 옵션을 선택하면 인터넷에서 경쟁사 제품을 검색하고 요약합니다. 롤플레이 중 경쟁사 차별화를 평가하려는 경우 유용합니다."
+      }
+    },
+    "selectedForSession": "이 {{type}}에 선택됨",
+    "ageAndOccupation": "{{age}}세, {{occupation}}",
+    "aiCoach": "AI 코치",
+    "readyToConnect": "연결 준비 완료",
+    "connecting": "연결 중",
+    "connected": "연결됨",
+    "establishingConnection": "연결 설정 중...",
+    "speakNaturally": "자연스럽게 말씀하세요 - 듣고 있습니다",
+    "endingSession": "세션 종료 중...",
+    "client": "고객",
+    "goToRoleplay": "롤플레이로 이동",
+    "supportMaterials": "지원 자료",
+    "practiceOverview": "연습 개요",
+    "practiceOverviewDescription": "시나리오, 목표 및 지원 자료 보기",
+    "callCriteria": "통화 기준",
+    "softSkills": "소프트 스킬",
+    "knowledgeSkills": "지식 스킬",
+    "clientPortfolio": "고객 포트폴리오",
+    "portfolioReviewTrigger": "포트폴리오 검토 이벤트 트리거",
+    "scorecard": "스코어카드",
+    "scorecardDescription": "세션은 다음 주요 스킬 영역에서 평가됩니다:",
+    "scorecardDescriptionAlternative": "이 스코어카드는 주요 스킬 영역에서 세션이 어떻게 평가되는지 설명합니다. 무엇이 평가되고 다음에 어디에 집중해야 하는지 확인하세요.",
+    "scorecardFooter": "무엇이 측정되는지, 강점을 어떻게 키울 수 있는지 확인하세요.",
+    "viewDetail": "세부 정보 보기",
+    "scorecardModalDescription": "이 스코어카드는 주요 스킬 영역에서 세션이 어떻게 평가되는지 설명합니다. 무엇이 평가되고 다음에 어디에 집중해야 하는지 확인하세요.",
+    "prudentialObjectionHandlingScorecardDescription": "이 스코어카드는 영업 기법을 위한 3F 모델(Feel, Felt, Found)과 반론 처리를 위한 LAPR 프레임워크(Listen, Acknowledge, Probe, Reframe)를 사용하여 고객 반론을 처리하는 능력을 평가합니다.",
+    "jumpToSection": "섹션으로 이동"
+  },
+  "assessment": {
+    "roleplaySessionAssessment": "롤플레이 세션 평가",
+    "jumpToSection": "섹션으로 이동",
+    "returnToAssessment": "평가로 돌아가기",
+    "overview": "개요",
+    "nextSteps": "다음 단계",
+    "salesTechnique": "영업 기법",
+    "salesNegotiationSkills": "영업 및 협상 기술",
+    "productKnowledge": "제품 지식",
+    "advisoryTechnique": "자문 기법",
+    "processAdherence": "프로세스 준수",
+    "communicationAndPresence": "커뮤니케이션 및 프레젠스",
+    "whatToImprove": "개선할 점",
+    "relationshipManagement": "관계 관리",
+    "hsbcRepresentation": "HSBC 대표성",
+    "objectionHandling": "반론 극복",
+    "needsAnalysis": "니즈 분석",
+    "productPitch": "삼품 설명",
+    "aiaKoE2E": {
+      "introduction": "도입",
+      "needsAnalysis": "니즈 분석",
+      "productPitch": "상품설명",
+      "objectionHandling": "반론극복",
+      "closing": "클로징",
+      "other": "기타"
+    },
+    "prudentialObjectionHandling": {
+      "salesTechniqueDescription": "공감을 만들고, 신뢰성을 구축하고, 설득력 있는 솔루션을 제시하기 위한 3F 모델(Feel, Felt, Found) 적용 능력을 측정합니다.",
+      "laprDescription": "고객 반론을 효과적으로 처리하기 위한 LAPR 프레임워크(Listen, Acknowledge, Probe, Reframe) 적용 능력을 측정합니다."
+    },
+    "technicalKnowledge": "기술 지식",
+    "operationalKnowledge": "운영 지식",
+    "softSkills": "소프트 스킬",
+    "knowledgeSkills": "지식 스킬",
+    "overallScore": "종합 점수",
+    "why": "이유",
+    "suggestion": "제안",
+    "example": "예시",
+    "strengths": "강점",
+    "practiceInfo": "연습 정보",
+    "overallResult": "전체 결과",
+    "showBreakdown": "세부 내역 보기",
+    "hideBreakdown": "세부 내역 숨기기",
+    "type": "유형",
+    "product": "제품",
+    "client": "고객",
+    "completedAt": "완료 일시",
+    "duration": "시간",
+    "practiceAgain": "다시 연습하기",
+    "stopListening": "중지",
+    "listenToFeedback": "피드백 듣기",
+    "generatingAudioFeedback": "오디오 생성 중...",
+    "downloading": "다운로드 중...",
+    "downloadAsPdf": "PDF로 다운로드",
+    "introduction": "소개",
+    "needsHealthExploration": "니즈 및 건강 탐색으로의 전환",
+    "ratings": {
+      "poor": "미흡",
+      "fair": "보통",
+      "good": "양호",
+      "excellent": "우수"
+    },
+    "standings": {
+      "currentSession": "세션 등급",
+      "lastResult": "지난 결과",
+      "personalBest": "개인 최고 기록",
+      "salesNovice": "영업 초보자",
+      "skilledAdvisor": "숙련된 어드바이저",
+      "strategicConsultant": "전략적 컨설턴트",
+      "clientVerification": "고객 확인",
+      "objectionHandling": "반론 처리",
+      "beginner": "초급",
+      "intermediate": "중급",
+      "expert": "전문가",
+      "notAvailable": "사용 불가",
+      "seeHowStandingsWork": "등급 작동 방식 보기",
+      "learnMore": "자세히 알아보기",
+      "mandatory": "필수",
+      "incomplete": "미완료",
+      "completed": "완료",
+      "needsImprovement": "개선 필요",
+      "dynamicFramework": "{{framework}} ({{parts}})",
+      "standingUnavailable": "등급 불가: 필수 기준이 충족되지 않았습니다.",
+      "notCompleted": "미완료",
+      "threeFExecution": "3F 실행",
+      "fourCExecution": "4C 실행",
+      "newBadge": "신규",
+      "noDataAvailable": "등급 데이터를 사용할 수 없습니다",
+      "emergingSeller": "신진 판매자"
+    },
+    "viewTranscript": "대화록 보기",
+    "toImprove": "개선할 점",
+    "completed": "완료됨",
+    "sessionDataNotAvailable": "세션 데이터를 사용할 수 없습니다",
+    "unableToRestartPractice": "연습을 다시 시작할 수 없습니다 - 세션 데이터가 없습니다",
+    "failedToDownloadPDF": "PDF 보고서 다운로드에 실패했습니다.",
+    "generating": "생성 중...",
+    "downloadReport": "보고서 다운로드",
+    "msigSalesTechniqueDescription": "성공적인 대화를 이끌기 위해 설정된 프레임워크를 따르는 능력을 측정합니다.",
+    "mandatoryFailed": "등급 불가: 필수 기준이 충족되지 않았습니다.",
+    "toProgressfocusOn": "등급을 향상시키려면 다음에 집중하세요:",
+    "summary": "요약",
+    "mandatoryFailedSummary": "필수 기준을 놓쳐서 등급을 받을 수 없습니다. 다른 영역에서의 성과를 검토하여 잘한 점을 확인하고, 다음에는 모든 단계를 완료하여 등급을 받으세요.",
+    "mandatoryFailedFocusOn": "모든 필수 기준 완료하기.",
+    "prudentialMandatoryNotMet": {
+      "summary": "필수 기준을 놓쳐서 등급을 받을 수 없습니다. 다른 영역에서의 성과를 검토하여 잘한 점을 확인하고, 다음에는 모든 단계를 완료하여 등급을 받으세요.",
+      "nextStepsTitle": "등급을 향상시키려면 다음에 집중하세요:",
+      "suggestedNextStep": "모든 필수 기준 완료하기."
+    },
+    "progressionSummary": {
+      "firstTime": "이 시나리오의 첫 번째 세션을 완료하신 것을 축하합니다. 이제 {{tierName}}입니다! {{summary}}",
+      "firstTimeHighest": "이 시나리오의 첫 번째 세션을 완료하고 최고 등급인 {{tierName}}을(를) 달성하신 것을 축하합니다! {{summary}}",
+      "upgrade": "이 시나리오에서 새로운 최고 등급인 {{tierName}}을(를) 달성하신 것을 축하합니다! {{summary}}",
+      "upgradeHighest": "이 시나리오에서 최고 등급인 {{tierName}}을(를) 달성하신 것을 축하합니다! {{summary}}",
+      "maintainedSame": "이 시나리오에서 {{tierName}} 등급을 유지했습니다. {{summary}}",
+      "maintainedHighest": "이 시나리오에서 {{tierName}} 등급을 유지했습니다. {{summary}}",
+      "maintainedImproved": "잘하셨습니다, 루브릭 점수가 향상되었습니다! 등급은 {{tierName}}으로 유지되지만, 다음 단계로 진행 중입니다. {{summary}}",
+      "maintainedImprovedHighest": "잘하셨습니다! {{tierName}} 등급을 유지하고 점수가 올랐습니다. {{summary}}",
+      "downgrade": "이 세션의 등급은 {{tierName}}입니다. {{summary}}",
+      "newBest": "새로운 최고 기록",
+      "nextSteps": "등급을 향상시키려면 다음에 집중하세요:",
+      "nextStepsHighest": "등급을 유지하려면 다음에 집중하세요:",
+      "suffixKeepPracticing": "계속 연습하세요! 더 높은 등급을 향해 가고 있습니다.",
+      "suffixHighestLevel": "이 최고 수준에서 지속적으로 성과를 낼 수 있도록 계속 연습하고 스킬을 다듬으세요!",
+      "suffixDowngrade": "계속 연습하세요! 금방 회복할 수 있고, 집중하면 개인 최고 기록으로 돌아갈 수 있습니다."
+    },
+    "performance": "성과",
+    "allSalesTechniques": "모든 영업 기법",
+    "audioFeedback": {
+      "overview": "개요입니다: {{summary}}",
+      "nextSteps": "다음 단계로, {{steps}}",
+      "salesTechniqueIntro": "영업 기법 피드백: {{max}}점 만점에 {{score}}점을 받으셨습니다.",
+      "salesTechniqueSection": "{{title}}에서 {{max}}점 만점에 {{score}}점을 받으셨습니다. {{why}} {{suggestion}}",
+      "productKnowledgeIntro": "제품 지식 피드백: {{max}}점 만점에 {{score}}점을 받으셨습니다.",
+      "productKnowledgeSection": "{{title}}에서 {{max}}점 만점에 {{score}}점을 받으셨습니다.",
+      "advisoryTechniqueIntro": "자문 기법 피드백: {{max}}점 만점에 {{score}}점을 받으셨습니다.",
+      "advisoryTechniqueSection": "{{title}}에서 {{max}}점 만점에 {{score}}점을 받으셨습니다. {{why}} {{suggestion}}",
+      "processAdherenceIntro": "프로세스 준수 피드백: {{max}}점 만점에 {{score}}점을 받으셨습니다.",
+      "processAdherenceSectionBase": "{{title}}에서 {{max}}점 만점에 {{score}}점을 받으셨습니다.",
+      "softSkillsIntro": "소프트 스킬 피드백: {{max}}점 만점에 {{score}}점을 받으셨습니다.",
+      "softSkillsSection": "{{title}}에서 {{max}}점 만점에 {{score}}점을 받으셨습니다.",
+      "clientVerificationIntro": "고객 확인 피드백: {{max}}점 만점에 {{score}}점을 받으셨습니다.",
+      "frameworkExecutionIntro": "프레임워크 실행 피드백: {{max}}점 만점에 {{score}}점을 받으셨습니다.",
+      "objectionHandlingIntro": "반론 처리 피드백: {{max}}점 만점에 {{score}}점을 받으셨습니다.",
+      "technicalKnowledgeIntro": "기술 지식 피드백:",
+      "productKnowledgeScore": "제품 지식: {{max}}점 만점에 {{score}}점을 받으셨습니다.",
+      "strengths": "강점: {{strengths}}.",
+      "toImprove": "개선할 영역: {{improvements}}."
+    },
+    "errors": {
+      "sessionNotFound": "세션을 찾을 수 없음",
+      "sessionForbidden": "접근 거부",
+      "genericError": "세션 로딩 오류",
+      "sessionNotFoundMessage": "찾고 계신 롤플레이 세션이 존재하지 않거나 삭제되었습니다.",
+      "sessionForbiddenMessage": "이 롤플레이 세션을 볼 권한이 없습니다.",
+      "genericErrorMessage": "세션을 로딩하는 중 오류가 발생했습니다. 나중에 다시 시도해 주세요.",
+      "backToHome": "홈으로 돌아가기"
+    },
+    "badges": {
+      "newbieSalesAlt": "초보 영업 배지",
+      "intermediateSalesAlt": "중급 영업 배지",
+      "expertSalesAlt": "전문가 영업 배지",
+      "notAvailableAlt": "사용 불가 배지"
+    },
+    "ktAxaFna": {
+      "scorecardTitle": "FNA 평가 스코어카드",
+      "sectionDescriptions": {
+        "softSkills": "KT-AXA 재정 니즈 분석 대화에서 시연된 소프트 스킬을 측정합니다.",
+        "knowledgeSkills": "KT-AXA 재정 니즈 분석 대화에서 시연된 지식 스킬을 측정합니다.",
+        "productKnowledge": "KT-AXA 재정 니즈 분석 대화에서 제품 지식과 피치 효과를 측정합니다."
+      },
+      "criteria": {
+        "communicationSkills": "커뮤니케이션 스킬",
+        "relationshipBuilding": "관계 구축",
+        "adaptability": "적응력",
+        "customerOrientation": "고객 지향",
+        "factFinding": "사실 발견",
+        "problemSolving": "문제 해결",
+        "salesNegotiationSkills": "영업 및 협상 스킬",
+        "complianceRegulations": "규정 준수",
+        "productPitch": "제품 피치"
+      },
+      "descriptions": {
+        "communicationSkills": "재정 개념을 명확하게 설명하고 고객 니즈를 적극적으로 경청하는 능력",
+        "relationshipBuilding": "공감과 진심어린 관심을 통해 고객과 신뢰와 라포 구축",
+        "adaptability": "고객 반응과 변화하는 상황에 따라 접근 방식 조정",
+        "customerOrientation": "고객 니즈를 우선시하고 맞춤형 재정 솔루션 제공",
+        "factFinding": "고객의 재정 상황과 목표에 대한 포괄적인 정보 수집",
+        "problemSolving": "고객의 고충점을 파악하고 적절한 솔루션 제안",
+        "salesNegotiationSkills": "제품을 효과적으로 제시하고 반론을 전문적으로 처리",
+        "complianceRegulations": "모든 상호작용에서 규제 요구 사항과 윤리 기준 준수",
+        "productPitch": "제품 기능과 혜택을 설득력 있고 관련성 있게 제시"
+      }
+    },
+    "ktAxaRecruitment": {
+      "scorecardTitle": "채용 평가 스코어카드",
+      "sectionDescriptions": {
+        "softSkills": "KT-AXA 에이전트 채용 대화에서 시연된 소프트 스킬을 측정합니다.",
+        "knowledgeSkills": "KT-AXA 에이전트 채용 대화에서 시연된 지식 스킬을 측정합니다."
+      },
+      "criteria": {
+        "communicationSkills": "커뮤니케이션 스킬",
+        "relationshipBuilding": "관계 구축",
+        "adaptability": "적응력",
+        "customerOrientation": "고객 지향",
+        "factFinding": "사실 발견",
+        "problemSolving": "문제 해결",
+        "salesNegotiationSkills": "영업 및 협상 스킬",
+        "complianceRegulations": "규정 준수"
+      },
+      "descriptions": {
+        "communicationSkills": "신규 채용자에게 명확하고 존중하는 커뮤니케이션 전달",
+        "relationshipBuilding": "환영하는 환경을 조성하고 잠재적 채용자와 신뢰 구축",
+        "adaptability": "지원자의 배경과 관심사에 따라 채용 피치 조정",
+        "customerOrientation": "지원자의 동기를 이해하고 그에 맞게 기회 정렬",
+        "factFinding": "지원자의 경험, 목표, 역할 적합성 발견",
+        "problemSolving": "지원자의 우려 사항 해결 및 채용 반론 극복",
+        "salesNegotiationSkills": "경력 기회 혜택 제시 및 효과적인 협상",
+        "complianceRegulations": "적절한 채용 절차 및 규제 지침 준수"
+      }
+    },
+    "ktAxaWealthplus": {
+      "scorecardTitle": "WealthPlus 클로즈 콜 평가 스코어카드",
+      "sectionDescriptions": {
+        "softSkills": "KT-AXA WealthPlus Ready 클로즈 콜 대화에서 시연된 소프트 스킬을 측정합니다.",
+        "knowledgeSkills": "KT-AXA WealthPlus Ready 클로즈 콜 대화에서 시연된 지식 스킬을 측정합니다.",
+        "productKnowledge": "KT-AXA WealthPlus Ready 클로즈 콜 대화에서 제품 지식과 피치 효과를 측정합니다."
+      },
+      "criteria": {
+        "communicationSkills": "커뮤니케이션 스킬",
+        "relationshipBuilding": "관계 구축",
+        "adaptability": "적응력",
+        "customerOrientation": "고객 지향",
+        "factFinding": "사실 발견",
+        "problemSolving": "문제 해결",
+        "salesNegotiationSkills": "영업 및 협상 스킬",
+        "complianceRegulations": "규정 준수",
+        "productKnowledge": "제품 지식"
+      },
+      "descriptions": {
+        "communicationSkills": "WealthPlus 제품 기능을 명확하게 설명하고 고객 우려 사항 경청 능력",
+        "relationshipBuilding": "전문적인 라포를 통해 상위 대중/자산 고객과 신뢰 구축",
+        "adaptability": "고객 반응과 반론에 따라 클로징 접근 방식 조정",
+        "customerOrientation": "세련된 고객 니즈를 이해하고 맞춤형 자산 솔루션 제공",
+        "factFinding": "고객의 투자 포트폴리오, 재정 목표, 세금 고려 사항 이해",
+        "problemSolving": "가격, 수익률, 가치 제안에 대한 고객 우려 해결",
+        "salesNegotiationSkills": "효과적인 거래 성사 및 세련된 반론 처리",
+        "complianceRegulations": "적절한 규정 준수 언어 사용 및 모든 제품 조건 정확히 공개",
+        "productKnowledge": "WealthPlus Ready 90/8 기능, 혜택, 수익률에 대한 포괄적인 지식 시연"
+      }
+    },
+    "hsbcScorecard": {
+      "relationshipManagement": {
+        "clientCentricFraming": {
+          "title": "고객 중심 프레이밍",
+          "description": "고객의 특정 상황에 대한 강한 이해를 보여주고 그들의 니즈, 우려 사항, 목표에 맞게 대화를 프레이밍합니다. 대화가 맞춤화되고 관련성 있게 느껴져야 합니다."
+        },
+        "clarityAndStructure": {
+          "title": "명확성 및 구조",
+          "description": "따라가기 쉬운 명확하고 체계적인 설명을 제공합니다. 적절한 페이스를 사용하고 다음 단계로 넘어가기 전에 고객이 각 단계를 이해하도록 합니다. 고객에게 적합하지 않은 경우 전문 용어를 피합니다."
+        },
+        "suitabilityAndCompliance": {
+          "title": "적합성 및 규정 준수",
+          "description": "적합성에 적절한 주의를 기울이고, 권장 사항이 고객의 재정 상황, 목표, 위험 성향에 맞도록 합니다. 규제 요구 사항과 윤리 기준을 준수합니다."
+        },
+        "gravitasAndDelivery": {
+          "title": "위엄 및 전달",
+          "description": "전달에서 자신감, 전문성, 전문 지식을 전달합니다. 고객에게 신뢰와 신용을 심어주는 침착하고 권위 있는 존재감을 유지합니다."
+        },
+        "engagementAndRapport": {
+          "title": "참여 및 라포",
+          "description": "고객과 적극적으로 소통하고, 그들의 니즈에 진심어린 관심을 보이며, 대화 전반에 걸쳐 라포를 구축합니다. 적절한 공감과 반응으로 긍정적인 고객 경험을 만듭니다."
+        }
+      },
+      "processAdherence": {
+        "greeting": {
+          "title": "인사",
+          "description": "전문적이고 따뜻하게 통화를 시작합니다",
+          "items": [
+            "고객의 이름으로 인사하고 적절하게 신원을 확인합니다",
+            "자신과 역할을 명확하게 소개합니다",
+            "통화의 긍정적이고 전문적인 톤을 설정합니다"
+          ]
+        },
+        "introduction": {
+          "title": "소개",
+          "description": "통화의 목적과 의제를 설정합니다",
+          "items": [
+            "통화의 이유를 명확하게 설명합니다",
+            "다룰 내용에 대한 간략한 개요를 제공합니다",
+            "고객의 가용성과 진행 동의를 확인합니다"
+          ]
+        },
+        "clientUpdate": {
+          "title": "고객 업데이트 / 토론",
+          "description": "핵심 대화에 고객을 참여시킵니다",
+          "items": [
+            "관련 업데이트나 정보를 명확하게 공유합니다",
+            "적절한 발견 또는 명확화 질문을 합니다",
+            "적극적으로 경청하고 고객의 니즈와 우려 사항에 대응합니다",
+            "맞춤형 인사이트나 권장 사항을 제공합니다"
+          ]
+        },
+        "notes": {
+          "title": "메모",
+          "items": ["해당되는 경우, 후속 조치나 메모를 언급하거나 확인합니다"]
+        },
+        "callToAction": {
+          "title": "행동 촉구",
+          "description": "명확한 다음 단계를 제안합니다",
+          "items": [
+            "구체적인 조치나 다음 단계를 제안합니다(예: 미팅 예약, 문서 검토)",
+            "고객의 동의를 확인하거나 망설임을 해결합니다"
+          ]
+        },
+        "bonus": {
+          "title": "보너스",
+          "description": "추가 가치를 제공하기 위해 그 이상을 합니다. 관련 인사이트, 리소스, 고객 경험을 향상시키는 선제적 권장 사항을 공유합니다."
+        }
+      },
+      "hsbcRepresentation": {
+        "accuracy": {
+          "title": "정확성",
+          "description": "HSBC 제품, 서비스, 정책을 정확하게 대표합니다",
+          "items": [
+            "HSBC 제공에 대한 정확하고 최신 정보를 제공합니다",
+            "오해의 소지가 있는 진술이나 과대 약속을 피합니다",
+            "권장 사항을 HSBC의 지침 및 모범 사례에 맞춥니다"
+          ]
+        }
+      },
+      "communicationAndPresence": {
+        "toneOfVoice": {
+          "title": "음성 톤",
+          "items": [
+            "따뜻하고 전문적이며 자신감 있음",
+            "고객의 신호에 따라 톤을 적절하게 조정",
+            "통화 전반에 걸쳐 에너지와 열정을 유지"
+          ]
+        },
+        "dictionAndClarity": {
+          "title": "발음 및 명확성",
+          "items": [
+            "명확하게, 적절한 속도로 말함",
+            "과도한 전문 용어나 복잡한 용어를 피함",
+            "다음 단계로 넘어가기 전에 고객의 이해를 확인"
+          ]
+        },
+        "engagementAndListening": {
+          "title": "참여 및 경청",
+          "items": [
+            "적극적으로 경청하고 고객의 니즈에 대응",
+            "공감과 이해를 보여줌",
+            "고객의 참여와 질문을 장려"
+          ]
+        }
+      }
+    }
+  },
+  "callAnalysis": {
+    "header": {
+      "title": "통화 분석"
+    },
+    "assessment": {
+      "loading": "분석 로딩 중...",
+      "loadError": "분석 로딩에 실패했습니다",
+      "notReady": "분석을 찾을 수 없거나 아직 완료되지 않았습니다",
+      "agent": "상담원",
+      "customer": "고객",
+      "emptyTranscript": "이 분석에 대한 대화록이 없습니다.",
+      "file": "파일",
+      "analyzedOn": "분석 날짜",
+      "unknownFile": "알 수 없는 파일",
+      "tabs": {
+        "overview": "개요",
+        "assessment": "평가"
+      },
+      "overviewPlaceholder": "개요 내용이 여기에 추가됩니다",
+      "overviewNotAvailable": "개요 분석이 아직 제공되지 않습니다",
+      "result": "결과",
+      "sections": {
+        "mandatory": "필수 항목",
+        "softSkills": "소프트 스킬",
+        "knowledgeApplication": "지식 적용"
+      },
+      "summary": "요약",
+      "suggestedNextSteps": "제안된 다음 단계",
+      "scorecardBreakdown": "스코어카드 분석",
+      "scores": {
+        "exceptional": "탁월",
+        "excellent": "우수",
+        "good": "양호",
+        "developing": "발전 중",
+        "unsatisfactory": "미흡"
+      },
+      "downloadAssessment": "평가 다운로드",
+      "downloadingPdf": "PDF 다운로드 중...",
+      "failedToDownload": "평가 다운로드에 실패했습니다",
+      "callAssessmentTitle": "통화 평가"
+    },
+    "overview": {
+      "keyTakeaways": "주요 요점",
+      "callHealthRisk": "통화 상태 및 위험 평가",
+      "positiveSignals": "긍정적인 고객 신호",
+      "risksObserved": "관찰된 위험",
+      "recommendations": "권장 사항",
+      "actionableNextSteps": "실행 가능한 다음 단계",
+      "keyActions": "주요 조치",
+      "nextCall": "다음 통화"
+    },
+    "transcript": {
+      "title": "통화 대화록",
+      "placeholder": "대화록 내용이 여기에 추가됩니다"
+    },
+    "upload": {
+      "pageTitle": "통화 분석",
+      "uploadTitle": "통화 녹음 업로드",
+      "dropPrompt": "통화 녹음을 여기에 드롭하거나",
+      "browse": "찾아보기",
+      "uploadHint": ".mp3 업로드 (최대 30 MB)",
+      "selectedFile": "선택된 파일: {{name}}",
+      "selectedFileSize": "크기: {{size}} MB",
+      "removeFile": "제거",
+      "analyzeButton": "통화 분석",
+      "uploading": "업로드 중...",
+      "callsAnalyzedTitle": "분석된 통화",
+      "loading": "분석 로딩 중...",
+      "emptyState": "아직 분석이 없습니다. 시작하려면 오디오 파일을 업로드하세요.",
+      "table": {
+        "analyzedOn": "분석 날짜",
+        "file": "파일",
+        "duration": "시간",
+        "score": "점수",
+        "status": "상태",
+        "action": "작업"
+      },
+      "statuses": {
+        "uploading": "업로드 중...",
+        "transcribing": "트랜스크립션 중...",
+        "processing": "처리 중...",
+        "completed": "완료",
+        "failed": "실패"
+      },
+      "toasts": {
+        "loadFailed": "이전 분석을 불러오지 못했습니다",
+        "analysisQueued": "분석을 실행 중입니다. 테이블에서 준비되면 '완료'로 표시됩니다.",
+        "analysisComplete": "분석이 성공적으로 완료되었습니다!",
+        "analysisFailed": "분석 실패: {{error}}",
+        "unknownError": "알 수 없는 오류",
+        "fileTooLarge": "파일 크기는 30MB 미만이어야 합니다",
+        "invalidFileType": "MP3 파일을 업로드해 주세요",
+        "uploadFailed": "파일 업로드에 실패했습니다"
+      },
+      "unknownFile": "알 수 없음",
+      "searchPlaceholder": "파일 이름 검색",
+      "noSearchResults": "검색과 일치하는 통화가 없습니다"
+    }
+  },
+  "overallScore": "종합 점수",
+  "viewDetails": "세부 정보 보기"
+}

@@ -1,0 +1,106 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+  content-security-policy = '''
+  default-src 'self';
+  script-src 'self'
+    'unsafe-eval'
+    'unsafe-inline' 
+    blob:
+    https://*.auth0.com 
+    https://*.posthog.com
+    https://*.sentry.io
+    https://*.sentry-cdn.com
+    https://*.elevenlabs.io
+    https://*.livekit.cloud
+    https://*.livekit.io
+    https://*.hupo.co
+    https://dopmo1eihgbgm.cloudfront.net
+    https://cdn.jsdelivr.net
+    https://*.jsdelivr.net;
+  style-src 'self' 
+    'unsafe-inline'
+    https://*.auth0.com
+    https://*.posthog.com
+    https://*.elevenlabs.io
+    https://*.hupo.co
+    https://dopmo1eihgbgm.cloudfront.net;
+  img-src 'self' 
+    data: 
+    blob: 
+    https:
+    https://*.auth0.com
+    https://*.gravatar.com
+    https://*.wp.com
+    https://*.posthog.com
+    https://*.sentry.io
+    https://*.elevenlabs.io
+    https://*.hupo.co
+    https://dopmo1eihgbgm.cloudfront.net
+    https://cdn.jsdelivr.net
+    https://*.jsdelivr.net;
+  font-src 'self' 
+    data:
+    https://*.auth0.com
+    https://*.elevenlabs.io
+    https://*.hupo.co
+    https://dopmo1eihgbgm.cloudfront.net;
+  connect-src 'self'
+    https://*.auth0.com
+    https://*.posthog.com
+    https://*.sentry.io
+    https://*.ingest.sentry.io
+    https://*.elevenlabs.io
+    wss://*.elevenlabs.io
+    https://*.livekit.cloud
+    https://*.livekit.io
+    wss://*.livekit.cloud
+    wss://*.livekit.io
+    ws://localhost:*
+    https://*.hupo.co
+    wss://*.hupo.co
+    https://cdn.jsdelivr.net
+    https://*.jsdelivr.net
+    https://aisales-product-info.s3.ap-southeast-1.amazonaws.com;
+  media-src 'self' 
+    blob:
+    https://*.elevenlabs.io
+    https://*.livekit.cloud
+    https://*.livekit.io
+    https://dopmo1eihgbgm.cloudfront.net
+    https://cdn.jsdelivr.net
+    https://*.jsdelivr.net;
+  frame-src 'self'
+    https://*.auth0.com
+    https://*.elevenlabs.io
+    https://*.livekit.cloud
+    https://*.hupo.co
+    https://dopmo1eihgbgm.cloudfront.net
+    https://cdn.jsdelivr.net
+    https://*.jsdelivr.net;
+  worker-src 'self' 
+    blob:
+    https://*.posthog.com
+    https://*.sentry.io
+    https://*.elevenlabs.io
+    https://*.hupo.co
+    https://dopmo1eihgbgm.cloudfront.net
+    https://cdn.jsdelivr.net;
+  child-src 'self' 
+    blob:
+    https://*.auth0.com
+    https://*.posthog.com
+    https://*.sentry.io
+    https://*.hupo.co
+    https://dopmo1eihgbgm.cloudfront.net
+    https://cdn.jsdelivr.net;
+  object-src 'none';
+  base-uri 'self';
+  form-action 'self'
+    https://*.auth0.com
+    https://*.hupo.co;
+  frame-ancestors *;
+  upgrade-insecure-requests'''
+  x-content-type-options = "nosniff"
+  referrer-policy = "strict-origin-when-cross-origin"
+  permissions-policy = "microphone=(self), geolocation=()"

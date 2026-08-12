@@ -1,0 +1,1240 @@
+{
+  "common": {
+    "loading": "載入中...",
+    "error": "錯誤",
+    "unexpectedError": "發生未預期的錯誤。",
+    "save": "儲存",
+    "cancel": "取消",
+    "close": "關閉",
+    "hupo": "Hupo",
+    "info": "資訊",
+    "continue": "繼續",
+    "beta": "測試版",
+    "text": "文字",
+    "voice": "語音",
+    "processing": "處理中...",
+    "hupoIcon": "Hupo 圖示",
+    "confirm": "確認",
+    "delete": "刪除",
+    "edit": "編輯",
+    "view": "檢視",
+    "search": "搜尋",
+    "notAvailable": "試用版不提供此功能",
+    "contactUs": "聯絡我們",
+    "notNow": "暫時不要",
+    "you": "您",
+    "icon": "圖示",
+    "or": "或",
+    "modify": "修改",
+    "updateError": "更新名稱失敗，請再試一次。",
+    "importantNotice": "重要通知",
+    "aiDisclaimer": "AI 免責聲明",
+    "send": "傳送",
+    "sending": "傳送中...",
+    "duration": {
+      "minutes": "{{count}} 分鐘"
+    },
+    "unknown": "未知",
+    "duplicate": "複製"
+  },
+  "errors": {
+    "audioPlaybackFailed": "播放音訊回饋失敗。",
+    "audioPlaybackStart": "開始播放音訊時發生錯誤。",
+    "audioGenerationFailed": "產生音訊回饋失敗。",
+    "nameUpdateFailed": "更新名稱失敗，請再試一次。"
+  },
+  "chart": {
+    "toggleSeries": "切換 {{name}} 系列的顯示"
+  },
+  "auth": {
+    "login": "登入",
+    "logout": "登出",
+    "signUp": "註冊",
+    "forgotPassword": "忘記密碼？",
+    "verifyEmailTitle": "請先驗證您的電子郵件",
+    "verifyEmailDescription": "請檢查您的收件匣中的驗證連結，然後登出並重新登入以完成驗證。",
+    "hupoLogoAlt": "Hupo 標誌",
+    "enterCompanyName": "輸入公司名稱以開始",
+    "companyName": "公司名稱",
+    "companyNamePlaceholder": "例如：Acme",
+    "getStarted": "開始使用",
+    "demoMode": "示範模式",
+    "errors": {
+      "title": "認證錯誤",
+      "unknown_auth0": "認證失敗，請再試一次。",
+      "tryAgain": "再試一次",
+      "unknown": "發生未知錯誤",
+      "companyNotFound": "找不到公司",
+      "backHome": "返回首頁"
+    },
+    "admin": {
+      "verifyingAccess": "正在驗證存取權限...",
+      "syncing": "正在處理管理員認證...",
+      "notAuthorized": "您的帳戶沒有權限存取管理面板。請聯絡您的管理員以申請存取權限。",
+      "message": "管理員認證過程中發生錯誤。"
+    },
+    "carousel": {
+      "item1": {
+        "title": "在錯失良機前練習困難的銷售時刻",
+        "desc": "模擬關鍵銷售時刻——如捍衛定價或處理競爭異議——讓您在關鍵時刻做好準備。"
+      },
+      "item2": {
+        "title": "可行的洞察，讓您不會錯失下一筆交易",
+        "desc": "清楚了解什麼有效、什麼無效，以及如何更有力地完成下一次成交——增強您在關鍵時刻的信心和掌控力。"
+      },
+      "item3": {
+        "title": "根據您的銷售流程量身定制的情境",
+        "desc": "根據您公司的銷售流程、異議和買家角色進行練習——讓練習更真實，成交更有效。"
+      }
+    }
+  },
+  "home": {
+    "welcome": "嗨",
+    "whatChallenge": "今天有什麼領導挑戰困擾著您？",
+    "selectTopic": "若要開始新的會話，請從以下主題中選擇：",
+    "getStarted": "新會話",
+    "activeSession": "進行中的會話",
+    "pastSessions": "過去的會話",
+    "meetingInsights": "會議洞察",
+    "helpOtherLeaders": "以下是我幫助其他領導者的方式",
+    "practiceConversations": "練習困難對話",
+    "practiceConversationsExample": "試著說「我需要練習提供嚴厲的回饋」",
+    "getDayToDay": "獲取日常挑戰的建議",
+    "getDayToDayExample": "試著說「我該如何支持表現不佳的員工？」",
+    "askForTips": "詢問技巧和資源",
+    "askForTipsExample": "試著說「您能分享一個簡單的一對一框架嗎？」",
+    "chooseScenario": "或選擇一個情境，與逼真的 AI 角色進行互動練習：",
+    "startNow": "立即開始 >",
+    "home": "首頁",
+    "pastPractices": "過去的練習",
+    "callAnalysis": "通話分析",
+    "dashboard": "儀表板"
+  },
+  "sessions": {
+    "newSession": "新會話",
+    "activeSession": "進行中的會話",
+    "pastSessions": "過去的會話",
+    "endSession": "結束會話",
+    "sessionEnded": "會話已結束",
+    "interactive": "互動式",
+    "noActiveSession": "您沒有進行中的會話",
+    "noPastSessions": "您沒有過去的會話",
+    "textRoleplay": "文字角色扮演",
+    "voiceRoleplay": "語音角色扮演",
+    "loadingPastSessions": "正在載入過去的會話...",
+    "chatHistory": "聊天紀錄",
+    "roleplayInsights": "角色扮演洞察",
+    "generalCoaching": "一般教練指導",
+    "endSessionDescription": "結束您的進行中會話將產生角色扮演會話評估。",
+    "endSessionTitle": "結束目前的會話？",
+    "endSessionButton": "結束會話",
+    "endedSuccessfully": "會話已成功結束",
+    "endSessionError": "結束會話失敗",
+    "sessionNotFound": "找不到會話",
+    "startConversationError": "開始主要對話失敗",
+    "skipIntroError": "跳過介紹失敗",
+    "endPracticeError": "結束練習會話失敗",
+    "generateScenarioError": "產生情境失敗",
+    "startRoleplayError": "開始角色扮演失敗",
+    "startPracticeError": "開始練習失敗，請檢查您的麥克風權限。",
+    "failedToLoadRoleplay": "載入角色扮演會話失敗",
+    "connecting": "連線中...",
+    "introduction": "介紹",
+    "mainConversation": "主要對話",
+    "ending": "結束中...",
+    "scenario": "情境",
+    "startPractice": "開始練習",
+    "aiSpeaking": "AI 正在說話",
+    "aiListening": "AI 正在聆聽",
+    "skipIntroduction": "跳過介紹",
+    "endSessionAction": "結束會話",
+    "sessionTimeWarning": "仲有 1 分鐘。會話將會喺第 {{minutes}} 分鐘自動結束。",
+    "roleplayInstructions": "角色扮演說明",
+    "goToRoleplay": "前往角色扮演",
+    "conversationPartnerPersona": "對話夥伴角色",
+    "framework": "框架",
+    "frameworkToPractice": "要練習的框架",
+    "viewFrameworkDetails": "檢視框架詳情",
+    "viewScenarioDetails": "檢視情境詳情、目標和框架",
+    "endRoleplayInfo": "完成後，點擊螢幕頂部的「結束角色扮演」，即可收到您的優勢、改進領域和成長建議的詳細分析。",
+    "endRoleplayError": "結束角色扮演失敗",
+    "introductionPhase": "介紹階段",
+    "roleplayBegins": "角色扮演開始",
+    "realtimeCoaching": "即時教練指導",
+    "leavePageTitle": "離開此頁面？",
+    "leavePageDescription": "離開此會話將結束目前的會話，並產生優勢、改進領域和建議的摘要。",
+    "leave": "離開",
+    "persona": "角色",
+    "personaDescription": "這決定了您的對話夥伴在整個角色扮演過程中的行為。",
+    "personaRecommendation": "我們推薦此角色的原因：",
+    "defensiveRecommendation": "所描述的同事表現出攻擊性行為，會責罵團隊成員並使用嚴厲的語氣，顯示出對抗性格，容易造成緊張和衝突。",
+    "generatingPersona": "正在產生 {{persona}} 角色",
+    "roleplayPractice": "角色扮演練習",
+    "discovery": "探索",
+    "pruvantageAssureII": "PRUVantage Assure II",
+    "loadingSessionDetails": "正在載入會話詳情...",
+    "loadingObjectives": "正在載入目標...",
+    "personalityDescription": "他們是 {{personality}}。",
+    "understandFinancialSituation": "了解 {{clientName}} 的財務狀況和需求",
+    "presentProductSolution": "將產品呈現為解決方案",
+    "buildRapportConcerns": "建立信任關係並專業地解決任何疑慮",
+    "moveConversationNextSteps": "推動對話朝向下一步",
+    "theClient": "客戶",
+    "defaultObjection": "我現在不太感興趣。",
+    "with": "與",
+    "sessionTitle": "{{module}} 與 {{persona}}",
+    "error": "錯誤",
+    "retry": "重試",
+    "sessionCompleted": "會話完成！",
+    "sessionCompletedDescription": "做得好！您已成功完成您的角色扮演會話。",
+    "duration": "會話時長",
+    "overallScore": "整體分數",
+    "practiceAgain": "再次練習",
+    "viewAssessment": "檢視評估",
+    "returnHome": "返回首頁",
+    "sessionStanding": "會話等級",
+    "sessionFinishedAt": "會話於 {{time}} 結束"
+  },
+  "pastPractices": {
+    "emptyTitle": "您沒有過去的練習",
+    "emptyDescription": "開始您的第一次會話，練習真實的銷售對話，獲得針對性的回饋，並解鎖可行的技巧來改進您的推銷。",
+    "startNewPractice": "開始新練習",
+    "failedToLoad": "載入過去的練習失敗。"
+  },
+  "errorBoundary": {
+    "oops": "糟糕！",
+    "error": "錯誤",
+    "unexpectedError": "發生未預期的錯誤。"
+  },
+  "trial": {
+    "ended": "您的試用期已結束",
+    "upgradeMessage": "若要繼續使用完整功能，請聯絡我們以升級您組織的帳戶。"
+  },
+  "feedback": {
+    "title": "在本次練習後，您是否感覺更有準備面對真實的客戶互動?",
+    "description": "我們很想聽聽您的想法！請讓我們知道如何改進。",
+    "placeholder": "分享為什麼您感覺更有準備，以及什麼幫助增強了您的信心。",
+    "skip": "跳過",
+    "send": "傳送",
+    "thankYou": "回饋已傳送。感謝您分享您的意見！",
+    "shareFeedback": "分享回饋",
+    "closeFeedback": "關閉回饋",
+    "yes": "是",
+    "no": "否",
+    "reason": "原因"
+  },
+  "mobile": {
+    "closeSidebar": "關閉側邊欄",
+    "yourProfile": "您的個人資料",
+    "openSidebar": "開啟側邊欄"
+  },
+  "sidebar": {
+    "reportIssue": "回報問題",
+    "reportIssuePlaceholder": "在此描述問題或分享您的回饋",
+    "reportIssueSuccess": "感謝！我們已收到您的回報。",
+    "reportIssueError": "回報問題失敗，請再試一次。"
+  },
+  "manage": {
+    "admin": "管理員",
+    "adminDashboard": "管理員儀表板",
+    "menuDashboard": "儀表板",
+    "menuUsers": "使用者",
+    "menuSettings": "設定",
+    "downloadReport": "下載報告",
+    "team": "團隊",
+    "noTeams": "未分配團隊",
+    "allScenarios": "所有情境",
+    "settings": {
+      "inviteUser": "邀請使用者",
+      "importUsers": "匯入使用者",
+      "createTeam": "建立團隊",
+      "allStatus": "所有狀態",
+      "active": "啟用",
+      "deactivated": "停用",
+      "invited": "已邀請",
+      "userInvited": "使用者已邀請。",
+      "errorInvitingUser": "邀請使用者時發生錯誤",
+      "userEdited": "使用者已編輯。",
+      "errorEditingUser": "編輯使用者時發生錯誤",
+      "userDeactivated": "使用者已停用。",
+      "errorDeactivatingUser": "停用使用者時發生錯誤",
+      "teamSaved": "團隊已儲存。",
+      "errorSavingTeam": "儲存團隊時發生錯誤",
+      "teamEdited": "團隊已編輯。",
+      "errorEditingTeam": "編輯團隊時發生錯誤",
+      "teamNameAlreadyExists": "呢個團隊名稱已經畀人用咗。請揀過第個名。",
+      "bulkInvite": {
+        "title": "匯入使用者",
+        "description": "使用提供嘅範本上傳 Excel 檔案，一次邀請多位使用者。",
+        "downloadTemplate": "下載範本",
+        "dropFile": "將檔案拖放到呢度或",
+        "browse": "瀏覽",
+        "uploadHint": "上傳 .xls, .xlsx（單次上傳最多 1000 位使用者）",
+        "uploading": "上傳緊...",
+        "remove": "移除",
+        "importUsers": "匯入使用者",
+        "recentImports": "最近匯入",
+        "noImports": "未有匯入記錄。你最近嘅匯入將會顯示喺度。",
+        "processingFile": "處理緊你嘅檔案",
+        "usersInvited": "已邀請 {{count}} 位使用者",
+        "failed": "失敗",
+        "downloadErrorReport": "下載錯誤報告",
+        "uploadedBy": "由 {{name}} 上傳，{{date}}",
+        "showing": "顯示 {{from}}-{{to}} / {{total}}",
+        "ofPage": "共 {{total}} 頁",
+        "invalidExtension": "請上傳 .xls 或 .xlsx 檔案。",
+        "fileTooLarge": "檔案大小必須小於 3MB",
+        "uploadSuccess": "我哋處理緊你嘅檔案。結果將會顯示喺度，完成後我哋會發送通知或電郵畀你！",
+        "uploadError": "上傳檔案失敗",
+        "validating": "驗證緊...",
+        "importing": "匯入緊...",
+        "precheckError": "驗證檔案失敗",
+        "wrongTemplate": "請使用正確嘅範本",
+        "maxUsersExceeded": "一次上傳最多只可以有 1000 個用戶",
+        "importError": "匯入檔案失敗",
+        "importSuccess": "我哋處理緊你嘅檔案。結果將會顯示喺度，完成後我哋會發送通知！",
+        "note": "備註",
+        "validationSummary": "{{total}} 筆中有 {{valid}} 筆有效，{{invalid}} 筆無效",
+        "validationIssues": "驗證問題",
+        "onlyValidImported": "如果你繼續，只會匯入有效嘅資料列。",
+        "failedCount": "{{failed}} 失敗"
+      },
+      "roles": {
+        "superadmin": {
+          "description": "擁有所有選單同操作嘅完整存取權限，包括管理使用者、團隊同權限。"
+        },
+        "admin": {
+          "description": "僅具有管理應用程式嘅檢視存取權限。"
+        },
+        "user": {
+          "description": "只可以存取 train.hupo.co 嘅主要應用程式"
+        }
+      }
+    },
+    "errors": {
+      "usersLoadFailed": "載入使用者資料失敗"
+    },
+    "common": {
+      "noPracticeData": "沒有可用的練習資料",
+      "noPracticeDataHint": "使用者完成練習後，練習資料將顯示在此處",
+      "notAwardedTooltip": "因使用者未達到必要標準，所以未授予等級的會話。"
+    },
+    "pagination": {
+      "rowsPerPage": "每頁行數",
+      "page": "頁",
+      "of": "共 {{totalPages}} 頁",
+      "showing": "顯示 {{from}}-{{to}}，共 {{total}} 筆"
+    },
+    "usersPage": {
+      "noData": "沒有可用的使用者資料",
+      "searchPlaceholder": "搜尋姓名或電子郵件",
+      "empty": {
+        "title": "找不到使用者",
+        "description": "使用者加入您的公司後將顯示在此處"
+      },
+      "table": {
+        "user": "使用者",
+        "totalCompleted": "已完成練習總數",
+        "avgLength": "平均練習時長",
+        "avgScore": "整體結果",
+        "lastSession": "最後練習會話"
+      }
+    },
+    "dashboard": {
+      "errors": {
+        "loadFailed": "載入儀表板資料失敗"
+      },
+      "noData": "沒有可用的資料",
+      "welcomeBack": "歡迎回來，{{name}}！",
+      "lastUpdated": "最後更新",
+      "unknown": "未知",
+      "refreshTooltip": "重新整理儀表板資料",
+      "reports": {
+        "users": "使用者報告",
+        "accountCreation": "帳戶建立報告",
+        "activeUsers": "活躍使用者報告",
+        "repeatUsers": "回訪使用者報告",
+        "completedPractices": "已完成練習報告"
+      },
+      "reportModal": {
+        "defaultTitle": "報告",
+        "reportPeriod": "報告期間",
+        "allTime": "所有時間",
+        "last30Days": "過去 30 天",
+        "customDate": "自訂日期",
+        "selectDateRange": "選擇日期範圍",
+        "download": "下載",
+        "downloading": "下載中...",
+        "successToast": "報告已成功下載"
+      },
+      "accountSummary": {
+        "title": "帳戶摘要",
+        "accountsCreated": "已建立帳戶",
+        "activeUsers30d": "活躍使用者（過去 30 天）",
+        "activeUsersTooltip": "過去 30 天內完成至少一次角色扮演練習的使用者數量。",
+        "vsPrev30d": "與前 30 天相比",
+        "repeatUsers": "回訪使用者",
+        "repeatUsersTooltip": "在授權期間內完成兩次或以上角色扮演練習的使用者數量。"
+      },
+      "practiceSummary": {
+        "title": "練習摘要",
+        "totalCompleted": "已完成練習總數",
+        "totalCompletedTooltip": "授權期間內完成的角色扮演練習總數。練習在使用者結束至少 6 則訊息的會話並收到角色扮演評估後，視為「已完成」。",
+        "avgDuration": "平均練習時長",
+        "overallAvgScore": "整體平均分數"
+      },
+      "practiceTable": {
+        "type": "類型",
+        "total": "練習總數",
+        "avgScore": "平均分數"
+      },
+      "skillProgression": {
+        "title": "技能進展",
+        "hint": "若要查看技能進展，請使用篩選器選擇一個情境。",
+        "error": "載入進度資料失敗",
+        "noData": "沒有可用的圖表資料",
+        "scenarioPlaceholder": "情境"
+      },
+      "postPracticeSurvey": {
+        "title": "練習後問卷",
+        "question": "在本次練習後，您是否感覺更有準備面對真實的客戶互動？",
+        "yes": "是",
+        "no": "否",
+        "user": "使用者",
+        "answer": "回答",
+        "reason": "原因",
+        "dateSubmitted": "提交日期",
+        "showing": "顯示 {{from}}-{{to}}，共 {{total}} 筆",
+        "ofPage": "共 {{totalPages}} 頁",
+        "empty": "尚無回覆",
+        "emptyHint": "有人回覆後，您將在此處看到他們的回答。"
+      }
+    },
+    "userDetails": {
+      "errors": {
+        "loadFailed": "載入使用者詳情失敗"
+      },
+      "notFound": "找不到使用者",
+      "returnToList": "返回使用者列表",
+      "tabs": {
+        "overview": "總覽",
+        "practiceList": "練習列表"
+      },
+      "practiceSummary": {
+        "title": "練習摘要",
+        "totalCompleted": "已完成練習總數",
+        "avgDuration": "平均練習時長",
+        "overallAvgScore": "整體平均分數"
+      },
+      "table": {
+        "type": "類型",
+        "total": "練習總數",
+        "avgScore": "平均分數",
+        "bestResult": "最佳結果"
+      },
+      "practiceList": {
+        "empty": "尚未完成任何練習",
+        "table": {
+          "completedAt": "完成日期",
+          "type": "類型",
+          "client": "客戶",
+          "duration": "時長",
+          "resultScore": "結果/分數"
+        }
+      },
+      "scoreLabel": "分數：",
+      "viewAssessment": "檢視評估",
+      "skillProgression": {
+        "hint": "若要查看技能進展，請使用篩選器選擇一個情境。"
+      }
+    },
+    "menuPersona": "角色",
+    "menuScorecard": "評分卡",
+    "menuRoleplay": "角色扮演",
+    "menuProduct": "產品",
+    "persona": {
+      "title": "角色",
+      "duplicateNotice": "复制的角色尚未影响或链接到任何角色扮演。",
+      "name": "姓名",
+      "gender": "性別",
+      "male": "男",
+      "female": "女",
+      "age": "年齡",
+      "roleOrProfiler": "角色/簡介",
+      "occupation": "職業",
+      "personality": "個性",
+      "personalityDescription": "描述此角色在通話中的行為方式。您可以選擇特質來建立，或撰寫您自己的描述。",
+      "generateByTraits": "透過選擇特質來產生",
+      "englishAccent": "英語口音",
+      "englishAccentNote": "注意：其他語言仍可在主應用程式中選擇。",
+      "supportingInfo": "補充資訊",
+      "fieldName": "欄位名稱",
+      "selectPersonaImage": "選擇角色圖片",
+      "generatePersonaImage": "產生角色圖片",
+      "generatePersonaImageDescription": "我們將根據您提供的詳情讓您的角色栩栩如生。",
+      "generateImage": "產生圖片",
+      "selectTraitsDescription": "選擇至少 3 個特質來產生個性。",
+      "personalityTone": "個性語調",
+      "buyerBehavior": "買家行為",
+      "communicationStyle": "溝通風格",
+      "generatePersonality": "產生個性",
+      "craftingPersonality": "根據選擇的特質製作個性",
+      "confirmDelete": "您確定要刪除 {{name}} 嗎？",
+      "placeholders": {
+        "name": "例如：王大明",
+        "age": "例如：30",
+        "role": "例如：採購經理、小型企業主",
+        "personality": "輸入個性描述...",
+        "accent": "選擇角色英語發音的方式",
+        "fieldName": "選擇欄位名稱"
+      },
+      "buttons": {
+        "newPersona": "+ 新角色",
+        "update": "更新",
+        "updating": "更新中...",
+        "generating": "產生中...",
+        "addNewField": "新增欄位",
+        "backToPersonas": "返回角色列表"
+      },
+      "search": {
+        "placeholder": "搜尋姓名"
+      },
+      "table": {
+        "persona": "角色",
+        "summary": "摘要",
+        "usedIn": "使用於",
+        "roleplayCount": "{{count}} 個角色扮演",
+        "roleplayCount_plural": "{{count}} 個角色扮演"
+      },
+      "emptyState": {
+        "title": "找不到角色",
+        "searchHint": "請嘗試調整您的搜尋",
+        "createHint": "建立您的第一個角色以開始"
+      },
+      "pagination": {
+        "rows": "行"
+      },
+      "errors": {
+        "nameRequired": "請輸入姓名",
+        "invalidAge": "請輸入有效的年齡（18-100）",
+        "genderRequired": "請選擇性別",
+        "roleRequired": "請輸入角色",
+        "personalityRequired": "請新增個性描述",
+        "accentRequired": "請選擇口音",
+        "supportingFieldRequired": "請至少新增一個補充欄位",
+        "imageRequired": "請選擇角色圖片",
+        "loadFailed": "載入角色失敗",
+        "updateFailed": "更新角色失敗，請再試一次。",
+        "deleteFailed": "刪除角色失敗",
+        "generatePersonalityFailed": "產生個性失敗"
+      },
+      "success": {
+        "personaUpdated": "角色已成功更新",
+        "personaDeleted": "角色已成功刪除"
+      },
+      "accentOptions": {
+        "american": "美式英語",
+        "british": "英式英語",
+        "singaporean": "新加坡英語"
+      },
+      "supportingFields": {
+        "fieldName": "欄位名稱",
+        "value": "值",
+        "fieldOptions": {
+          "keyPriorities": "主要優先事項",
+          "financialSituation": "財務狀況",
+          "locationCitizenship": "地點/國籍",
+          "education": "教育程度",
+          "workHistory": "工作經歷",
+          "companySizeSpend": "公司規模與支出"
+        },
+        "fieldPlaceholders": {
+          "keyPriorities": "影響購買決策的主要目標或需求",
+          "financialSituation": "收入/資產/預算水準",
+          "locationCitizenship": "國家/地區與國籍",
+          "education": "最高教育程度或培訓",
+          "workHistory": "關鍵職位與行業",
+          "companySizeSpend": "組織規模、預算和支出水準"
+        }
+      },
+      "traits": {
+        "traits": "特質",
+        "friendly": "友善",
+        "polite": "有禮貌",
+        "rude": "粗魯",
+        "talkative": "健談",
+        "guarded": "謹慎",
+        "priceSensitive": "價格敏感",
+        "qualityFocused": "注重品質",
+        "dataDriven": "數據驅動",
+        "feelingsDriven": "情感驅動",
+        "riskAverse": "規避風險",
+        "riskTolerant": "容忍風險",
+        "decisive": "果斷",
+        "indecisive": "優柔寡斷",
+        "impulsive": "衝動",
+        "patient": "有耐心",
+        "impatient": "沒耐心",
+        "straightToThePoint": "直接了當",
+        "casualConversational": "輕鬆對話式",
+        "prefersRealExamples": "偏好真實案例/個案研究",
+        "visionaryStrategicFraming": "有遠見/喜歡策略性框架"
+      }
+    },
+    "scorecard": {
+      "duplicateNotice": "复制的评分卡尚未影响或链接到任何角色扮演。"
+    },
+    "scenario": {
+      "duplicateNotice": "复制的场景尚未影响或链接到任何角色扮演。"
+    },
+    "product": {
+      "duplicateNotice": "复制的产品尚未影响或链接到任何角色扮演。"
+    }
+  },
+  "nameInput": {
+    "whatsYourName": "我們該怎麼稱呼您？",
+    "name": "偏好的稱呼",
+    "enterYourName": "例如：小明、阿華、小美",
+    "description": "我們會在整個應用程式中使用這個名字來稱呼您，像是「嗨，小明！」",
+    "continue": "繼續"
+  },
+  "trialStatus": {
+    "ended": "您的試用期已結束",
+    "daysLeft": "試用期還剩 {{days}} 天",
+    "upgradeEnded": "若要存取教練會話，請聯絡我們以升級。",
+    "exploreFeatures": "在試用期結束前探索所有功能。",
+    "contactToUpgrade": "聯絡我們以升級"
+  },
+  "empty": {
+    "startSessionInfo": "立即開始會話，練習對話、獲得量身定制的指導，並收到可行的技巧。",
+    "startNewSession": "開始新會話"
+  },
+  "insights": {
+    "notAvailable": "角色扮演評估不可用",
+    "tooShort": "此會話太短，無法評估您的銷售表現。請完成較長的模擬以查看您表現的完整分析。",
+    "returnHome": "返回首頁",
+    "returnToChat": "返回聊天"
+  },
+  "notFound": {
+    "title": "嗯，這似乎不對",
+    "description": "這可能不是您要找的內容。您請求的頁面似乎走失了。",
+    "goBackHome": "返回首頁",
+    "viewActiveSessions": "檢視進行中的會話"
+  },
+  "logout": {
+    "message": "正在登出..."
+  },
+  "loading": {
+    "retrievingSession": "正在擷取您的會話資料",
+    "configuringPreferences": "正在設定您的偏好設定",
+    "restoringState": "正在還原會話狀態",
+    "gettingReady": "正在為您準備一切",
+    "checkingStatus": "正在檢查進行中會話狀態",
+    "connectingSession": "正在連線到進行中的會話",
+    "loadingState": "正在載入會話狀態",
+    "almostReady": "即將完成",
+    "activeSession": "正在載入進行中的會話",
+    "retrievingDetails": "正在擷取您已儲存的會話詳情",
+    "loadingProgress": "正在載入您之前的進度",
+    "preparingEnvironment": "正在準備您的練習環境",
+    "restoringContext": "正在還原您的會話內容",
+    "preparingRoleplay": "正在準備您的角色扮演",
+    "analyzingPerformance": "正在分析您的表現",
+    "generatingFeedback": "正在產生回饋",
+    "creatingSummary": "正在建立會話摘要",
+    "almostDone": "即將完成",
+    "preparingSession": "正在準備您的會話"
+  },
+  "practice": {
+    "loadingModules": "正在載入模組...",
+    "failedToLoadModules": "載入模組失敗，請再試一次。",
+    "heyLetsStart": "嗨 {{name}}，讓我們今天來精進您的銷售技巧",
+    "selectCallType": "選擇銷售通話類型和您想練習的產品",
+    "returnToModules": "返回模組",
+    "selectClientToStart": "選擇客戶以開始通話",
+    "profileTabLabel": "個人資料",
+    "personalityTabLabel": "個性",
+    "startCall": "開始通話",
+    "continueToPractice": "繼續練習",
+    "viewCallCriteria": "檢視通話標準與等級",
+    "selectAllOptions": "請選擇所有必要選項",
+    "scrollToViewMore": "滾動以查看更多",
+    "backToList": "返回列表",
+    "noPersonalBestMessage": "尚無個人最佳成績。了解等級",
+    "personalBestMessage": "您的個人最佳成績：",
+    "checkWhatsNext": "查看下一步",
+    "learnAboutStandings": "了解等級",
+    "learnAboutStandingsAndCriteria": "了解等級與標準",
+    "firstTime": {
+      "welcomeTo": "歡迎來到",
+      "subtitle": "讓我們幫助您開始這個練習模組",
+      "aboutModule": "關於此模組",
+      "whatToExpect": "預期內容",
+      "practiceExpectations": "練習預期",
+      "productsAvailable": "可練習的產品",
+      "letsStart": "讓我們開始練習吧！",
+      "acknowledgeAndContinue": "確認並繼續",
+      "defaultDisclaimer": "這是由人工智慧驅動的系統，會持續學習和改進。雖然它努力提供準確和最新的資訊，但其回應僅供參考，不應作為最終依據。強烈建議您透過查閱官方文件（如產品資訊包）來驗證任何資訊。"
+    },
+    "standings": {
+      "title": "等級",
+      "sessionStanding": "會話等級",
+      "currentSession": "目前會話",
+      "lastResult": "上次結果",
+      "personalBest": "個人最佳",
+      "salesNovice": "銷售新手",
+      "skilledAdvisor": "熟練顧問",
+      "strategicConsultant": "策略顧問",
+      "clientVerification": "客戶驗證",
+      "fourCExecution": "4C 執行",
+      "objectionHandling": "異議處理",
+      "completed": "已完成",
+      "notCompleted": "未完成",
+      "notStarted": "未開始",
+      "beginner": "初級",
+      "intermediate": "中級",
+      "expert": "專家",
+      "achieved": "已達成",
+      "standingsLadder": "等級階梯",
+      "ladderDescription": "透過達成每個等級的特定標準來解鎖更高的等級，您的等級將針對每個情境分別評估。達成這些里程碑以進步並展示您日益增長的專業知識。",
+      "mandatoryNote": "重要：必須完成所有必要標準才能獲得等級（如適用）。",
+      "standing": "等級",
+      "criteria": "標準",
+      "completeClientVerification": "完成客戶驗證",
+      "mandatory": "必要",
+      "openCall": "開場白如「尊敬的先生/女士，我是來自 UOB 的 <姓名>，CA/SCA。現在方便與您通話嗎？」",
+      "askPermission": "請求許可，如「在我繼續通話之前，我可以與您進行簡單的驗證，以確保我們正在與此通話的預期接收者交談嗎？」",
+      "verifyCustomer": "透過詢問至少 2 項合格資訊來驗證客戶資訊",
+      "achieve4CBeginner": "在 4C 執行中達到至少「初級」",
+      "partiallyApply4C": "部分應用 4C 框架，包括：",
+      "capture": "引起注意：",
+      "captureDescription": "透過提出目前新聞中的熱門話題來引起潛在客戶的注意。",
+      "context": "背景：",
+      "contextDescription": "建立信任關係，設定對話框架，並透過相關情境或發人深省的問題來認可客戶的處境。",
+      "conflict": "衝突",
+      "conflictDescription": "識別並突出潛在的財務風險以創造緊迫感，使用尖銳的問題促使客戶考慮後果。",
+      "closure": "結案",
+      "proposeFollowUp": "提出明確的解決方案並安排後續會議以討論客戶的具體需求。",
+      "secureFollowUp": "安排後續會議以討論客戶的具體需求。",
+      "achieveObjectionBeginner": "在異議處理中達到至少「初級」",
+      "attemptObjectionHandling": "嘗試處理異議。",
+      "seeDetailsNovice": "請參閱「銷售新手」標準中的詳情。",
+      "achieve4CIntermediate": "在 4C 執行中達到至少「中級」",
+      "apply4CScripted": "以照本宣科的方式應用所有 4C 框架步驟，例如逐字逐句閱讀腳本，而沒有根據客戶的回應調整或顯示真正的理解（有關 4C 框架說明，請參閱「銷售新手」標準）。",
+      "achieveObjectionIntermediate": "在異議處理中達到至少「中級」",
+      "handleOneObjection": "處理 1 個異議。",
+      "achieve4CExpert": "在 4C 執行中達到至少「專家」",
+      "apply4CDynamically": "動態應用 4C 框架，例如根據客戶的線索調整語氣和措辭，提出澄清問題，並自然地將步驟融入對話中（有關 4C 框架說明，請參閱「銷售新手」標準）。",
+      "achieveObjectionExpert": "在異議處理中達到至少「專家」",
+      "handleTwoObjections": "處理 2 個異議。",
+      "failed": "失敗",
+      "pass": "通過",
+      "champion": "冠軍"
+    },
+    "steps": {
+      "selectModule": "選擇模組",
+      "selectClient": "選擇客戶"
+    },
+    "clientDetails": {
+      "age": "年齡",
+      "profile": "個人資料",
+      "personality": "個性",
+      "location": "地點",
+      "education": "教育程度",
+      "occupation": "職業",
+      "financialSituation": "財務狀況",
+      "companySize": "公司規模與支出",
+      "keyPriorities": "主要優先事項",
+      "productKnowledge": "產品知識",
+      "conversationPartnerPersona": "對話夥伴角色",
+      "personalityTrait": "個性特質",
+      "communicationsStyle": "溝通風格",
+      "decisionMaking": "決策方式",
+      "annualIncome": "年收入",
+      "annualIncomeFormat": "{{currency}}{{amount}} 年收入。{{situation}}",
+      "monthlyIncomeFormat": "{{currency}}{{amount}} 月收入。{{situation}}",
+      "startCall": "開始通話",
+      "clientPhoto": "客戶照片",
+      "workHistory": "工作經歷",
+      "companySizeAndSpend": "公司規模與支出"
+    }
+  },
+  "roleplay": {
+    "noProcessReference": "此模組暫無流程參考。",
+    "personality": {
+      "nice": "友善且隨和 - 容易合作但可能避免衝突",
+      "analytical": "注重細節且有邏輯 - 重視數據和事實勝過情感",
+      "sceptical": "質疑且懷疑 - 需要強有力的證據才能說服",
+      "rude": "直率且不耐煩 - 可能難以合作",
+      "friendly": "平易近人且溫暖 - 願意討論但需要信任"
+    },
+    "tabs": {
+      "profile": "個人資料",
+      "personality": "個性",
+      "portfolio": "投資組合"
+    },
+    "fields": {
+      "name": "姓名",
+      "age": "年齡",
+      "location": "地點",
+      "education": "教育程度",
+      "occupation": "職業",
+      "annualIncome": "年收入",
+      "financialSituation": "財務狀況",
+      "keyPriorities": "主要優先事項",
+      "productKnowledge": "產品知識",
+      "personalityType": "個性類型",
+      "difficultyLevel": "難度等級",
+      "communicationStyle": "溝通風格",
+      "decisionMaking": "決策方式",
+      "persona": "角色",
+      "demographic": "人口統計",
+      "aum": "資產管理規模",
+      "numberOfKids": "子女數量",
+      "behavior": "行為",
+      "workHistory": "工作經歷",
+      "liquidityNeeds": "流動性需求",
+      "riskAppetite": "風險偏好",
+      "investmentFrequency": "投資頻率",
+      "keyLifestyleExpenditure": "主要生活開支",
+      "personalPriorities": "個人優先事項",
+      "discPersonality": "DISC 個性",
+      "hsbcTier": "等級"
+    },
+    "difficulty": {
+      "easy": "簡單",
+      "medium": "中等",
+      "hard": "困難"
+    },
+    "practiceDetails": "練習詳情",
+    "practiceObjectives": "練習目標",
+    "mainObjection": "主要異議",
+    "salesTechnique": "銷售技巧",
+    "advisoryTechnique": "諮詢技巧",
+    "viewDetails": "檢視詳情",
+    "clientDetails": "客戶資訊",
+    "productInformation": "產品資訊",
+    "processReference": "流程參考",
+    "competitiveIntelligence": {
+      "title": "競爭情報",
+      "type": "類型",
+      "keyFeatures": "主要特點",
+      "strengths": "他們的優勢",
+      "limitations": "他們的限制",
+      "positioningStrategy": "定位策略",
+      "options": {
+        "none": "無競爭情報",
+        "duplicate": "複製競爭者摘要",
+        "duplicateDescription": "我們將複製先前的競爭者摘要。",
+        "generate": "生成競爭者摘要",
+        "generateDescription": "勾選此選項後，我們將在網路上搜尋競爭產品並為您進行摘要。如果您想在角色扮演期間評估競爭差異化，這會很有用。"
+      }
+    },
+    "selectedForSession": "為此 {{type}} 選擇",
+    "ageAndOccupation": "{{age}} 歲，{{occupation}}",
+    "aiCoach": "AI 教練",
+    "readyToConnect": "準備連線",
+    "connecting": "連線中",
+    "connected": "已連線",
+    "establishingConnection": "正在建立連線...",
+    "speakNaturally": "自然說話 - 我正在聆聽",
+    "endingSession": "正在結束會話...",
+    "client": "客戶",
+    "goToRoleplay": "前往角色扮演",
+    "supportMaterials": "支援材料",
+    "practiceOverview": "練習總覽",
+    "practiceOverviewDescription": "檢視情境、目標和支援材料",
+    "callCriteria": "通話標準",
+    "softSkills": "軟技能",
+    "knowledgeSkills": "知識技能",
+    "clientPortfolio": "客戶投資組合",
+    "portfolioReviewTrigger": "投資組合審查觸發事件",
+    "scorecard": "評分卡",
+    "scorecardDescription": "您的會話將根據這些關鍵技能領域進行評估：",
+    "scorecardDescriptionAlternative": "此評分卡概述了您的會話將如何在關鍵技能領域進行評估。使用它來了解評估內容和下一步的重點。",
+    "scorecardFooter": "查看評估內容以及如何發揮您的優勢。",
+    "viewDetail": "檢視詳情",
+    "scorecardModalDescription": "此評分卡概述了您的會話將如何在關鍵技能領域進行評估。使用它來了解評估內容和下一步的重點。",
+    "jumpToSection": "跳至章節"
+  },
+  "assessment": {
+    "roleplaySessionAssessment": "角色扮演環節評估",
+    "jumpToSection": "跳至章節",
+    "returnToAssessment": "返回評估",
+    "overview": "概覽",
+    "nextSteps": "下一步",
+    "salesTechnique": "銷售技巧",
+    "salesNegotiationSkills": "銷售與談判技巧",
+    "productKnowledge": "產品知識",
+    "advisoryTechnique": "諮詢技巧",
+    "processAdherence": "流程遵守",
+    "communicationAndPresence": "溝通同現場感",
+    "whatToImprove": "需要改進的地方",
+    "relationshipManagement": "關係管理",
+    "hsbcRepresentation": "HSBC 代表",
+    "aiaKoE2E": {
+      "introduction": "開場",
+      "needsAnalysis": "需求分析",
+      "productPitch": "產品介紹",
+      "objectionHandling": "異議處理",
+      "closing": "成交",
+      "other": "其他"
+    },
+    "hsbcScorecard": {
+      "relationshipManagement": {
+        "clientCentricFraming": {
+          "title": "以客戶為中心的框架",
+          "description": "解決方案完全對應客戶的人生階段、風險承受能力及財務目標"
+        },
+        "clarityAndStructure": {
+          "title": "清晰度與結構",
+          "description": "邏輯清晰、表達優雅，並具有量身定制的過渡"
+        },
+        "suitabilityAndCompliance": {
+          "title": "適合性與合規意識",
+          "description": "清楚表達產品的適合性及在授權範圍內的合規性"
+        },
+        "gravitasAndDelivery": {
+          "title": "專業氣場與表達（個人品牌）",
+          "description": "專業、冷靜，建立信任並具備高情商。清楚表達客戶為何應該與公司投資"
+        },
+        "engagementAndRapport": {
+          "title": "互動與信任建立（建立信任）",
+          "description": "積極聆聽，與客戶價值觀產生共鳴"
+        }
+      },
+      "processAdherence": {
+        "greeting": {
+          "title": "問候與情境設定",
+          "description": "歡迎客戶加入財富管理並回顧其生活中的任何重要變化",
+          "items": [
+            "歡迎客戶加入財富管理",
+            "客戶生活更新（職業、家庭、生活方式）"
+          ]
+        },
+        "introduction": {
+          "title": "介紹新狀態與服務",
+          "description": "通過提供符合客戶需求的主要優勢來介紹財富服務",
+          "items": [
+            "財富服務概覽",
+            "升級為財富客戶的主要優勢，例如擴展的產品解決方案"
+          ]
+        },
+        "clientUpdate": {
+          "title": "客戶資訊更新",
+          "description": "了解客戶概況與需求，並獲取客戶資訊的重要更新",
+          "items": [
+            "更新個人資訊（年齡、職業、生活方式）",
+            "整體財富資訊（財富來源、資產價值）",
+            "財務需求分析與目標規劃（短期 vs 中期 vs 長期）",
+            "產品興趣（存款、保險、股票等）",
+            "銀行關係（客戶與其他銀行的關係）",
+            "風險偏好與投資經驗",
+            "了解 HSBC 如何增加價值：",
+            "a. 基於目標的財富管理：量身定制的投資計劃，將客戶的人生目標與風險管理和增長機會相結合，例如退休規劃、子女教育和遺產規劃。",
+            "b. 投資組合多元化：股票和固定收益證券的主動和靈活的資產配置，提供高股息股票、債券和新興市場債務的多元組合",
+            "c. 生活方式優惠：享受優質禮遇，例如額外旅行里數、貴賓室和豪華轎車服務、餐飲優惠、獨家參加世界級娛樂活動等。"
+          ]
+        },
+        "notes": {
+          "title": "注意事項：",
+          "items": [
+            "HSBC 協助投資組合構建，提供定制化服務或預設投資組合選擇",
+            "提供全面的財富組合情報服務，包括多元化、波動性壓力測試分析和目標可實現性模擬"
+          ]
+        },
+        "callToAction": {
+          "title": "行動呼籲",
+          "description": "說服客戶使用額外的產品諮詢服務",
+          "items": [
+            "同意與確認",
+            "協調投資諮詢的關鍵下一步",
+            "邀請並確定下次會議"
+          ]
+        },
+        "bonus": {
+          "title": "加分項：",
+          "description": "成功邀請客戶及其伴侶參加下次面對面諮詢"
+        }
+      },
+      "hsbcRepresentation": {
+        "accuracy": {
+          "title": "HSBC 代表準確性",
+          "description": "您的表現將根據您在與客戶對話時代表 HSBC 的真實性和準確性進行評估。",
+          "items": [
+            "專注於 HSBC 財富和尊貴服務的主要特質（例如全球連通性、全面的財富管理、基於關係的諮詢）。",
+            "清楚展示對銀行價值主張的理解——HSBC 如何在客戶的每個人生階段提供支持。",
+            "您不需要記住或引用具體產品或數據。相反，應強調 HSBC 的整體優勢、理念和客戶體驗。",
+            "自然且自信地表達品牌知識，而非照本宣科的產品細節或過於技術性的解釋。",
+            "評估將保持廣泛和定性，優先考慮真實性、相關性以及與客戶需求的一致性。"
+          ]
+        }
+      },
+      "communicationAndPresence": {
+        "toneOfVoice": {
+          "title": "語調",
+          "items": [
+            "使用溫暖、自信且專業的語調，反映信任和可信度。",
+            "通過根據客戶的個性、節奏和財務信心水平調整語調來展示情商。",
+            "避免過於謹慎或照本宣科的表達——追求自然、對話式的權威感。",
+            "在專業性與人際連結之間取得平衡，真誠關注客戶的目標和經歷。",
+            "評估將強調您表達建議和引導對話的清晰度、自信度和真實性。"
+          ]
+        },
+        "dictionAndClarity": {
+          "title": "措辭與清晰度",
+          "items": [
+            "使用簡潔明確的語言，讓客戶易於理解財務概念。",
+            "將技術或產品術語轉化為與客戶相關的好處，直接關聯到他們的目標和需求。",
+            "以清晰的邏輯組織您的解釋——解決方案是什麼、為什麼重要以及如何幫助客戶。",
+            "保持簡潔和準確，確保每條訊息傳達一個清晰的要點。",
+            "評估將專注於您的措辭如何建立理解和信心，而非技術術語或產品細節的回憶。"
+          ]
+        },
+        "engagementAndListening": {
+          "title": "互動與積極聆聽",
+          "items": [
+            "通過確認客戶的線索並探索他們的動機、價值觀和優先事項來展示積極聆聽。",
+            "使用開放式的後續問題來發掘更深層次的見解並鼓勵對話。",
+            "反思並總結關鍵要點以展示理解（「所以您的主要關注點是確保子女的教育並規劃退休——我理解正確嗎？」）。",
+            "將客戶的陳述與相關的 HSBC 優勢或下一步行動聯繫起來，展示您的專注和一致性。",
+            "評估將強調回應性、同理心和對話深度，而非問題數量。"
+          ]
+        }
+      }
+    },
+    "technicalKnowledge": "技術知識",
+    "operationalKnowledge": "營運知識",
+    "softSkills": "軟技能",
+    "knowledgeSkills": "知識技能",
+    "overallScore": "整體分數",
+    "why": "原因",
+    "suggestion": "建議",
+    "example": "範例",
+    "strengths": "優勢",
+    "practiceInfo": "練習資料",
+    "overallResult": "整體結果",
+    "showBreakdown": "顯示明細",
+    "hideBreakdown": "隱藏明細",
+    "type": "類型",
+    "product": "產品",
+    "client": "客戶",
+    "completedAt": "完成於",
+    "duration": "時長",
+    "practiceAgain": "再次練習",
+    "stopListening": "停止",
+    "listenToFeedback": "聆聽回饋",
+    "generatingAudioFeedback": "正在產生音訊...",
+    "downloading": "下載中...",
+    "downloadAsPdf": "下載為 PDF",
+    "ratings": {
+      "poor": "差",
+      "fair": "尚可",
+      "good": "良好",
+      "excellent": "優秀"
+    },
+    "standings": {
+      "currentSession": "會話等級",
+      "lastResult": "上次結果",
+      "personalBest": "個人最佳",
+      "salesNovice": "銷售新手",
+      "skilledAdvisor": "熟練顧問",
+      "strategicConsultant": "策略顧問",
+      "clientVerification": "客戶驗證",
+      "objectionHandling": "異議處理",
+      "beginner": "初級",
+      "intermediate": "中級",
+      "expert": "專家",
+      "notAvailable": "不可用",
+      "seeHowStandingsWork": "了解等級如何運作",
+      "learnMore": "了解更多",
+      "mandatory": "必要",
+      "incomplete": "未完成",
+      "completed": "已完成",
+      "needsImprovement": "需要改進",
+      "dynamicFramework": "{{framework}}（{{parts}}）",
+      "standingUnavailable": "等級不可用：未達成必要標準。",
+      "notCompleted": "未完成",
+      "threeFExecution": "3F 執行",
+      "fourCExecution": "4C 執行",
+      "newBadge": "新",
+      "noDataAvailable": "等級資料不可用",
+      "emergingSeller": "新興銷售員"
+    },
+    "viewTranscript": "查看逐字稿",
+    "toImprove": "待改進",
+    "completed": "已完成",
+    "sessionDataNotAvailable": "會話資料不可用",
+    "unableToRestartPractice": "無法重新開始練習 - 缺少會話資料",
+    "failedToDownloadPDF": "下載 PDF 報告失敗。",
+    "generating": "產生中...",
+    "downloadReport": "下載報告",
+    "msigSalesTechniqueDescription": "衡量遵循既定框架以推動成功對話的能力。",
+    "mandatoryFailed": "等級不可用：未達成必要標準。",
+    "toProgressfocusOn": "若要提升您的等級，請專注於：",
+    "summary": "總結",
+    "mandatoryFailedSummary": "您的等級不可用，因為您錯過了一項必要標準，該標準需要完全遵守。請在其他領域檢視您的表現以了解什麼做得好，並確保下次完成所有步驟以獲得您的等級。",
+    "mandatoryFailedFocusOn": "完成所有必要標準。",
+    "prudentialMandatoryNotMet": {
+      "summary": "您的等級不可用，因為您錯過了一項必要標準，該標準需要完全遵守。請在其他領域檢視您的表現以了解什麼做得好，並確保下次完成所有步驟以獲得您的等級。",
+      "nextStepsTitle": "若要提升您的等級，請專注於：",
+      "suggestedNextStep": "完成所有必要標準。"
+    },
+    "progressionSummary": {
+      "firstTime": "恭喜您完成此情境的第一次會話。您現在是 {{tierName}}！{{summary}}",
+      "firstTimeHighest": "恭喜您完成此情境的第一次會話並達到最高等級：{{tierName}}！{{summary}}",
+      "upgrade": "恭喜您達到此情境的新最佳等級：{{tierName}}！{{summary}}",
+      "upgradeHighest": "恭喜您達到此情境的最高等級：{{tierName}}！{{summary}}",
+      "maintainedSame": "您維持了此情境的 {{tierName}} 等級。{{summary}}",
+      "maintainedHighest": "您維持了此情境的 {{tierName}} 等級。{{summary}}",
+      "maintainedImproved": "做得好，您的評分表分數提高了！您的等級仍為 {{tierName}}，但您正在朝下一個等級邁進。{{summary}}",
+      "maintainedImprovedHighest": "做得好！您維持了 {{tierName}} 等級，且分數提高了。{{summary}}",
+      "downgrade": "您這次會話的等級是 {{tierName}}。{{summary}}",
+      "newBest": "新最佳",
+      "nextSteps": "若要提升您的等級，請專注於：",
+      "nextStepsHighest": "若要維持您的等級，請專注於：",
+      "suffixKeepPracticing": "繼續練習！您正朝著更高的等級邁進。",
+      "suffixHighestLevel": "繼續練習並精進您的技能，以持續在這個頂尖水準表現！",
+      "suffixDowngrade": "繼續練習！您很快就會恢復，只要專注，您就能回到個人最佳成績。"
+    },
+    "performance": "表現",
+    "allSalesTechniques": "所有銷售技巧",
+    "audioFeedback": {
+      "overview": "這是您的總覽：{{summary}}",
+      "nextSteps": "接下來，您應該 {{steps}}",
+      "salesTechniqueIntro": "銷售技巧回饋：您獲得 {{score}} 分（滿分 {{max}}）。",
+      "salesTechniqueSection": "在 {{title}} 方面，您獲得 {{score}} 分（滿分 {{max}}）。{{why}} {{suggestion}}",
+      "productKnowledgeIntro": "產品知識回饋：您獲得 {{score}} 分（滿分 {{max}}）。",
+      "productKnowledgeSection": "在 {{title}} 方面，您獲得 {{score}} 分（滿分 {{max}}）。",
+      "advisoryTechniqueIntro": "顧問技巧回饋：您獲得 {{score}} 分（滿分 {{max}}）。",
+      "advisoryTechniqueSection": "在 {{title}} 方面，您獲得 {{score}} 分（滿分 {{max}}）。{{why}} {{suggestion}}",
+      "processAdherenceIntro": "流程遵守回饋：您獲得 {{score}} 分（滿分 {{max}}）。",
+      "processAdherenceSectionBase": "在 {{title}} 方面，您獲得 {{score}} 分（滿分 {{max}}）。",
+      "softSkillsIntro": "軟技能回饋：您獲得 {{score}} 分（滿分 {{max}}）。",
+      "softSkillsSection": "在 {{title}} 方面，您獲得 {{score}} 分（滿分 {{max}}）。",
+      "clientVerificationIntro": "客戶驗證回饋：您獲得 {{score}} 分（滿分 {{max}}）。",
+      "frameworkExecutionIntro": "框架執行回饋：您獲得 {{score}} 分（滿分 {{max}}）。",
+      "objectionHandlingIntro": "異議處理回饋：您獲得 {{score}} 分（滿分 {{max}}）。",
+      "technicalKnowledgeIntro": "技術知識回饋：",
+      "productKnowledgeScore": "產品知識：您獲得 {{score}} 分（滿分 {{max}}）。",
+      "strengths": "您的優勢包括：{{strengths}}。",
+      "toImprove": "待改進領域：{{improvements}}。"
+    },
+    "errors": {
+      "sessionNotFound": "找不到會話",
+      "sessionForbidden": "存取被拒",
+      "genericError": "載入會話時發生錯誤",
+      "sessionNotFoundMessage": "您正在尋找的角色扮演會話不存在或已被移除。",
+      "sessionForbiddenMessage": "您沒有權限檢視此角色扮演會話。",
+      "genericErrorMessage": "載入會話時發生錯誤，請稍後再試。",
+      "backToHome": "返回首頁"
+    },
+    "badges": {
+      "newbieSalesAlt": "銷售新手徽章",
+      "intermediateSalesAlt": "銷售中級徽章",
+      "expertSalesAlt": "銷售專家徽章",
+      "notAvailableAlt": "不可用徽章"
+    }
+  },
+  "callAnalysis": {
+    "header": {
+      "title": "通話分析"
+    },
+    "assessment": {
+      "loading": "正在載入分析...",
+      "loadError": "載入分析失敗",
+      "notReady": "找不到分析或尚未完成",
+      "agent": "業務員",
+      "customer": "客戶",
+      "emptyTranscript": "此分析沒有可用的逐字稿。",
+      "file": "檔案",
+      "analyzedOn": "分析於",
+      "unknownFile": "未知檔案",
+      "tabs": {
+        "overview": "總覽",
+        "assessment": "評估"
+      },
+      "overviewPlaceholder": "總覽內容將在此處新增",
+      "overviewNotAvailable": "總覽分析尚不可用",
+      "result": "結果",
+      "sections": {
+        "mandatory": "必要方面",
+        "softSkills": "軟技能",
+        "knowledgeApplication": "知識應用"
+      },
+      "summary": "摘要",
+      "suggestedNextSteps": "建議",
+      "scorecardBreakdown": "評分卡細項",
+      "scores": {
+        "exceptional": "傑出",
+        "excellent": "優秀",
+        "good": "良好",
+        "developing": "發展中",
+        "unsatisfactory": "不滿意"
+      },
+      "downloadAssessment": "下載評估",
+      "downloadingPdf": "正在下載 PDF...",
+      "failedToDownload": "下載評估失敗",
+      "callAssessmentTitle": "通話評估"
+    },
+    "overview": {
+      "keyTakeaways": "主要重點",
+      "callHealthRisk": "通話健康與風險評估",
+      "positiveSignals": "正面客戶信號",
+      "risksObserved": "觀察到的風險",
+      "recommendations": "建議",
+      "actionableNextSteps": "可行的下一步",
+      "keyActions": "主要行動",
+      "nextCall": "下一通電話"
+    },
+    "transcript": {
+      "title": "通話逐字稿",
+      "placeholder": "逐字稿內容將在此處新增"
+    },
+    "upload": {
+      "pageTitle": "通話分析",
+      "uploadTitle": "上傳通話錄音",
+      "dropPrompt": "將您的通話錄音拖放到此處或",
+      "browse": "瀏覽",
+      "uploadHint": "上傳 .mp3（最大 30 MB）",
+      "selectedFile": "已選擇檔案：{{name}}",
+      "selectedFileSize": "大小：{{size}} MB",
+      "removeFile": "移除",
+      "analyzeButton": "分析通話",
+      "uploading": "上傳中...",
+      "callsAnalyzedTitle": "已分析的通話",
+      "loading": "正在載入分析...",
+      "emptyState": "尚無分析。上傳音訊檔案以開始。",
+      "table": {
+        "analyzedOn": "分析於",
+        "file": "檔案",
+        "duration": "時長",
+        "score": "分數",
+        "status": "狀態",
+        "action": "動作"
+      },
+      "statuses": {
+        "uploading": "上傳中...",
+        "transcribing": "轉錄中...",
+        "processing": "處理中...",
+        "completed": "完成",
+        "failed": "失敗"
+      },
+      "toasts": {
+        "loadFailed": "載入先前的分析失敗",
+        "analysisQueued": "我們正在執行您的分析。完成後將在表格中顯示「完成」。",
+        "analysisComplete": "分析已成功完成！",
+        "analysisFailed": "分析失敗：{{error}}",
+        "unknownError": "未知錯誤",
+        "fileTooLarge": "檔案大小必須小於 30MB",
+        "invalidFileType": "請上傳 MP3 檔案",
+        "uploadFailed": "上傳檔案失敗"
+      },
+      "unknownFile": "未知",
+      "searchPlaceholder": "搜尋檔案名稱",
+      "noSearchResults": "沒有符合您搜尋的通話"
+    }
+  },
+  "overallScore": "整體分數",
+  "viewDetails": "檢視詳情"
+}

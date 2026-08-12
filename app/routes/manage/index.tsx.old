@@ -1,0 +1,27 @@
+/**
+ * OLD FILE - NO LONGER USED
+ *
+ * This file was replaced to fix infinite redirect bug on iOS Safari.
+ *
+ * Root cause: Race condition between useEffect navigation in this component
+ * and withAuthenticationRequired in dashboard.tsx, causing infinite redirect
+ * loop specifically on iOS Safari.
+ *
+ * Fix: Changed index route to directly point to dashboard.tsx in routes.ts,
+ * removing this intermediate navigation component.
+ *
+ * Date: 2026-02-24
+ */
+
+import { useEffect } from 'react';
+import { useNavigate } from 'react-router';
+
+export default function ManageIndex() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    navigate('/manage/dashboard');
+  }, [navigate]);
+
+  return null;
+}
